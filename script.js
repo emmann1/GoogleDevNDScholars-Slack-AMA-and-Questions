@@ -9,8 +9,11 @@ function display(amaSession, questionId){
   let trackName = transcripts[amaSession].questions[questionId].track;
   let trackColor = trackName == "and" ? "and" : trackName == "fend" ? "fend" : trackName == "mws" ? "mws" : trackName == "n/a" ? "na": null;
   let spanColor = transcripts[amaSession].type == "general" ? "magenta" : transcripts[amaSession].type == "tehnical" ? "cyan" : null;
-  $(".main").append("<div class='item'></div>");
-  
+  if(questionId < 5){
+      $(".main").append("<div class='item' name='first-five'></div>");
+  }else{
+      $(".main").append("<div class='item'></div>");
+  }
   $(".main .item").last().append("<span class='q'>Q:</span><p class='question'>"+linkify(transcripts[amaSession].questions[questionId].q)+"</p>");  
   $(".main .item").last().append("<span class='a'>A:</span><p>"+linkify(transcripts[amaSession].questions[questionId].a)+"</p>");
   $(".main .item").last().append("<p class='meta'>"+transcripts[amaSession].datetime+" <span class='"+spanColor+"'>"+transcripts[amaSession].type+"</span> <span class='"+trackColor+"'>"+transcripts[amaSession].questions[questionId].track+"</span></p>");
@@ -25,15 +28,8 @@ function defaultDisplay(datetimeSelector){
             }
         }
     }
-    showFirstFive();
 };
 
-
-function showFirstFive(){
-    $(".item").slice(0,5).show();
-    console.log($(".item"));
-
-};
 function escapeRegExp(string){
     return string.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
 }
@@ -49,18 +45,17 @@ fetch('transcripts.json')
     let datetimeSelector = $("#datetime-select").val(); 
     defaultDisplay($("#datetime-select").val());
     
+    
   });
   fetch('schedule.json')
   .then(response => response.json())
   .then(jsonResponse => schedule = jsonResponse)
   .then(function(){
-      console.log(schedule);
     let utc = new Date().toJSON();
     let date = utc.slice(0,10);
     let hour = utc.slice(11,13);
     let minute = utc.slice(14,16);
-    console.log(date);
-    hour = hour == "10" ? "12": hour == "11" ? "1" : String(parseInt(hour)+2);
+    hour = hour == "22" ? "00": hour == "23" ? "01" : String(parseInt(hour)+1);
     let index;
     for(i=0;i<schedule.length;i++){
         if(schedule[i].date.slice(0,2) >= date.slice(8,10) && schedule[i].date.slice(3,5) >= date.slice(5,7)){
@@ -70,10 +65,10 @@ fetch('transcripts.json')
     }
     $(".next-ama").children().remove();
     $(".next-ama").append("<em>Next session of AMA: " +schedule[index].date + " : " + schedule[index].time + "</em>");
+    
   });
 
 $(document).ready(function(){
-
     $(".more").click(function(){
         $(".item:hidden").slice(0,5).slideDown();
         if($(".item:hidden").length == 0){
@@ -122,7 +117,6 @@ $(document).ready(function(){
               }
             }
           }
-          showFirstFive();
         }else{
          defaultDisplay($("#datetime-select").val());
         }
@@ -156,7 +150,6 @@ $(document).ready(function(){
                     results.forEach(function(el){
                         display(el[0], el[1]);
                     });
-                    showFirstFive();
                 if(results.length != 0 ){
                     
                 }
@@ -179,7 +172,6 @@ $(document).ready(function(){
                                     
                                 }
                             }
-                            console.log(searchStringResults);
                             if(searchStringResults[0] == true && searchStringResults[1] == true){
                                 results.push([i,j]);
                                     }
@@ -190,7 +182,6 @@ $(document).ready(function(){
                     results.forEach(function(el){
                         display(el[0], el[1]);
                     });
-                    showFirstFive();
                 }
                 if(results.length < 5){
                     $(".more").hide();
@@ -211,5 +202,9 @@ $(document).ready(function(){
       $(".filters").slideUp();
     }
   });
+
+
+
   
+  //$("#bright").on("click", setPageStyle('style-bright.css'));
 });

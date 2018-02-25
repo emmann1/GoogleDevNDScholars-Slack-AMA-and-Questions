@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(23, 23, 29);
-    color: #eee;
+    background-color: #fff;
+    color: #222;
 }
 .style-switch{
     float: right;
@@ -28,16 +28,16 @@ header {
 header h1,header a{
     text-align: center;
     font-size: 2rem;
-    color: #eee;
+    color: #222;
     text-decoration: none;
     margin-bottom: 0;
 }
 header a:hover{
-    color: yellow;
+    color: cornflowerblue;
     text-decoration: underline;
 }
 a{
-    color: yellow;
+    color: cornflowerblue;
     text-decoration: none;
 }
 header h3{
@@ -52,7 +52,7 @@ header h3 a{
     font-style: italic;
 }
 a:hover{
-    color: darkgoldenrod;
+    color: darkmagenta;
     text-decoration: underline;
 }
 .container {
@@ -60,7 +60,7 @@ a:hover{
     margin: auto;
 }
 .main-menu{
-    border-bottom: 1px #333 solid;
+    border-bottom: 1px #eee solid;
 }
 .main-menu ul {
     padding: 5px;
@@ -74,11 +74,11 @@ a:hover{
     padding: 10px;
 }
 .main-menu a{
-    color: yellow;
+    color: cornflowerblue;
     font-size: 1em;
 }
 .main-menu a:hover{
-    color: darkgoldenrod;
+    color: darkmagenta;
     text-decoration: underline;
 }
 .main {
@@ -103,7 +103,7 @@ select{
     font-size: 0.9em;
     padding: 0;
     color: #222;
-    background-color: yellow;
+    background-color: cornflowerblue;
     border: 0;
     appearance: none;
 }
@@ -117,6 +117,7 @@ input[type=checkbox]{
     margin-right: 5px;
     margin-left: 5px;
     transform: scale(1.3);
+    background-color: #eee;
 }
 .drop-boxes{
     text-align: right;
@@ -124,9 +125,9 @@ input[type=checkbox]{
 
 }
 .search-input{
-    color: #eee;
+    color: #222;
     max-width: 60%;
-    background-color: rgb(32, 32, 37);
+    background-color: #eee;
     border: 0;
     padding: 5px;
     margin-left: 5px;
@@ -135,7 +136,7 @@ input[type=checkbox]{
 .search-button{
     color: #222;
     min-width: 15%;
-    background-color: yellow;
+    background-color: cornflowerblue;
     text-decoration: none;
     border: 0;
     padding: 5px;
@@ -143,26 +144,26 @@ input[type=checkbox]{
 }
 .search-button:hover{
     color: #eee;
-    background-color: rgb(32, 32, 37);
+    background-color: darkmagenta;
     cursor: pointer;
 }
 .item{
     display: inherit;
     margin-bottom: 5px;
-    border-bottom: 1px #333 solid;
+    border-bottom: 1px #eee solid;
     font-size: 1em;
 }
 .item:not([name=first-five]){
     display: none;
     margin-bottom: 5px;
-    border-bottom: 1px #333 solid;
+    border-bottom: 1px #eee solid;
     font-size: 1em;
 }
 .item a{
-    color: yellow;
+    color: cornflowerblue;
 }
 .item a:hover{
-    color: darkgoldenrod;
+    color: darkmagenta;
     text-decoration: underline;
 }
 .q{
@@ -189,9 +190,9 @@ input[type=checkbox]{
     min-height: 100%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
-    background-color: rgb(32, 32, 37);
+    background-color: #eee;
     padding: 5px;
-    color: #fff;
+    color: #000;
 }
 .meta{
     font-size: 0.8em;
@@ -223,8 +224,8 @@ input[type=checkbox]{
     color: gray;
 }
 .info{
-    display: flex;
     padding: 5px;
+    display: flex;
 }
 .rolldown{
     display: none;
@@ -243,7 +244,7 @@ input[type=checkbox]{
 .more{
     text-align: center;
     width: 100%;
-    background-color: rgb(32, 32, 37);
+    background-color: #eee;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
@@ -265,9 +266,9 @@ input[type=checkbox]{
 }
 .footer {
     text-align: center;
-    color: #ccc;
+    color: #333;
     font-size: 0.9em;
-    background-color: rgb(32, 32, 37);
+    background-color: #eee;
     padding: 2px;
     margin: 0;
     font-style: italic;
@@ -324,7 +325,7 @@ input[type=checkbox]{
     .rolldown hr{
         border: 0;
         height: 1px;
-        background: #555;
+        background: #999;
         width: 80%;
         margin-bottom:7px;
     }
