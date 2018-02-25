@@ -10,9 +10,11 @@ function display(amaSession, questionId){
   let trackColor = trackName == "and" ? "and" : trackName == "fend" ? "fend" : trackName == "mws" ? "mws" : trackName == "n/a" ? "na": null;
   let spanColor = transcripts[amaSession].type == "general" ? "magenta" : transcripts[amaSession].type == "tehnical" ? "cyan" : null;
   $(".main").append("<div class='item'></div>");
+  
   $(".main .item").last().append("<span class='q'>Q:</span><p class='question'>"+linkify(transcripts[amaSession].questions[questionId].q)+"</p>");  
   $(".main .item").last().append("<span class='a'>A:</span><p>"+linkify(transcripts[amaSession].questions[questionId].a)+"</p>");
-  $(".main .item").last().append("<p class='meta'>"+transcripts[amaSession].datetime+" <span class='"+spanColor+"'>"+transcripts[amaSession].type+"</span> <span class='"+trackColor+"'>"+transcripts[amaSession].questions[questionId].track.toUpperCase()+"</span></p>");
+  $(".main .item").last().append("<p class='meta'>"+transcripts[amaSession].datetime+" <span class='"+spanColor+"'>"+transcripts[amaSession].type+"</span> <span class='"+trackColor+"'>"+transcripts[amaSession].questions[questionId].track+"</span></p>");
+  
 }
 function defaultDisplay(datetimeSelector){
     $(".main").children().remove();
@@ -29,6 +31,7 @@ function defaultDisplay(datetimeSelector){
 
 function showFirstFive(){
     $(".item").slice(0,5).show();
+    console.log($(".item"));
 
 };
 function escapeRegExp(string){
@@ -130,7 +133,7 @@ $(document).ready(function(){
         $(".more").show();
           let searchQuery = String($("#search-input").val()).toLowerCase();
           let searchArray = searchQuery.split(" ");
-          if(searchQuery != "" && searchQuery.length > 2 ){
+          if(searchQuery != "" && searchQuery.length > 3 ){
               e.preventDefault();
               let results = [];
               let qsearch, asearch;
@@ -149,12 +152,13 @@ $(document).ready(function(){
                       
                     }
                 }
-                if(results.length != 0 ){
-                    $(".main").append("<h3>"+results.length+" Results for:"+searchQuery+"</h3>");
+                $(".main").append("<h3>"+results.length+" Results for:"+searchQuery+"</h3>");
                     results.forEach(function(el){
                         display(el[0], el[1]);
                     });
                     showFirstFive();
+                if(results.length != 0 ){
+                    
                 }
                 if(results.length == 0){
                     for(i=0;i<transcripts.length;i++){
@@ -182,7 +186,7 @@ $(document).ready(function(){
                         }
                     }
                     
-                    $(".main").append("<h3> No results found for:"+searchQuery+"</h3><h3>Displaying "+results.length+" results for:"+searchArray+"</h3>");
+                    $(".main").append("<h3>Displaying "+results.length+" results for:"+searchArray+"</h3>");
                     results.forEach(function(el){
                         display(el[0], el[1]);
                     });

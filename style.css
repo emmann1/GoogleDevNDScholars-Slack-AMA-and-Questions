@@ -166,15 +166,19 @@ input[type=checkbox]{
     color:cyan;
 }
 .and{
+    text-transform: uppercase;
     color: chartreuse;
 }
 .fend{
+    text-transform: uppercase;
     color: orange;
 }
 .mws{
+    text-transform: uppercase;
     color: brown;
 }
 .na{
+    text-transform: uppercase;
     color: gray;
 }
 .info{
