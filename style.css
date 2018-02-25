@@ -281,6 +281,9 @@ input[type=checkbox]{
         width: 80%;
         margin-bottom:7px;
     }
+    .drop-boxes{
+        text-align: center;
+    }
     .filters{
         display: none;
 
