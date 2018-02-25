@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GoogleDevNDScholars Slack AMA Sessions and Questions</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+			  src="http://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="http://pagination.js.org/dist/2.1.2/pagination.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><a href="/projects/ama">GoogleDevNDScholars Slack AMA Sessions and Questions</a></h1>
+            <h3>with <a href="http://udacity.com">Udacity</a></h3>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="/projects/ama">Home</a></li>
+                    <li><a href="#">AMA Schedule</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="info">
+            <div class="next-ama"><em>Next session of AMA: 23 Feb 2018 : 04-05 PM CET</em></div>
+            
+        </div>
+        <div class="rolldown" tabindex="1"><hr><hr><hr></div>
+        <div class="filters">
+            <div class="search-bar">
+                <form>
+                    <input id="search-input" class="search-input" type="text" pattern=".{3,}"   required title="3 characters minimum" />
+                    <input id="search-button" class="search-button" type="submit" value="Search" />
+                </form>
+                </div> 
+            <div class="drop-boxes">
+                <div class="check-boxes">
+                    <span>Track:</span>
+                    <input id="and-track" type="checkbox" value="and" /><label class="and">AND</label>
+                    <input id="fend-track" type="checkbox" value="fend" /><label class="fend">FEND</label>
+                    <input id="mws-track" type="checkbox" value="mws" /><label class="mws">MWS</label>
+                </div>
+                <span><label>Type:</label>
+                    <select id="type">
+                        <option value="all">All</option>
+                        <option value="general">General</option>
+                        <option value="tehnical">Tehnical</option>
+                    </select></span>
+                    <span><label>Date:</label>
+                    <select id="datetime-select">
+                    </select></span>
+                </div>
+            </div>
+            <div class="main">
+            </div>
+            <div tabindex="2" class="more">Show More</div>
+        </div>
+        <div class="footer">
+            <p><a href="#">Go to the top.</a></p>
+            <p>Made by <a href="http://www.emares.ro">emanuel.mares</a> with passion.</p>
+        </div>
+</body>
+</html>

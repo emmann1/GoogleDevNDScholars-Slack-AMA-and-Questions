@@ -1,0 +1,17 @@
+{
+  "name": "ama",
+  "version": "1.0.0",
+  "description": "AMA Slack transcripts for GoogleDevDNScholars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ama",
+    "transcripts",
+    "udacity",
+    "slack"
+  ],
+  "author": "Emanuel Mares",
+  "license": "MIT"
+}

@@ -1,0 +1,976 @@
+[{
+    "datetime": "23-feb-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "I quote: 'I understand that I may be asked to explain my work in a video call with Udacity Representative before my Nanodegree is conferred.' How it will happen? What service will you use for video call? What if I unsure about my spoken language skill?<br> 2) 'For verification purposes, the name on your Udacity account must match the government-issued ID you show us during this interview.' - do you mean local passport? You could read it in even if document not in English?",
+            "a": "We don’t have this service anymore. We update our products very often and some parts of the NDs are not adjusted yet. This is now replaced by the personal Mentor chat box in your Classroom.",
+            "track":"n/a"
+        },
+        {
+            "q": "Since I sent the application for admission for Data Science, should I cancel it for not being sanctioned? Or are there no sanctions and will not they accept me? ",
+            "a": "Thanks for the question. If you finish your ND with this scholarship before the Data Science scholarship begins, then you are free to join. However, you are not allowed to be enrolled in both at the same time.",
+            "track":"n/a"
+        },
+        {
+            "q": "Are we allowed to use our preferred build tools for our deliverable projects? I.e. webpack, typescript, or whatever. I'm on the MWS track.",
+            "a": "Not sure about this as I am not aware of this technical details. You should ask to your classroom mentor or in the forums. Think that if the reviewer cannot build your project then it will be mark as ungradable.",
+            "track":"mws"
+        },
+        {
+            "q": "FEND what happens if a student did not submit or complete the course by 18 Aug?",
+            "a": "To begin with the deadline is *August 15*! And if not all your projects are accepted by this date, unfortunately it means that you will not pass the course and will not get a certificate.",
+            "track":"fend"
+        },
+        {
+            "q": "I'd like To know How Udacity thinking keep touch with there graduated student?",
+            "a": "Udacity considers its Graduates a very valuable part of our community of Udacians. We work with hiring partners, who are leading enterprises in the industry to support as many of our Graduates into careers. <br>For this we have our Alumni Community for which we have additional career services, and we organise events, such as “Intersect” and “Accelerate”, that are coming very soon, for our Graduates to find their dream jobs.",
+            "track":"n/a"
+        },
+        {
+            "q": "If all project are accepted and core lesson are finish, can I get a certificate? If I finish this part early, can I still access to elective and career material?",
+            "a": "Marat: You can get get a certificate as soon as all your projects are accepted. You will get a new button in your Classroom saying “Graduate now”. You can decide when you want to do it, so if you need more time to go over the extracurricular projects, you can wait with your graduation a bit longer.<br>Joanna: You can get the Udacity certificate as soon as you finish the coursework and submit all projects.   As a Nanodegree program graduate, you will retain access to your programs materials for a period of time after graduation, and you may download certain materials for your own records if you wish. Content access should include access to lessons, videos, quizzes, projects, discussions, etc.",
+            "track":"n/a"
+        },
+        {
+            "q": "I need to finish this scholarship before there will be made decision who is enrolled into another scholarship? Or before there will be finish date of sending candidatures to that scholarship? ",
+            "a": "You cannot be enrolled in two scholarships at once. If you finish this ND program early then you can participate in another scholarship that would start before August 15th. The main point to remember is that you cannot be enrolled in two at once.",
+            "track":"n/a"
+        },
+        {
+            "q": "For project 2, website, if the basic requirements are reached, can we add some extras ourselves or do we need to replicate the mock-up 100%?",
+            "a": "As long as the basic requirements are met, you can add as much extras as you want. The Reviewers may even congratulate you for your creativity and extra effort!",
+            "track":"fend"
+        },
+        {
+            "q": "I read somewhere that somebody sends to their mentor projects for a code review. is it necessary? also is it possible that someone else will make a code review on Github before we submit to Udacity?",
+            "a": "If it helps you - sure, why not! As long as in the end the code is original and entirely yours, you can get it reviewed by others before the submission.",
+            "track":"n/a"
+        },
+        {
+            "q": "Can we recommend other commercial, online resources/courses in our slack channels if we think they are valuable compliments to this course? ",
+            "a": "As long as they comply with our Code of Conduct: https://sites.google.com/knowlabs.com/gdnd2017/community/community-rules<br>It's always awesome help others and share resources that work.",
+            "track":"n/a"
+        },
+        {
+            "q": "ABND, I've submitted my first project and also got reviews. But how do I know if I have passed it? There's no result in the review.",
+            "a": "Projects get only 2 possible results “Requires changes” and “Meets specifications”. If it’s still in review, you should just wait until you get the result.",
+            "track":"and"
+        },
+        {
+            "q": "The other day, Jose said it takes about a week to process everything from the time we press the big 'Graduate' button at the end of the Nanodegree. Does it mean we have to have our last project reviewed and accepted at least a week before Aug 15, or can we press that button on Aug 15 the latest?",
+            "a": "In any case it’s always better not to leave the last project to the very last week - just to on the safe side. Same for the extracurricular projects, it’s better to be done with everything a bit earlier, but we won’t be as strict with these things as with the projects. ",
+            "track":"n/a"
+        },
+        {
+            "q": "If my last project was submitted but not reviewed till 15 aug , what can I do, and what will happen?",
+            "a": "If your project is submitted by 15th August it will be reviewed and you will graduate if you pass even if the review takes some extra days. If you don't then you will need to resubmit again but as a paid student.",
+            "track":"n/a"
+        },
+        {
+            "q": "We received soft timelines for the Nanodegree Projects, but not for the Lessons. How can I assess if I am on track time-wise with the lessons? One underchapter a day?",
+            "a": "The course is entirely self paced, and different people will take different times to go over all the lessons. So we wouldn’t like to stipulate deadlines for this too. But you are very welcome to figure out your own timeline! Time management rules! ",
+            "track":"n/a"
+        }
+    ]
+},
+{
+    "datetime": "22-feb-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "This morning I needed to tag you, rock-star Community Managers :star:,  in a channel. I did as usual, i.e. check who's online at that moment and tag that person. Is there a better way for us to do it? Should we tag the 4 of you? Or is there a bat call for the 4 of you like @here for us?",
+            "a": "For this phase of the Scholarship @Marat.Udacity has taken on a larger role when it comes to Slack communication. That said, it doesn't hurt to tag us all to increase the chances of getting a response.",
+            "track":"n/a"
+        },
+        {
+            "q": "How many people actually applied for the first stage of the scholarship?",
+            "a": "There were over 100 K applicants.",
+            "track":"n/a"
+        },
+        {
+            "q": "If we don't finish the nanodegree on time, can we still buy an extra month or so like a non-scholarship student to finish it?",
+            "a": "You can, for sure, become a paying student. We will offer some level of a discount that you can use ",
+            "track":"n/a"
+        },
+        {
+            "q": "I've asked before but haven't found an answer. How useful is the Google MWS certificate?",
+            "a": "I don't want you to think we're ignoring you. As Community Managers we have a general overview of the program. I believe a question like this could be answered much better by a mentor. ",
+            "track":"mws"
+        },
+        {
+            "q": "What is the procedure to change ones' mentor?",
+            "a": "If, for some reason, your current mentor is not working out for you then you'll need to contact  mentorship-support@udacity.com. Each case is personally reviewed and the team there will follow-up on your request. That said, if your mentor is slow to respond to you, then perhaps give them a little more time. Remember, 6,000 new students just entered the mentorship bubble after all",
+            "track":"n/a"
+        },
+        {
+            "q": "Can we use some Framework like Angular for the project?",
+            "a": "Jose: Honestly, I am not aware of the technical details of the Web tracks so I cannot really say. You may want to ask your classroom mentor or in the forums. We are planning to add some specific mentors here for the web tracks but we need to find the right people. Sorry not to be able to give you a better answer.",
+            "track":"fend"
+        },
+        {
+            "q": "Is there is a max number of project resubmission?",
+            "a": "There is no limit per say, but when you submit your projects, you have to go through a process with your mentor to review it, update the feedback and then resubmit it. Also, the mentors get swamped during this time.<br>I think it's always best to try to submit the best work you can at that moment so that you don't have going through the submission process and waiting for a long time!",
+            "track":"n/a"
+        },
+        {
+            "q": "I want to ask question regarding scholarships in general? Why all nanodegrees scholarships overlap? ",
+            "a": "A lot of the scholarships overlap because they aren't built to have folks double enrolled. If you have finished one scholarship before the deadline, students are welcome to apply for an overlapping scholarship. However, the idea is that students are enrolled in just one scholarship at a time in order to have maximum focus on the course material.",
+            "track":"n/a"
+        },
+        {
+            "q": "Is it possible for us to apply for the data science scholarship? Since we are going into technical details now, just the phase 1 of the DS program shows a significant overlap with phase 2 of the Scholarship, would it be a real problem? First phase is 'just a course' while second phase, the actual scholarship program, starts most likely on the day this here ends (8th of May + three month + one week selection=15th of august).",
+            "a": "I actually followed up on some more technical questions regarding this in a meeting last evening so I'm prepared for this one.<br>As I mentioned yesterday, students can not be enrolled in more than one Scholarship at the same time. Because the Google Developer Scholarship and the Data Scientist Scholarship have overlapping dates, you wouldn't be eligible to apply for the DS program. Even if the first part of the DS scholarship is just a challenge course.<br>THAT SAID, if you're a coding ninja and you graduate from the current Scholarship before the next scholarship begins, you're more than welcome to apply for it.",
+            "track":"n/a"
+        },
+        {
+            "q": "If we use the career portal and create a portfolio there, how long will this page  be accessible and published? Will the portfolio be closed after course completion or will we be able to access and update it afterwards? ",
+            "a": "Jose: I can see my profile being still there and accessible with an option to turn it on and off. I guess that it means that it will be there as long as you want to keep it on.",
+            "track":"n/a"
+        },
+        {
+            "q": "How long does it really take to receive the project feedback? Project submission page says 'You can expect to receive your project feedback from a Udacity reviewer in 24 hours'. It's already 3rd day and still no response.",
+            "a": "Normally, we would say to wait 24-48 hours for a response. Since this is still early on in the program and 6K students have just been added to the mentorship pool, initial responses may take an extra day or two to happen. I'd say that if you receive no response by Monday morning, then contact mentorship-support@udacity.com",
+            "track":"n/a"
+        },
+        {
+            "q": "What happens after Phase 2? Is it the last one? ",
+            "a": "The beginning of the rest of your LIFE!<br>There are a few things you can take advantage of: First, you will be an official alumni if you finish the program. This means you can take advantage of some of the Career Services that are offered to graduates– some services include events, webinars, etc. Second, you will have a bunch of new skills and knowledge that you can leverage. I would recommend taking advantage of things like resume reviews and getting yourself set up on on LinkedIn, if you haven't already.",
+            "track":"n/a"
+        },
+        {
+            "q": "Is there any guideline to have a project published on spotlight section of Udacity Google scholar site? ",
+            "a": "You can feel free to send your app and the details of what you created to one of your community managers in a DM!",
+            "track":"n/a"
+        },
+        {
+            "q": "Is there any other recommended place where we can get content/advice from Udacity Nanodegree graduates other than Udacity blog? https://blog.udacity.com/?s=graduate ",
+            "a": "I am happy to hear you are already thinking about graduation :raised_hands:. Udacity tracks information internally, but a great place to look is by doing a search on Medium for reading about students' self-published articles. Also, you can check out the Udacity official Medium: https://medium.com/udacity",
+            "track":"n/a"
+        },
+        {
+            "q": "Are we allowed to first send our projects to our in-classroom mentor to have a look before submitting them for review?",
+            "a": "Your mentor is there to help you prep for projects reviews. Depending on the scale of the project, sometime mentors may be able to do this and, in other situations, they may not be able to review the whole thing. That said, stay in contact with them consistently and your projects should be in good shape.",
+            "track":"n/a"
+        },
+        {
+            "q": "We have been told that Google certificate is something separate from udacity certificate, does ND alumni have advantages over other applicants to pass the exam and. Being awarded the certificate? Another thing to ask, project reviewers from Google or Udacity? ",
+            "a": "The Google Certificate is completely separate from Udacity and the Scholarships program. You'll be on a level playing field as anyone else who goes for the certificate.",
+            "track":"n/a"
+        }
+    ]
+},
+{
+    "datetime": "21-feb-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "How do I know if I need to re-submit project?",
+            "a": "Paul: The feedback you receive when you submit your project will either give you notes on what to change or they'll approve it. If it isn't approved and they send you notes, then you'll know you need to resubmit.<br>Joanna: Projects get 'Requires Changes' or 'Meets specifications' if you need to resubmit them. When 'Meets specifications'appears, it means complete and resubmitting is not possible.",
+            "track":"n/a"
+        },
+        {
+            "q": "Why are the deadlines extended until September 16th if the scholarship ends on August? Does this means we have one more month to submit projects? This seems to be causing a good bit of confusion.",
+            "a": "We are updating the Google site to have the proper wording, but you can ignore the dates that extend after the program. You still need to finish the projects, but you will need to turn them in before the 15th of August. Those dates are for the regular Nanodegree students and therefore are not on any specific deadline.",
+            "track":"fend"
+        },
+        {
+            "q": "What can i do if the mentor didn't reply from 3 days?",
+            "a": "As you can imagine, our Classroom Mentors just got thousands of new students they have to attend to, and the same amount of projects needed to be reviewed. They are doing their very best to reply to you all as fast as they can. In these first few weeks please be a bit patient and give them some time to respond. Some are very quick, and some might take as much as 48 hours to reply. Depending on their timezone and workload. Most of them actually have a day job in the industry – and that’s exactly what makes them into experts in their field and such a valuable resource for you to learn from!",
+            "track":"n/a"
+        },
+        {
+            "q": "What happens if a project doesn't pass? Can you submit it again after resolving the problems and improving it? Or are you out of the scholarship?",
+            "a": "You'll receive feedback on your first submission with notes on how you can change/improve your project. This encourages you to work more on your submission and then send it in again. This is why we encourage everyone to complete and send their projects in well in advance of the due date to account for the time needed to make revisions based on feedback.",
+            "track":"n/a"
+        },
+        {
+            "q": "I don't see the icon of career path, what I can do? (i'm in mws track)",
+            "a": "this is an issue that some MWS folks are experiencing. You can go ahead and fill in this form, and we will get to your issue!<br>https://docs.google.com/forms/d/e/1FAIpQLSfrcb-KiLQb4duST9v-lpTrKLYfKaH1uq0Hkn5LdAUm3OwwEQ/viewform",
+            "track":"n/a"
+        },
+        {
+            "q": "Before this scholarship, I was enrolled in the Android Developer Nanodegree. I have not finished it yet, I have to submit 'Make your app material' project, then 'Capstone project'. Now that I have been selected for the full 6-month Google Developer Nanodegree Scholarship, that means I do not have to pay for the Android Developer Nanodegree in the next 6 months. Am I right?",
+            "a": "If I understand your question right, you've already paid for the ND but have also just been accepted to the Scholarship version of it?<br>Unfortunately, per the terms of the scholarship, your enrollment into your previous Nanodegree program cannot be refunded. However, if you would like to pause your Nanodegree enrollment that you've paid for then that it one option available to you and others in your situation.",
+            "track":"and"
+        },
+        {
+            "q": "I am enrolled in ABND and after I finish it I want to go further with Android Developer Nanodegree from August. If I want to also enroll to Data Science Scholarship Program on April, do you think I could manage both Android Basics ND (then Android Dev) and Data Science? Is the Data Science scholarship available every year?",
+            "a": "You can apply for other scholarships while being in a scholarship, but you cannot be enrolled in more than one Scholarship at the same time. Since you're already in the GD Scholarship, you wouldn't be eligible for the Data Scientist Scholarship that starts in April/May.  As for if we'll do this every year, that entirely depends on our partners like Bertelsmann and Google and how well these current programs perform, so anything is possible.",
+            "track":"and"
+        },
+        {
+            "q": "I was given ND scholarship just yesterday by email, I don't know who my mentor is, what should I do? How do I contact?",
+            "a": "This depends on your program. If you head over to the Google site under the FAQ's you'll get some information:<br>https://sites.google.com/knowlabs.com/gdnd2017/faq<br>You can see which services are offered to you for your specific ND. You will see you mentor pop up in a chat box once you log-into your classroom.",
+            "track":"n/a"
+        },
+        {
+            "q": "Are you going to give the scholarship students guideline dates for project completion too then?",
+            "a": "Absolutely! You can head to the Google Site and check under the 'Deadlines' tab. All the details can be found there.",
+            "track":"n/a"
+        },
+        {
+            "q": "You were talking earlier that it is possible to change 1on1 mentors. Any updates on that?",
+            "a": "Since the mentors have essentially received a sudden influx of 6,000 students, responses may take more than a couple days to happen. That said, if for some reason your mentor still hasn't contacted you or you're generally not pleased with the assistance you're receiving, then please write in to our mentor support line (mentorship-support@udacity.com) where we'll have to review these issues on a case-by-case basis.",
+            "track":"n/a"
+        },
+        {
+            "q": "I know it might be advisable but is it mandatory to go through all of the lessons & quizzes in a section before submitting a project?",
+            "a": "No, it is actually not necessary",
+            "track":"n/a"
+        },
+        {
+            "q": "So if I finish this scholarship in march I'll be able to be enrolled into Data Science? And if not - I'll have to choose which ND I want or I'll be rejected?",
+            "a": "Theoretically, if you've finished the course by March and are no longer in the Scholarship then you should be eligible to start another one in April/May but I'll need to confirm this first before I can say this correct.",
+            "track":"n/a"
+        },
+        {
+            "q": "Could you please provide a time table of deadlines tailored for FEND track  as the other one in the site is for the paid nanodegree not this scholarship track? ",
+            "a": "If you go to the Google site and check the tab that says 'deadlines' you can find more information for the FEND deadlines",
+            "track":"fend"
+        },
+        {
+            "q": "As we are in different tracks, surely most of us are sticking to a specific channels! Are you open with idea to create an announcement channels for students? So we could announce important news and information ! Take into consideration other channels like random is not for that reason, thanks ",
+            "a": "Thanks for the suggestion, that is a really great idea. We are actually enlisting a calendar into the Google site, and students will be able to add community events. This is a cool way that we can share your events out. More to come later.<br>But to answer you directly, if you have announcements, feel free to ping one of your community managers, and if it's pertinent for the group, we can post in announcements for you.",
+            "track":"n/a"
+        },
+        {
+            "q": "Your answer for enrolment in data science scholarship is a little bit confusing here! @Marat.Udacity have said 'engaging in scholarship will not increase the chance of getting new one and also will not decrease it' (the quote here is not literally )",
+            "a": "Apologies for this confusion, this was the messaging we went with during Phase 1 of the Scholarship simply because anyone who was not selected to be in phase 2 would be free to try their hand at our future Scholarships and there would be no overlap. Because you are all in Phase 2 now, this overlap exists.",
+            "track":"n/a"
+        },
+        {
+            "q": "I saw that there were some links to apply for the certification with Google in the course. Will we get a discount?",
+            "a": "Paul: The certification that you see from Google is hosted and carried out completely on their end and doesn't involve Udacity. Therefore we have no influence over the price nor can we offer discounts on it.<br>Joanna: At the moment the answer is no, but that is good feedback that we can escalate. If we will offer a discount, that information will be shared out later in the scholarship program.",
+            "track":"n/a"
+        },
+        {
+            "q": "Are you guys thinking in getting student moderators on this phase? Because some channels can be confusing, and lot of people seem to get lost or end up using not the most appropriate channels",
+            "a": "Yes, definitely! Student Reps was one of the aspects of Phase 1 that we enjoyed the most because we really felt like we could connect with more students across multiple languages. It's something we're currently planning on how to implement since all four tracks are now merged into one Slack. ",
+            "track":"n/a"
+        },
+        {
+            "q": "I received the Google Developer Nanodegree Scholarship and just today I got a chance to check it out. What do I have to do? I already did the first 3 apps, do I have to do them again?",
+            "a": "You do not need to re-submit the projects if they already approved and say “Meets Specifications”.",
+            "track":"n/a"
+        },
+        {
+            "q": "Sorry maybe I've lost this notice and this aspect has already been clarified, but I want to ask if is possible to submit the project in a zip file and how?",
+            "a": "Jose: Yes, it is possible to submit in a zip file and it is actually super easy. When you click on the submit project button you will see a screen with 2 options: One to upload a file and the other one to submit from a github repository. <br>My recommendation is that you use github because that way you can also show your repositories and code to potential employers by adding links to them in your CV. I know that it is a bit of an extra at the beginning but if you take the challenge to learn a bit of git and github you will see a lot of value on that. Plus it is an extra skill to add to your CV!<br>Feel free to ask for help in #git-github channel",
+            "track":"n/a"
+        },
+        {
+            "q": "I know ABND has not a career portal!  Is the reason because ABND student is yet to gain more skills to qualify for a job?",
+            "a": "The Androids Basics course is just that, a basic course. It's an amazing precursor to the Android Dev ND, but it isn't a career ready program for this reason.",
+            "track":"and"
+        },
+        {
+            "q": "Why do android track have a mentor for the first 2 projects and the other tracks have him all the way?",
+            "a": "Jose: I do not know 100%. What I can tell you is that not all the NDs have the same services. That does not mean that in one ND you are more important than in other or that you get more things in one ND or another. It is just that not all NDs have the same things.<br>Here you get the same things that any paid student would get + more things that are exclusive to you than any paid student gets. That includes this community, supported with mentors and Community Managers that are exclusive for you, the AMAs and all things that we have been doing and the surprises that we have coming.",
+            "track":"and"
+        }
+    ]
+},
+{
+    "datetime": "20-feb-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "Can we share our finished projects with each other, to see how others implemented it and learn from each other, or should we rather wait until the project deadline so there are no possible problems with plagiarism?",
+            "a": "You can (and even should!) share your projects with each other, so you can learn from one another. But be mindful that we will track any traces of plagiarism – as we defined in Plagiarism section in our FAQs – your project submission should consists only of your own work and the code from other students’ Udacity projects should not be incorporated.",
+            "track":"n/a"
+        },
+        {
+            "q": "What is the best way to keep improving? I am at lesson 12 and all is again new to me. ",
+            "a": "This is a great question and thanks for bringing this up – we will share more tips on this in upcoming days!",
+            "track":"n/a"
+        },
+        {
+            "q": "Is there a way to share all the suggestion we receive on a project's review? I find them very useful, and it would be great if we can share them someway or save them.",
+            "a": "Jose: It seems that you are finding a lot of value on the code reviews. That's nice! There is not any automatic way to save the comments. You would need to copy them yourself. For external resources you may want to add the links to your bookmarks. And for sure that you can share!",
+            "track":"n/a"
+        },
+        {
+            "q": "Are there any plans to make the Careers Support Portal more useful to students outside the USA? I've been going through it and so far 90% of the material and external links are for people living in the USA only.",
+            "a": "We’ve taken this feedback on and are working to fix it.",
+            "track":"n/a"
+        },
+        {
+            "q": "The time difference between my location and that of the mentor varies greatly. Can we ask for personal email so as to send in mails or something.",
+            "a": "The only way to communicate with your Mentor is through the chatbox. I’m sure you can imagine the reasons for not providing the students with the Mentors’ personal details...",
+            "track":"n/a"
+        },
+        {
+            "q": "What does this button mean? <br><img src='uploads/mentor-out-button.png' alt='mentor out button' />",
+            "a": "This button means that you don’t want to receive the Mentor’s support ever again. This is quite an extreme move and I wouldn’t recommend it. You don’t have to write to your Mentor if you don’t want to, or even interact with them at all, but maybe keep it as an option just in case. The Mentors are a very valuable resource, so we suggest you use them as much as possible for your own professional growth.",
+            "track":"n/a"
+        },
+        {
+            "q": "How will career portal help me?",
+            "a": "The Career Portal offers a complete recommended career development path, where you can track your progress and see all the foundational pieces needed to be ready to get a job. Think of the Career Track as offering a learning syllabus or fitness plan - you can learn or exercise on your own, but having a schedule and plan helps you better achieve your goals.<br>This includes CV review, LinkedIn profile review, a personal career counselling - depending on your personal path.",
+            "track":"n/a"
+        },
+        {
+            "q": "Can I change the email I was enrolled under?",
+            "a": "You can change your account details in your classroom settings. this is the wheel-shaped icon in the bottom left side of your classroom.",
+            "track":"n/a"
+        },
+        {
+            "q": "When will you do a technical AMA?",
+            "a": "We’ll host technical AMAs soon, we’re working on it. IN the meantime, the ND-specific Slack groups host “office hours”, which are effectively the same thing as technical AMAs. I advise you to use this service!",
+            "track":"n/a"
+        },
+        {
+            "q": "Which is better, taking the course material and then do the part of career portal or make the two parts simultaneously?",
+            "a": "It’s better to try and stick to the suggested timelines – that is, to do them simultaneously. But your main priority are of course the projects. You’ll have some time between the projects (e.g. while waiting for them to be reviewed), so you can use this time for working on the career portal.",
+            "track":"n/a"
+        }
+    ]
+},
+{
+    "datetime":"19-feb-2018:04-05 PM CET",
+    "type":"general",
+    "questions": [
+        {
+            "q": "When we finish the nanodegree before the deadline, will we be notified if we will receive the diploma?",
+            "a": "You’ll get an email with congratulations and certificate.",
+            "track":"n/a"
+        },
+        {
+            "q": "At some point it was stated people cannot receive two scholarships simultaneously. I'm referring to the data science one. This morning something else was stated, so I'm a bit confused.",
+            "a": "As far as we know there is no limitation to the number of scholarships you can receive, as long as you’re eligible. But participation in one doesn’t improve your chances of getting another.",
+            "track":"n/a"
+        },
+        {
+            "q": "Do I have to pass all the quizzes to finish nanodegree or just accepted projects are needed? I will, of course, do everything but in Phase 1 some answers disappeared and I checked everything at least three times. I wonder if I have to do it in this part as well.",
+            "a": "You need to pass all the projects. If you get stuck on a quiz, you can utilise the support services, but having all your projects reviewed and passed by reviewers is your main priority! Hope it answers your question.",
+            "track":"n/a"
+        },
+        {
+            "q": "In the selection email that says I got accepted is stated: 'Per the terms of the scholarship, you have committed to participating regularly in the program and if you have not logged-in and begun learning by March 1 (9 a.m. CET), you will lose access to your scholarship.'. What does it mean? is it ok if I manage to watch some videos and don't publish any project by 1st March?",
+            "a": "This means exactly what is says - somebody who hasn’t even logged in in two weeks will be unenrolled. We want only people who are really interested in learning and appreciate this opportunity in this program. It says nothing about submitting of projects. Once you begin the course you can do it in your own pace, however the stipulated deadlines are highly recommended.",
+            "track":"n/a"
+        },
+        {
+            "q": "Are project reviewers different from the personal mentors?",
+            "a": "Marat: Yes, the reviewers are usually not the same people as your personal Classroom Mentor.<br>Magda: Yes, project reviewers are different people than mentors. Both roles are there to support you, although they slightly differ – reviewers are there to review your code and give you feedback on it. Mentors, on the other hand, help you to do the project before you even submit it for the review.",
+            "track":"n/a"
+        },
+        {
+            "q": "Can we delete repositories on GitHub once our project has been submitted and passed or do we have to keep them until the nanodegree is over?",
+            "a": "Jose: That's a tricky question. I guess that you can but that would create some issues. You will have a profile in careers at Udacity that would link to your project and your project will not be there. That will not be beneficial for you.<br>Also, why would you want to delete the repositories? One of the benefits of the ND is building a solid portfolio that you can show to potential employers. Adding links to your different projects/repositories in your CV is super important. It is the best way to show your skills.<br>If you do not want to do any of this, it is not compulsory to publish your projects on github. You can also upload them as a zip, but I would recommend that you upload them on github and leave them accessible for the future.",
+            "track":"n/a"
+        },
+        {
+            "q": "Can we ask for help from the mentor in case we get stuck on any of the projects?",
+            "a": "Yes, that’s what mentors are for just remember that for both Android tracks, the in-classroom mentor will be available only for the first 2 projects. Later on the students of these tracks will be able to receive mentor support on forums.",
+            "track":"n/a"
+        },
+        {
+            "q": "You said that participation in one doesn't improve chances to get another scholarship. Does it mean that it decrease chances if you are doing another scholarship or it also decrease chances if you've finished some?",
+            "a": "No, it doesn’t decrease your chances, but also doesn’t increase either. What I meant is that you won’t have any higher chances or extra credits for being a scholar. So you’ll be selected on an equal and neutral grounds with all the other applicants for that specific scholarship.",
+            "track":"n/a"
+        },
+        {
+            "q": "I quote: 'That means the a project has to be submitted 1-2 weeks BEFORE the deadline'. Will the project be accepted if sent at the last moment? ",
+            "a": "Yes, this has been answered before, please read the announcements. Except the final deadline, August 15, all the other deadlines are not obligatory, but highly recommended to finish the course on time.",
+            "track":"n/a"
+        },
+        {
+            "q": "My first project passed all the criteria, however I would still like to improve and resubmit it. So far I haven't been able to figure out where to do this, I can only view my submission. How does it work exactly?",
+            "a": "Once your project has been approved and accepted, you cannot re-submit it. However, of course you can keep working and improving it, but that would be for your own learning. You can then share your results on the forum if you want feedback from the community and the forum mentors.",
+            "track":"n/a"
+        },
+        {
+            "q": "Is there a grading system, so we know if we if the project was well done or just pass? Do the project have a grade for them affecting the final result of the Nanodegree?",
+            "a": "Jose: Projects get only 2 possible results 'Requires changes' and 'Meets specifications'. There is no other grading or difference towards the certificate. In the old days we had 'Exceeds expectations' but that was removed long time ago.",
+            "track":"n/a"
+        },
+        {
+            "q": "Will we get study-buddies from donut this time? On the Phase 1 he got introduced in Slack a little bit too late and most people had already complete the course so there wasn't much students could talk about. ",
+            "a": "You’re right, study buddies is a great way to learn, and this time we want to start early with this. The channels already exist: #abnd-study-buddies #and-study-buddies #fend-study-buddies #mws-study-buddies , but we’ll officially “launch” it next week, when everything settles down a bit.",
+            "track":"n/a"
+        },
+        {
+            "q": "I upload first project as a zip, but Jose recommend to upload them on github and leave them accessible for the future. so if I upload it again on github how to connect it to my profile in careers at Udacity.",
+            "a": "Jose: I do not think that it can be done if you already passed. If you did not pass then you can use github when you resubmit. I would advise to use github as much as possible.",
+            "track":"n/a"
+        },
+        {
+            "q": "Are the credentials for completion given as soon as  all the projects are completed or we have to wait for the stipulated dates.",
+            "a": "Magda: No, there is no need to wait until the (suggested) deadline arrives – once the reviewer approves your project it will be deemed as passed in your classroom.<br>Jose: Once you pass all the projects a button to graduate will appear in your classroom. Once you click on it, it will take around 1 week to check everything and receive the certificate.",
+            "track":"n/a"
+        },
+        {
+            "q": "How soon will I be able to get a one 2 one with a mentor about career advice? I have to be careful about putting myself out online too much so I don't affect my current job if you know what I mean.",
+            "a": "After you finish the first 2 career projects, you have an option to schedule a 1:1 with a Career Counsellor in the time convenient for you. This is done completely privately on Google hangouts, and this information (as all the information about our students) never gets published externally (we take Data protection very seriously), so you should not be worried about that getting known to others.",
+            "track":"n/a"
+        },
+        {
+            "q": "My project is in review now for 24 hours, *not* pending! All the 24 hours is in review state, is there something wrong?",
+            "a": "Jose: Reviews can take up to 1-2 weeks. You ned to be patient because there are many of you submitting the exact same projects at the exact same time and reviewers have a peak.<br>That does not stop you from moving forward. <br>If it is like that for a long time then you will need to ask to support or to the CMs to help to see if there is any issue. It is not common but sometimes it has happened in the past that a project gets stuck for some reason.<br>Marat: As you can very well imagine, our mentors just got thousands of new students they have to attend to, and the same amount of projects needed to be reviewed. They are doing their very best to reply to you all as fast as they can, but they are only humans (to all of you who thought they might be bots :stuck_out_tongue: :robot_face:).<br>In these first few weeks please be a bit patient and give them some time to respond. Some are very quick, and some might take as much as 48 hours to reply. Depending on their timezone and workload. Most of them actually have a day job in the industry – an that’s exactly what makes them into experts in their field and such a valuable resource for you to learn from!<br>As for the project reviews, it might take between a few hours and up to 10 days, exactly for the same reasons. That’s why we advise you to submit your projects as early as possible before the deadline.",
+            "track":"n/a"
+        }
+    ]
+},
+{
+    "datetime":"19-feb-2018:12-01 PM CET",
+    "type":"general",
+    "questions": [
+        {
+            "q": "After submitting my first project, I received feedback from the reviewer about some points. I will fix these. QUESTION: DO I HAVE SEVERAL DAYS TO RE-SUBMIT THE PROJECT? DO I HAVE TO COUNT IN RE-SUBMISSION INTO THE PROJECT DUE DATE (i.e. submit for review one week before due date if I expect that I will have to re-submit all of my projects)? ",
+            "a": "Thanks for the question. First off, all of the deadlines are including reviews from the mentors, so please figure in that the deadline is when your project is submitted, reviewed and corrected. You should factor all of these things in in order to stay on track. Also, remember the deadlines are suggested deadlines to help pace students so you can submit projects after these dates. Keep in mind that you need to pace yourself to finish and have all projects reviewed and approved by Aug 15.<br>If you find a way to keep yourself on track while helping out your student cohort, that's great!",
+            "track":"n/a"
+        },
+        {
+            "q": "How many students each mentor has? The Mentors are not our Project Reviewers, correct?",
+            "a": "Think of your in-classroom mentor as your coach to help you when you get stuck. We recommend checking-in with you your mentor and setting a cadence that works for both of you. Your classroom mentor will not only be able to answer your questions about the content, but they will also check in with you to help you stay on track throughout the duration of the program. There is no limit to the amount of questions you can ask your classroom mentor. However, please note, that classroom mentors are expected to respond within 24 hours. If you are looking for immediate assistance, I would recommend reaching out to your classmates.",
+            "track":"n/a"
+        },
+        {
+            "q": "I have a question about the optional part (Career part). I saw the deadlines are the same as the main projects, so what is your recommendation? Finish them on time (two weeks earlier, because they work as the main ones, right?) or when we finish the main projects?",
+            "a": "Your main priority is of course the Core curriculum, i.e. the Projects, as without them you won’t be able to graduate. The extracurricular tasks are extra, but still very recommendable, as we want you to be fully career-ready by the end of the course. So try to incorporate them into your schedule as much as possible. As with all the timelines, they are not mandatory, but suggested, so no harm will be done if you submit them a bit after the deadline. They are just a bonus, however a highly advisable one.",
+            "track":"n/a"
+        },
+        {
+            "q": "MWS: If I think my project is ready, but it doesn't fulfill 100% of the criteria, will code-review send it back and give me the chance to improve? In other words - I'm only interested in submitting perfect 100% done work. Will CR help me, ensure I meet my goal? ",
+            "a": "Thats a great question. It's important to keep in mind that the mentors are helping out several people at once, and if you submit your project at a time when several other students are submitting their projects, there will be a queue.<br>It's okay if you still are not 100% sure about your project, but try to use channels like #live help or other such channels to get your questions answered beforehand instead of just relying on the code review.",
+            "track":"mws"
+        },
+        {
+            "q": "I have read in the FAQs that submission deadlines are not mandatory. However, is it mandatory to log on the classroom continuously during the 6 months or is it really completely self-paced?",
+            "a": "Joanna: The course is indeed self-paced, but there are a few things to note: First, make sure that you log-in to your classroom in the first 2 weeks. We will unenroll students who have not logged in during this time. Second, you have a hard deadline of August 15th to finish the course. You should make sure that you pace yourself so you can submit projects and have them finished, reviewed and approved by Aug 15.<br>Marat: The program is self-paced and you can schedule your time the best it works for you. The deadlines we recommend are highly suggested though, to help you plan your time the best way to get you to graduation!",
+            "track":"n/a"
+        },
+        {
+            "q": "I still don't have the career option on my page and I think it's not clear for everyone if this should be on every student's page, or appears randomly. ",
+            "a": "Not every Nanodegree has career options. AND, MWS, and FEND have the Career Portal. Android Basics unfortunately does not.",
+            "track":"n/a"
+        },
+        {
+            "q": "How we get certificate also from Google?",
+            "a": "This scholarship covers the Udacity Nanodegree program and the certificate you get in the end of it. The Google Developer Certificate is an external examination, which is not included in this program. After graduating this Scholarship you’re supposed to be ready for it, and can attempt the exam at your own expense.",
+            "track":"n/a"
+        },
+        {
+            "q": "Where can I find this career portal, which was mentioned by Joanna?",
+            "a": "The portal can be found in your Udacity classroom. As mentioned, it is in the left sidebar and looks like a briefcase!",
+            "track":"n/a"
+        },
+        {
+            "q": "I've signed up for Data Analyst scholarship. Should I finish this course before you'll be choosing lucky ones for that scholarship to have chances to get there? ",
+            "a": "That's awesome that you want to do the Bertelsmann scholarship! You can indeed be enrolled in both, one suggestion is to make sure that you are keeping track of both deadlines.",
+            "track":"n/a"
+        },
+        {
+            "q":"Android Developer track: On the Udacity emails there is only mention of this slack and a Google+ community.  Your website mentions that there would be a second slack group including all ND students. Some people found a slack: androidnanodegree.slack.com which is not active. Which groups should we use to interact with all students in our track?",
+            "a": "The Android Advanced track doesn’t have an additional Nanodegree-specific slack channel, but a Google+ group. All the services available to your track you can find in your “1st day of class” email from Feb 15 and in your Classroom.  We’ll repost these announcements later today as well.",
+            "track":"and"
+        },
+        {
+            "q": "Are we going to be able to access and submit the extra curriculum projects after the final deadline (August 15)? ",
+            "a": "Joanna: Thanks for the question. As a Nanodegree program graduate, you will retain access to your programs materials for a period of time after graduation, and you may download certain materials for your own records if you wish. You can also utilize what's available in the extracurricular section.<br>Marat: August 15 is the final deadline for the scholarship. Everything should be submitted beforehand. If you finish everything and graduate from the program, you’ll get additional career services as a part of our Nanodegree Alumni community.",
+            "track":"n/a"
+        },
+        {
+            "q": "I have project done and it says 'Excellent work! Congratulations on the completion of this project!' on project review.. and then only suggestions so no mistakes.. so do I need fix those suggestion? Also can you put Croatia to career portal so we can put is as location?",
+            "a": "With such congratulation there no need to resubmit. It’s accepted. The suggestions are just for your own improvement.<br>As to adding a country, this is also mentioned in our form, please fill it in:https://goo.gl/forms/oG6Y4eWIfJLCIyRa2",
+            "track":"n/a"
+        },
+        {
+            "q": "Is there a list or website for all the scholarship that Udacity offer? I have found https://www.udacity.com/scholarships but I believe is either for USA residents or are not all, I don't find the Bertelsmann scholarship there.",
+            "a": "The Bertelsmann Scholarship is available and you can indeed apply, it just has not be updated on the site.",
+            "track":"n/a"
+        },
+        {
+            "q": "Is the quality of the projects and the number of submissions reflects in the graduation of the program?",
+            "a": "No, there is no limit to the number of times you can re-submit your project, and as long they all *meet the specifications* by the end of the scholarship, you are good to go!",
+            "track":"n/a"
+        },
+        {
+            "q": "Slack deleted the AMA sessions dates' post in #general_announcements! Is there a more stable source to get the dates? I found today's session by luck!",
+            "a": "We are working on it! We will have a clearer calendar on the site, and will update you all when that happens. Keep checking it!",
+            "track":"n/a"
+        },
+        {
+            "q": "Can I use the code I have found in Stack Overflow site in my own project? If yes, should I put a link to the source? ",
+            "a": "That's a really great question. We have a plagiarism policy that is stated in the Honor Code, which everyone agrees to when they use Udacity Services.<br>By agree you are confirming that your project submission consists only of your own work and that code from other students’ Udacity projects have not been incorporated.<br>A project is flagged for plagiarism when a student has copied any part of another student’s work, even with attribution. Hope that helps!"
+        },
+        {
+            "q": "I'm in touch with many other students from my country. Somebody has received suggestions that differs from each others. Is there a common guideline for the suggestions we can receive from the reviewers or are they base on how we code/personal consideration of the reviewer?",
+            "a": "Naturally different reviewers will have different suggestions or styles, and naturally it will also depend on each individual project. Since you definitely won’t submit the same code (definitely!) - the responses will vary. But that’s what you have the community for - if you want, you can always share your suggestions and earn from each other.",
+            "track":"n/a"
+        },
+        {
+            "q": "Could you please make some update of the project 'deadlines' for FEND? I know they are not obligatory, but it would help me a LOT to plan my studying. Right now there are even deadlines for September which is misleading.",
+            "a": "Working on it. We’ll post an update about the dates in the coming days.",
+            "track":"fend"
+        },
+        {
+            "q":"Is there a chance that ABND students will get some discount for the AND once they finish the ABND? ",
+            "a": "Awesome suggestion. It would be great to keep you guys engaged and learning more, and a discount is a good idea. I will take your feedback and we can talk again towards the end of the program in August.",
+            "track":"and"
+        },
+        {
+            "q": "With the amount of posts in this Slack channel, if you are away for a few days, all of the general announcements etc can no longer be seen (for all those who haven't paid the premium).  Can you please post all the important announcements on your google page or make them stickies on slack?",
+            "a": "You can already see the announcements being saved in the backlog of the #general_announcements channel. Just check the _pinned items_. We’ll repost the most relevant announcements more often as well.<br>Also, we’ll keep updating our new website with the most current updates on a regular basis, just just keep checking https://sites.google.com/knowlabs.com/gdnd2017/updates.<br>We’ll also keep sending you newsletter as per usual.",
+            "track":"n/a"
+        },
+        {
+            "q": "I am enrolled to MWSND yet I don't have Career Portal at my ND page and I didn't even receive that hr question at the start,  I only See Google Certificate. is that normal ? is it meant for some countries only?",
+            "a": "You can find the Career portal by going to the briefcase icon here:",
+            "track":"mws"
+        }
+    ]
+},
+{
+    "datetime": "16-feb-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "I have a question regarding mentors. Is there a possibility to change a mentor because my mentor seems to have less/the same experience as me preety much. Also do mentors review our projects? Because I've uploaded one of mine, got rejected, reuploaded it and got accepted without changing anything but just pointing out one thing that wasn't even that hidden in code. Like the person didn't even look in my code ~~ (Also no contact with my mentor for more than 24h already).",
+            "a": "Changing your mentor should be possible. I'm going to inquire a bit more about this process and let you and others know what to do in this situation. (Paul)",
+            "track":"n/a"
+        },
+        {
+            "q": "Hello,<br>1- Can i submit more than one project at the same time? as we already finished first 3 project.<br>2-I want to know what is the next step after this ND, I am in ABND and want to know when we finished, is there any advice or steps to follow after finishing this scholarship ?",
+            "a": "You can submit more than one project at a time, though some folks might find it helpful to incorporate mentor feedback from one before submitting the second. You can do what fits you best. as for when you finish the course, there isn't anything else you need to do and Udacity will certainly keep in touch with you at that about any end certificates. (Paul)",
+            "track":"and"
+        },
+        {
+            "q": "Hello, I am still a bit confused concerning the very first project deadlines. Does it matter, if I submit the first 2 projects one month later? I am asking, because in the email is stated that we would lose the scholarship, if we had not started learning before 1st March. My mentor says that the deadlines are usually 'soft deadlines'",
+            "a": "Like Phase1, the program is self-paced and you are free to schedule your time the best way it works for you – as long as you have all your projects submitted and approved before the end of the program (August 15).<br>The deadlines are there just to help you organise your time, as they are based on historical projections and take into account the average amount of time needed for each project. That’s why they are much recommended.<br>The part in the email about losing your scholarship means that it will happen if you will never even log into the classroom in two weeks after the start of Phase 2. It doesn’t refer to submitting projects. (Marat)",
+            "track":"n/a"
+        },
+        {
+            "q": "Is it possible to access the 2nd slack now? If so, how? Thank you.",
+            "a": "A1:you will find the access link in your “1st day of class” email from Feb 15, as well as in your classroom. (Marat)<br>A2: I'm assuming you mean the 2nd Slack just for your ND and not the Scholarship slack?<br>If so, head to your classroom, enter a chapter, click on a lesson, click on your resources tab and you'll see the forum link.<br>This is...a process. We know. (Paul)",
+            "track":"n/a"
+        },
+        {
+            "q": "I have a question about all the slack channels we are meant to be following. There are way too many and I can't spend my day reading all the messages, instead of doing the work. Which ones are the important channels to follow? Thank you.",
+            "a": "You are a proper Nanodegree student now – there is no challenge. So other than submitting the projects (advisably before the deadlines), nothing is obligatory. You can use any platforms you want and follow any channels that are most useful for you.<br>All the services are there to help you study and succeed, and we recommend using your mentors and peers as much as you can, but it’s all up to you. (Marat)",
+            "track":"n/a"
+        },
+        {
+            "q": "Will it be careers section for ABND? Inside program on Udacity.",
+            "a": "ABND is not one of our career ready ND programs as it is just a basic program. (Paul)",
+            "track":"and"
+        },
+        {
+            "q": "Hi Everyone, I am just curious. After successful completion and graduation of the ND Program, what Next? Is there Another Phase?",
+            "a": "After a successful completion and graduation of the ND Program there is a graduation party!<br>There are no more Phases - you get a certificate from us and become a Developer!<br>If it’s applicable to you, you can also attempt the Google Developer Certificate, but that’s an external examination, and not a part of this (Marat)",
+            "track":"n/a"
+        },
+        {
+            "q": "Hi everyone, I hope that is the right place to ask this. Are we encouraged to share our projects here like in first phase to get some ideas and advice from others how can we upgrade our projects before actually submitting in the classroom or should we be aware of that, because it increase the chances that we copy pasting from each other some code snippets?",
+            "a": "A1: You can continue to share projects and help each other out. The most crucial thing is that when the time comes to submit a project, what you're submitting is 100% your code. (Paul)<br>A2: great question! Our core value still is, and always will be, _Better Together_, so of course we still encourage you to use your peers for feedback, mutual learning, and sharing ideas. That said, we trust you all will be professional and respectful enough not use this to anyone’s disadvantage. (Marat)",
+            "track":"n/a"
+        },
+        {
+            "q":"Said that ABND is not one of our career ready ND. MWS is? If so, what does it really mean - career -ready?",
+            "a": "MWS, FEWD and AND are career ready. What this basically means is that, upon successful graduation, you'll be able to make use of our careers team for various things such as resume review, LinkedIn reviews, and more. (Paul)",
+            "track":"n/a"
+        },
+        {
+            "q": "Are 1on1 mentors assigned randomly or is there some kind of selection? No answer for 35h, I feel others are more lucky with who they have assigned.",
+            "a": "Mentors are global so they are working across all timezones. Please expect a 24-48 hour turnaround on answers so they may not be online the same time as you are. That said, as I said to another student I'm going to inquire about the processes of changing your mentor and/or sending feedback for special circumstances. (Paul)",
+            "track":"n/a"
+        },
+        {
+            "q": "Hi mentors, after submitting my project I received a feedback from the reviewer about some points should I correct those points and resubmit the project or what should I do, and also is there any marks evaluating our projects?",
+            "a": "You are correct - this is exactly what you should do. Receive feedback, implement it, and resubmit. There are no marks.<br>Don’t think about these projects as school projects, but rather as work projects. That’s also why the projects have to be all ready BEFORE the deadline. (Marat)",
+            "track":"n/a"
+        },
+        {
+            "q": "I saw in a post in the previous challenge ' phase 1 ' for a person that you will make us more access on Slack like seeing the history of chat and some stuff like this.Now I'm not seeing this access Why ?",
+            "a": "I think that person might have been referring to your Nanodegree Slack Channel. The ND programs have their own dedicated Slack groups. This Slack here is just for the Scholarship Phase 2 recipients while the other is where you'll be interacting with paying ND students as well. You can find that Slack invite link in your day one emails. (Paul)",
+            "track":"n/a"
+        },
+        {
+            "q": "Are we going to get a seperate forum for the Scholarship lot or is it the combined one that we can see for the full program? There is some mention about another mentor forum, is that another thing? (FEND)",
+            "a": "yes, the Phase 2 forum is not connected to the one from Phase 1. That’s why you need to log off from that one and log into the new one again. (Marat)",
+            "track":"fend"
+        },
+        {
+            "q": "Quick question, why do some videos of the Nanodegree that are posted on youtube have names in Japanese in the Title, or Portuguese sometimes ? Is there a reason?",
+            "a": "Udacity operates around the world, and some of our content is localised for the Brazilian and the Chinese markets. So this is probably the content that you have seen. (Marat)",
+            "track":"n/a"
+        },
+        {
+            "q": "Will there be different workspaces for the 4 tracks or just a workspace with dedicated channels?",
+            "a": "Each of the 4 tracks have their own dedicated Slack channels where you can work alongside paying ND students. The invite links to your respective channels can be found in your day one emails. This Slack channel is just a separate space for only the Scholarship students. You can also use #fend-live-help, #mws-live-help, #abnd-live-help or #and-live-help  in this Slack to work with your peers. (Paul)",
+            "track":"n/a"
+        },
+        {
+            "q": "Should we study the Core curriculum first then the Extra curriculum? or we should study them simultaneously?",
+            "a": "Because I found that there are some projects in the Core  their deadline for example are 4 months from now, and some projects for the extra (Career) their deadline are 2 months from now.<br>Your main priority is the Core curriculum, as without completing all the projects on time you won’t be able to graduate. As for the extracurricular activities - they are just a bonus. We still recommend doing them simultaneously, as we want you to get the best support possible to be fully career-ready after you finish the course, so try fit them in together into your schedule, while prioritising the actual course. As with the projects, also the extra deadlines are not obligatory, but just suggested. (Marat)",
+            "track":"n/a"
+        }
+    ]
+},
+{
+    "datetime": "16-feb-2018:11-12 AM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "Did you had to refuse a lot of people who have fully completed the first phase? Do you have a stats for each track?",
+            "a": "Sadly, yes. There were lots of students who finished Phase 1 and it made the selection process not only difficult, but heartbreaking. We have a lot of stats, but we're still inquiring about which ones we're allowed to share.",
+            "track":"n/a"
+        },
+        {
+            "q": "Are all the projects we submit still our property and for us to sell in the Play Store or are we handing it over to udacity, when submitting?",
+            "a": "You own everything you make.",
+            "track":"and"
+        },
+        {
+            "q": "Should we post anything in the socials to be successful in the phase 2? Is there any pic to show as per phase one?",
+            "a": "I'm not sure I fully understand your question, but if you're asking if Phase 2 has a social component like Phase 1, it does not. The social and community participation we required in Phase 1 was to help make candidates stand out. You're all in Phase 2 now, so you can really focus on the work ahead of you because, depending on your skill level, it can be a lot. ",
+            "track":"n/a"
+        },
+        {
+            "q": "Will some more students be granted access/get selected for the 2nd phase after 1st of March, if there will be people who do not start their Nanodegree as requested in the initial email?",
+            "a": "Yes, there is a waitlist and we might be able to enrol more people after the grace period. we will keep you guys updated on that.",
+            "track":"n/a"
+        },
+        {
+            "q": "There's no forum for MWS but it seems our Slack channels gets purged pretty often, are there options to keep our MWS channel available for a longer time?",
+            "a": "The MWS ND was designed without a forum in mind. Since the challenge phase curriculum was specially built for phase 1, we were able to include a forum. Now, MWS scholars are being integrated into the already established ND. It's certainly food for thought and we're listening to the feedback on what our students want.  As for the Slack channels here, unfortunately we don't have any say on how often Slack will purge the message history. If we could keep things longer, we would. I would also encourage you to make use of the MWS ND Slack channel that exists for all MWS students.",
+            "track":"mws"
+        },
+        {
+            "q": "In the office hours in the official ND slack community we can ask technical question? Or will be a technical AMA for tech question?",
+            "a": "Yes, thats correct, the ND slack communities have the Office Hours that are there to help you with any technical questions you might have. But make sure you reach out for help on Forums and in chat with mentors. Not mentioning the great community here on scholarships slack.",
+            "track":"n/a"
+        },
+        {
+            "q": "Do you have stats about career evolution for people who got the nanodegree?",
+            "a": "Good question! I'm going to take this one with me to our next meeting and see if these exist.",
+            "track":"n/a"
+        },
+        {
+            "q": "In the mail we got yesterday, there was nothing said about the forum, will we be using it in phase 2?",
+            "a": "Hey there, not all the tracks have forums available, you can find the full list of services & communities offered in each track in our FAQ.",
+            "track":"n/a"
+        },
+        {
+            "q": "I don't see nanodegree on my classroom. It is enough writing to one of community managers on slack or better write elsewhere.",
+            "a": "We honestly get hundreds of messages each day and it's impossible to respond to everyone as much as we'd like to. Slack erasing message histories doesn't help the situation. For all bugs and technical issues, I would recommend you send an email to support line. A response should come within 24-28 hours (not counting weekends) -- scholarships-support@udacity.com",
+            "track":"n/a"
+        },
+        {
+            "q": "Is there a FEND forum? We are somewhat confused.",
+            "a": "There is a FEND forum. It is up and working. But I'm seeing now that many of you are having trouble with access. I'm going to inquire about this and post an announcement in #fend once I have a solution.",
+            "track":"fend"
+        },
+        {
+            "q": "Is there an overview for deadline dates somewhere? I can't find anything on the Google site, and I wonder if I have to scout through the whole course for them.",
+            "a": "We will publish it on the site early next week. so pls make sure you check the Updates section regularly!",
+            "track":"n/a"
+        },
+        {
+            "q": "Are the planned hackathons obligatory to get the certificate? Or are they organized just for our fun, practice and experience?",
+            "a": "The hackathons and other events organised by us will not be mandatory, but will definitely be fun and helpful.",
+            "track":"n/a"
+        },
+        {
+            "q": "Can you move the ama-sessions to evenings, as some people tend to work during daytime? Like me, eg.: I might be home at 18:00 or later depending on travel time. However, on weekends I'm mostly at home, if there are no plans.",
+            "a": "Sure, we get that some people work during daytime – we belong to this group as well :grin: but that’s what the AMA transcripts are for, again – you can always find them there: https://sites.google.com/knowlabs.com/gdnd2017/updates",
+            "track":"n/a"
+        },
+        {
+            "q": "What's the idea behind 2 Slacks: for all students and the other one for particular track? Should we use them for different things?",
+            "a": "1 Slack is for just the recipients of the Scholarship - the 6,000 of you. The other Slack is the official ND Slack channel. On these channels you'll be integrating with paying ND students and it could be a great place to receive help and advice from students who are probably near the end of their own ND.",
+            "track":"n/a"
+        },
+        {
+            "q": "Regarding classroom mentors for tracks that have access to that feature - some people have already had contact with theirs, and some have been waiting to hear back. That's obviously totally normal given time zones and mentor workload etc. as you mentioned yesterday, but as a general rule, within what timeframe should students have heard back and, if they haven't, should they provide feedback on that, and what's the best way to do so?",
+            "a": "Because the mentors are having 1:1 conversations with many students, I'd say to give things 24-48 hours for a response.",
+            "track":"n/a"
+        },
+        {
+            "q": "When we have code related problem, can we ask our mentor for help?",
+            "a": "You betchya!",
+            "track":"n/a"
+        },
+        {
+            "q": "Why is my Core Curriculum different from another student? Both FEND and I don't have the the career services icon. just had the mentor icon yesterday at 23h56",
+            "a": "I'm not...entirely sure. I'll mark this question down for now and get back to you once I confirm why this happens (and if it should happen)",
+            "track":"n/a"
+        },
+        {
+            "q": "What is a hackathon, where can we join and what skills do we need?",
+            "a": "It can be an online (via live stream) or in-person event (where everyone is together in a room) where students all work on chunks of projects together and are lead by the mentors. It's a great energy to experience and it really helps students break down projects together and get past any road blocks. We don't have any planned as yet, but we are planning to do them. Once we have details, we'll be sure to announce it to the specific tracks",
+            "track":"n/a"
+        },
+        {
+            "q": "Can I ask my mentor about a code issue I'm having with an outside project? I'm trying to build sites to apply what I learn here.",
+            "a": "Mentors will only be able to help with questions related to projects in the ND.",
+            "track":"n/a"
+        },
+        {
+            "q": "The thing is a lil bit confusing in the forum, what's the actual FEND actif chit chat room?",
+            "a": "It’s called Social Chat Feature is a group-chat where you can connect with other students inside the classroom. more details here: https://sites.google.com/knowlabs.com/gdnd2017/faq",
+            "track":"n/a"
+        },
+        {
+            "q": "Can I use in projects tools or materials that we didn't learn in the lessons? For example Bootstrap.",
+            "a": "This may be a better question for your mentor as we're not entirely sure about it and these know these programs like the back of their hands. ",
+            "track":"fend"
+        },
+        {
+            "q": "How could we access general_announcements previous messages if we reached the 10000 slack limit?",
+            "a": "You can't, and neither can we. Slack can be annoying like that :confused: Not to worry, we'll repost important announcements and encourage everyone to follow our google site for important info:  -- https://sites.google.com/knowlabs.com/gdnd2017/updates?authuser=0",
+            "track":"n/a"
+        }
+    ]
+},
+{
+    "datetime": "15-feb-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "Do we need to resubmit the projects we have already completed to our mentors? The first deadline is said to be on the 1st March but I don't see the what I need to do now - unless sending to my mentor the already completed apps.",
+            "a": "You need to submit your projects for review in your classroom, the deadlines are there to help you pace your own learning experience. It is important to remember that deadlines are met when a project is submitted, reviewed and deemed as *passed*.",
+            "track":"and"
+        },
+        {
+            "q": "Is there somewhere where you list all the deadline dates on the abnd course within the 6 months so we can arrange our own timeline?",
+            "a": "not yet but soon – all the deadlines (for all tracks) will be listed early next week in the Updates section of our google site. So please check it regularly, we will be posting there news and updates almost every day!",
+            "track":"n/a"
+        },
+        {
+            "q": "You advise us to post projects 2 weeks before the deadline, but, in the Android developer track, the first project is due in only one week! Is that okay?",
+            "a": "Yes, just try and submit it as soon as possible, to give the reviewers enough time to check it. The two-weeks guideline is more about the next projects.",
+            "track":"and"
+        },
+        {
+            "q": "If a my submission is not passed, what's happen? Can I correct it and submit again?",
+            "a": "In case your submission is not passed, you can try to improve it and submit it again. In general there are no limits, and you can try as many time as you want, however, we recommend you always to be mindful when you do that – reviewers need between 1-2 weeks to review your work, so every time you submit it, please make sure this is the best version that you have. It’s always recommended to reach out to community and mentors for feedback before you decided to submit your work. Good luck!",
+            "track":"n/a"
+        },
+        {
+            "q": "Do we obtain the nano-degree after completing the course in full or do we get rewarded at the end of the 6 months? E.g. if I finished in 3 months, would I obtain the nanodegree then or would I have to wait another 3 months?",
+            "a": "you will obtain the Nanodegree if you passed all your projects within 6 months period. If you managed to do it before the final deadline on August 15 – good for you! :slightly_smiling_face: but the final graduation will happen after that date.",
+            "track":"n/a"
+        },
+        {
+            "q": "Regarding the deadlines and projects being reviewed and deemed as passed…_ in case we fail to submit a project 2 weeks before the deadline and, let's say, the project gets submitted 2 days before the actual deadline, what will happen? Will the project never be deemed as passed?",
+            "a": "Marat: If you submit your project 2 days before the deadline, then it probably won’t be reviewed in time. During the course failing to meet deadline is inadvisable, but possible, whereas failing to meet the final deadline means that you won’t get the Nanodegree certificate.<br>Historically though, we know that failing to keep up with the deadlines during the course usually leads to not finishing it. This course – and this profession – is all about strict time management and meeting deadlines on time.<br>Magda: as long as the submitted project is correct, it will be deemed as passed. The deadlines are there to help you pace your learning experience, but the only hard stop is the final deadline on August 15. If you don’t manage to meet any of the deadlines in the meantime, you can still continue, it just might be harder for you to meet the latter ones as you go. Hope that answers your question!",
+            "track":"n/a"
+        },
+        {
+            "q": "There is some confusion about mentors in the Android NDs. The FAQ says they will be around for the first two projects but some students have gotten the answer from their mentor that they will be around throughout. Also, are the first two projects the first two we did in the challenge part?",
+            "a": "this is correct: in ABND and in AND the classroom Mentors are only available for the first 2 projects (and yes, if they are identical, they are identical, or you can still improve them a bit). After the second project, you’ll have in-forum mentors, like it was in Phase 1.",
+            "track":"and"
+        },
+        {
+            "q": "can you explain your 3.? The nanodegree specific is #anbd, #and, #fend and #mws, right? Are there people there not in the scholarship?",
+            "a": "yes, these are slack groups for ALL the Nanodegree students, both Scholars and paying students alike.",
+            "track":"n/a"
+        },
+        {
+            "q": "My mentor hasn't replied to me yet, why is this?",
+            "a": "They need time to reply to all the other students that they support, plus they are usually in a different timezone. So usually please give them a few hours or even a day to reply. They will give you their undivided attention as soon as they can, I promise.",
+            "track":"n/a"
+        },
+        {
+            "q": "Hi guys, Is there another workspace for front end nanodegree only? And what we should join here or there or both?",
+            "a": "in general you have two slack workspaces available: this Slack team for all scholarship students, and additionally a Nanodegree Slack team for your specific track. Here’s the link: https://fend-slack-invite.herokuapp.com/ (can be found in Marat’s announcement in #fend)",
+            "track":"fend"
+        },
+        {
+            "q": "In the first phase, we were selected based on our activity and course completion. What are the criteria to get the certificate? Submit and pass all the projects? Continue being active on forum and slack? I know being active is recommended in order to learn and improve our projects, but I'm strictly talking about it as a necessity to pass, like in the 1st phase.",
+            "a": "In order to receive the Nanodegree you need to submit and pass all your projects before August 15. Slack and Forum activity will definitely help you along the way, but we won’t be tracking it anymore as we did in Phase 1.",
+            "track":"n/a"
+        },
+        {
+            "q": "Is it okay if I submit the project earlier  than 2 weeks before the deadline?",
+            "a": "yes, it is even recommended, as it takes time for reviewers to check it. and in case there is something you will still need to correct, you will have more time for that.",
+            "track":"n/a"
+        },
+        {
+            "q": "As FEND students we have 3 projects 'completed'...correct me if I'm wrong but now we must submit them to be checked by mentors for passing?",
+            "a": "Yes, the first 3 projects in FEND are the projects you were already working on in Phase 1. You can submit them now for the review. It might be good though to submit one at time, since the learnings you get from the reviewer’s feedback after submitted project 1, might help you improve the remaining 2 projects before you actually submit them. Which might increase the chances of having them deemed as passed even after first submission!",
+            "track":"fend"
+        },
+        {
+            "q": "Will Google Scholarship degrees' participants have to pay the $99USD for the final exam?",
+            "a": "This scholarship is only for the Udacity Nanodegree Program. The Google Developer Certificate is an external examination and is not included in this scholarship.",
+            "track":"n/a"
+        },
+        {
+            "q": "Can you please tell us more about evaluation part at the end of the course?",
+            "a": "You need to pass all the projects. If you get stuck on a quiz, you can ask the support services for help, but having all your projects reviewed and passed by reviewers before the final deadline is your main priority!",
+            "track":"n/a"
+        },
+        {
+            "q": "The Android Basic track is too basic for me. May I move to the intermediate level Android Developer track instead? This is really important for me.",
+            "a": "At this stage we can’t accommodate any track switches. I’m sorry.",
+            "track":"and"
+        },
+        {
+            "q": "Do you have a recommendation for a minimal amount of hours a week I should dedicate to the course?",
+            "a": "Great question! We estimate that you should spend an average of 10 hours on your course and coursework each week - some will need more time, some less. Just be sure to keep in mind the final deadline of Aug 15 when the program will end.",
+            "track":"n/a"
+        },
+        {
+            "q": "One quick question, the amount of time we spend on each lesson is still being monitored?",
+            "a": "There is no challenge this time, so your activity won’t be monitored like in Phase 1. It’s completely self-paced, but we strongly suggest you to stick to the stipulated deadlines.",
+            "track":"n/a"
+        },
+        {
+            "q": "1. Can you give the link to the proper slack channels (ie. for Android Developer Nanodegree Program)?<br> 2. The Slack becomes confusing, especially when some fellow students do not respect green/red lights. Will the AMA answers be published in the forum too?`",
+            "a": "1) the link was in the welcome email + in the announcement from Marat in #and <br>2) all the transcripts from AMAs will be collected and published on Google Site Updates section: https://sites.google.com/knowlabs.com/gdnd2017/updates (you can already find there the link to the AMA that took place earlier today).",
+            "track":"n/a"
+        }
+    ]
+},
+{
+    "datetime": "15-feb-2018:11-12 AM CET",
+    "type": "general",
+    "questions":[
+        {
+            "q": "I was wondering: *once we complete the Nanodegree and get our certificate, will we still have access to the course material? For some time? Indefinitely?",
+            "a": "@Manoel, Because the program is a scholarship, you have a hard stop on what you can access. The end date is August 15th.",
+            "track":"n/a"
+        },
+        {
+            "q": "Hi mentors! Awesome to be a part of another AMA. Here's my question: What is the role of our personal mentors (i.e. how much are we allowed to bother them)? Should we still rely on peer help more and discuss only projects with them?  In any case, it's amazing to have guidance!",
+            "a": "@Ozana Yes, you will be assigned an in-classroom mentor for the program. You will see you mentor pop up in a chat box once you log-into your classroom. Please utilize your mentor to check-in and set goals. They are an amazing resource! You can message them when you need their guidance, but just keep in mind their responses may not be immediate since they also aid other students",
+            "track":"n/a"
+        },
+        {
+            "q": "Will we get a forum for phase two? Feels bad to post in the old one because of all that didn't make it to the second phase. I miss the forum already! Would be nice with a forum with all tracks but with sub-forums within it.",
+            "a": "@mattias.lonn It depends on your program. MWS is the only program that does not have forum access Hope that helps!",
+            "track":"n/a"
+        },
+        {
+            "q": "What if i fail to submit the project before the due day? Do i lose the chance to graduate from the Nanodegree??",
+            "a": "@Tasos You won't lose access to the ND. These due dates are *highly recommended* guidelines set by our course designers. Historically speaking, students who miss the first deadlines are very likely to not graduate from the ND since the work piles up and can become just too much. We also suggest that you submit the course projects two weeks before the deadline since you'll still need to time to edit your projects and submissions with the feedback you receive so that your project can be approved by the due date.",
+            "track":"n/a"
+        },
+        {
+            "q": "I am in the Android Developer Nanodegree and I can see 2 of the projects (the 2 Pop Movies apps) as already finished because I already did them in a previous scholarship for the Android Developer Fast Track.**Is this correct or should I re-submit the projects? At the moment there is no possibility for submitting these 2 projects in my account.**",
+            "a": "@Alessandra The projects will carry over and have already been submitted.",
+            "track":"and"
+        },
+        {
+            "q": "Many application have discount for students we can use that discount to?",
+            "a": "@LepiDecko The coupon is something we generated for the students who were not selected to be in the Scholarship ND. We really wished we could have taken everyone in, but sadly, this was not the case.",
+            "track":"n/a"
+        },
+        {
+            "q": "When the course finishes do we get our certificate shipped? and if so do we have to pay for the shipping?",
+            "a": "@Nicolae It's a digital certificate",
+            "track":"n/a"
+        },
+        {
+            "q": "1.Will there be AMA sessions for each track? (I mean separately for each one)<br>2.Can we copy and paste the project from Phase 1 or should we start them from 0?",
+            "a": "@Radu Alexandru<br>1.) Just for now, we are doing General AMAs, but we will get back to you regarding track specific AMAs. Thanks for the question!<br>2.) As long as your work is original work, you may carry over work from the first Phase into this Phase",
+            "track":"n/a"
+        },
+        {
+            "q": "Why *MWS is the only program that does not have forum access*?",
+            "a": "@xvs That's how the MWS program was designed. We were able to include one for the challenge phase because that was a specially set program, but now that we're in the full ND, you're being integrated into Udacity's courses and they way things are normally done. That said, we encourage you to make use of the Slack communities and our AMA sessions. Once we're past this first week of general AMAs, we'll also start to hold track specific AMAs so that we can support you all in the best ways possible.",
+            "track":"mws"
+        },
+        {
+            "q": "Can we get a list of all the project deadline dates in advance?  This will allow us all to plan our study around any periods of holiday/unavailability.  At the minute I can only see them for the first section of FEND. Thanks.",
+            "a": "@Tim Great question! We will update the Google Site with deadlines so you can visualize them more easily. The site will be up and running in the next few days so stay tuned!<br>In the meantime, in the course the projects say in how many days the coursework is due.",
+            "track":"n/a"
+        },
+        {
+            "q": "Do we all have a chat in the classroom? Students from other programs said they have, but I don't. Mine is Android Basics.",
+            "a": "@Theatralka As of right now, the chat function built into the classrooms have been rolled out to FEND and MWS. This may be rolled into more NDs in the future, but at this time there's nothing to confirm or even speculate on since it's fairly new and still being tested in specific NDs.As of right now, the chat function built into the classrooms have been rolled out to FEND and MWS. This may be rolled into more NDs in the future, but at this time there's nothing to confirm or even speculate on since it's fairly new and still being tested in specific NDs.",
+            "track":"and"
+        },
+        {
+            "q": "Weren't we supposed to be 6000? We're missing 2500 scholars. Where are they? It's hard to believe that people who spent 3 months in this challenge did not checked their emails. Were the scholarships' quotas modified?",
+            "a": "@T.Violeta 6,000 people have been accepted. Just not everyone has seen the welcome email yet and/or had time to set up their Slack accounts.",
+            "track":"n/a"
+        },
+        {
+            "q": "Is there a way to go from the Android basics to the Android advanced after completion (or any other track for that matter)? If so, How? Does it get extended to the full ND after successful completion?",
+            "a": "@Dzengiz The scholarship is just available for the track that you are already in. If you would like to do another program, you can enter as a paying student.",
+            "track":"and"
+        },
+        {
+            "q": "Guys, can you please address people's complaints? I'm in, but feel bad now.",
+            "a": "@Kira Are you referring to the students who were not selected to Phase 2? We're aware of what folks are saying (I'm managing the FB group as well) and we're going to do our best to reach out and respond to as many of these students as we can. Right now our focus is on making sure the 6,000 of you are settled in, and then we will definitely take the time to communicate with the other students from phase 1. I really wish we could have accepted everyone because there are definitely lots more deserving students who didn't make it in because we had already reached out limit.",
+            "track":"n/a"
+        },
+        {
+            "q": "Hi Paul & Joanna, will there be any more Shia LaBeouf motivational videos in Phase 2 ?!!",
+            "a": "@Ricardo Varanda  #spoilers.",
+            "track":"n/a"
+        },
+        {
+            "q": "Hello it says in the hand book the suggested times are to finish in *8 months* however on the advanced android course we only have *6 months*, so are the suggested times for 8 months or have you changed them for us to help us finish in 6 months thanks!!",
+            "a": "@AbbieTurner95 Good question. I don't want to give you an assumption so I'm going to inquire more about this and get back to you once I have a definite answer.",
+            "track":"and"
+        },
+        {
+            "q": "Hi! I know phase 1 forums will become read-only in March, but the info on phase 1 Slack workspaces is confusing. We were told they would remain open after 1 month, yet Udacity's email and website tell us they'll be closed after a month. It's just to know if we still have that space available to us to regroup as a community (selected and non-selected students). ",
+            "a": "@LaurenM Hey there, so I think it's the wording that's confusing. The Slack group will be closed down on March 6th.",
+            "track":"n/a"
+        },
+        {
+            "q": "Should i check in every day with mentor or it's flexible times to access my classroom ?",
+            "a": "@Ibrahim It's entirely up to the mentor and how often they think they'll need to check in with you.",
+            "track":"n/a"
+        },
+        {
+            "q": "Do people from Mobile Web ND have access to reviews of CV and LinkedIn profile? Where?",
+            "a": "@Anna, You have access to the Career portal in your program. It can be found in the  'Extra Curricular' tab in your classroom",
+            "track":"mws"
+        },
+        {
+            "q": "is the Google developer challenge a yearly/annual thing?",
+            "a": "@Dzengiz Udacity has done it the past two years, and while we have nothing concrete planned for next year, the hope is that it will continue. The best thing to do is to keep your eyes peeled on the Scholarship site which you can find on Udacity's main page.",
+            "track":"n/a"
+        },
+        {
+            "q": "Historically what is reasons made some students not not graduate from the ND is it the same criteria in the first phase or what? and what advises for us to get 100% competently understanding and stronger front end developers ?",
+            "a": "@Ayman Morsy-FEND Really, it mostly comes down to time management. The first projects are the most important because we have a lot of statistics that show the students who are able to get the first two projects in on time are very likely to successfully finish the ND.",
+            "track":"n/a"
+        },
+        {
+            "q": "Will be here too a reverse AMA? ",
+            "a":"@JonathanI, Hey! We will do  reverse AMA later on in the program to gather your feedback! Glad you liked the format.",
+            "track":"n/a"
+        },
+        {
+            "q": "Hi :slightly_smiling_face: We have a full Nanodegree for 6 months, but is it possible to finish it earlier? Or is it a schedule we have to follow strictly?",
+            "a": "@MaevaNAP you can certainly finish earlier if you're up to the challenge.",
+            "track":"n/a"
+        },
+        {
+            "q": "Is this a standard Udacity feature to mark previously completed  lessons that overlap across different courses?",
+            "a": "@Maciej Beimcik Yep. Just so that you don't end up re-doing lessons needlessly. If you've already completed some work, then it's carried over.",
+            "track":"n/a"
+        },
+        {
+            "q": "Do we all have a chat in the classroom? Students from other programs said they have, but I don't. Mine is Android Basics.",
+            "a": "Hi @Theatralka ABND has the chat function available for the first two projects. Hope that helps",
+            "track":"and"
+        },
+        {
+            "q": "Will there be any official meetups / study groups / events?",
+            "a": "@Tom These are normally organized by students and we hope to see all the pictures from your meetups moving forward :smile: There has been discussion ongoing for us to get more involved, officially, but we have nothing to confirm or announce at this time.",
+            "track":"n/a"
+        },
+        {
+            "q": "has the issue on the portuguese language being solved? I Know I asked, but I didn't get a response... ",
+            "a": "@JaviMar Thanks for bringing this up. We're going to take a look into this to see exactly what might be causing this to happen.",
+            "track":"n/a"
+        },
+        {
+            "q": "Is the activity on Slack and Forums still mandatory for obtaining the ND?",
+            "a": "Hi @Alina it is not required per say, but Slack and forums have proven to be really helpful to students in their learning.  Similar to the first phase, we loop in all of these community features to help each student have access to peer-learning by bouncing ideas off each other, collaborating and inspiring one another. Additionally, the community managers are here as extra support to help you all successfully finish your course over these next 6 months! ",
+            "track":"n/a"
+        }
+    ]
+
+}
+]
