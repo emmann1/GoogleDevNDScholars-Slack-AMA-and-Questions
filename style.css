@@ -204,6 +204,19 @@ input[type=checkbox]{
     margin-bottom: 10px;
     cursor: pointer;
 }
+.schedule{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.schedule ul{
+    text-align: center;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+.schedule li{
+    line-height: 25px;
+}
 .footer {
     text-align: center;
     color: #ccc;

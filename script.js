@@ -1,4 +1,4 @@
-var transcripts;
+var transcripts, schedule;
 function linkify(text) {
     var urlRegex =/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
     return text.replace(urlRegex, function(url) {
@@ -47,6 +47,28 @@ fetch('transcripts.json')
     defaultDisplay($("#datetime-select").val());
     
   });
+  fetch('schedule.json')
+  .then(response => response.json())
+  .then(jsonResponse => schedule = jsonResponse)
+  .then(function(){
+      console.log(schedule);
+    let utc = new Date().toJSON();
+    let date = utc.slice(0,10);
+    let hour = utc.slice(11,13);
+    let minute = utc.slice(14,16);
+    console.log(date);
+    hour = hour == "10" ? "12": hour == "11" ? "1" : String(parseInt(hour)+2);
+    let index;
+    for(i=0;i<schedule.length;i++){
+        if(schedule[i].date.slice(0,2) >= date.slice(8,10) && schedule[i].date.slice(3,5) >= date.slice(5,7)){
+            index = i;
+            break
+        }
+    }
+    $(".next-ama").children().remove();
+    $(".next-ama").append("<em>Next session of AMA: " +schedule[index].date + " : " + schedule[index].time + "</em>");
+  });
+
 $(document).ready(function(){
 
     $(".more").click(function(){
