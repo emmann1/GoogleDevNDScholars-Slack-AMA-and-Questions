@@ -74,6 +74,13 @@ a:hover{
 select{
     font-size: 0.9em;
     padding: 0;
+    color: #222;
+    background-color: yellow;
+    border: 0;
+    appearance: none;
+}
+select::-ms-expand { 
+    display: none; /* hide the default arrow in ie10 and ie11 */
 }
 .check-boxes{
     margin-bottom: 10px;
