@@ -9,11 +9,7 @@ function display(amaSession, questionId){
   let trackName = transcripts[amaSession].questions[questionId].track;
   let trackColor = trackName == "and" ? "and" : trackName == "fend" ? "fend" : trackName == "mws" ? "mws" : trackName == "n/a" ? "na": null;
   let spanColor = transcripts[amaSession].type == "general" ? "magenta" : transcripts[amaSession].type == "tehnical" ? "cyan" : null;
-  if(questionId < 5){
-      $(".main").append("<div class='item' name='first-five'></div>");
-  }else{
-      $(".main").append("<div class='item'></div>");
-  }
+  $(".main").append("<div class='item'></div>");
   $(".main .item").last().append("<span class='q'>Q:</span><p class='question'>"+linkify(transcripts[amaSession].questions[questionId].q)+"</p>");  
   $(".main .item").last().append("<span class='a'>A:</span><p>"+linkify(transcripts[amaSession].questions[questionId].a)+"</p>");
   $(".main .item").last().append("<p class='meta'>"+transcripts[amaSession].datetime+" <span class='"+spanColor+"'>"+transcripts[amaSession].type+"</span> <span class='"+trackColor+"'>"+transcripts[amaSession].questions[questionId].track+"</span></p>");
@@ -28,6 +24,7 @@ function defaultDisplay(datetimeSelector){
             }
         }
     }
+    showFirstFive();
 };
 
 function escapeRegExp(string){
@@ -35,7 +32,7 @@ function escapeRegExp(string){
 }
 
 
-fetch('transcripts.json')
+fetch('js/transcripts.json')
   .then(response => response.json())
   .then(jsonResponse => transcripts = jsonResponse)
   .then(function(){
@@ -47,7 +44,7 @@ fetch('transcripts.json')
     
     
   });
-  fetch('schedule.json')
+  fetch('js/schedule.json')
   .then(response => response.json())
   .then(jsonResponse => schedule = jsonResponse)
   .then(function(){
@@ -67,8 +64,13 @@ fetch('transcripts.json')
     $(".next-ama").append("<em>Next session of AMA: " +schedule[index].date + " : " + schedule[index].time + "</em>");
     
   });
+  function showFirstFive(){
+      let items = $(".item"); 
+      items.slice(0,5).attr('name', 'first-five');
+  }
 
 $(document).ready(function(){
+    
     $(".more").click(function(){
         $(".item:hidden").slice(0,5).slideDown();
         if($(".item:hidden").length == 0){
@@ -117,6 +119,7 @@ $(document).ready(function(){
               }
             }
           }
+          showFirstFive();
         }else{
          defaultDisplay($("#datetime-select").val());
         }
@@ -127,7 +130,7 @@ $(document).ready(function(){
         $(".more").show();
           let searchQuery = String($("#search-input").val()).toLowerCase();
           let searchArray = searchQuery.split(" ");
-          if(searchQuery != "" && searchQuery.length > 3 ){
+          if(searchQuery != "" && searchQuery.length > 2 ){
               e.preventDefault();
               let results = [];
               let qsearch, asearch;
@@ -150,6 +153,7 @@ $(document).ready(function(){
                     results.forEach(function(el){
                         display(el[0], el[1]);
                     });
+                    showFirstFive();
                 if(results.length != 0 ){
                     
                 }
@@ -182,6 +186,7 @@ $(document).ready(function(){
                     results.forEach(function(el){
                         display(el[0], el[1]);
                     });
+                    showFirstFive();
                 }
                 if(results.length < 5){
                     $(".more").hide();
@@ -203,8 +208,5 @@ $(document).ready(function(){
     }
   });
 
-
-
   
-  //$("#bright").on("click", setPageStyle('style-bright.css'));
 });

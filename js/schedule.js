@@ -1,5 +1,5 @@
 var schedule;
-fetch('schedule.json')
+fetch('js/schedule.json')
   .then(response => response.json())
   .then(jsonResponse => schedule = jsonResponse)
   .then(function(){
