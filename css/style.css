@@ -152,6 +152,9 @@ input[type=checkbox]{
     border-bottom: 1px #333 solid;
     font-size: 1em;
 }
+.item img{
+    text-align:center;
+}
 .item:not([name=first-five]){
     display: none;
     margin-bottom: 5px;

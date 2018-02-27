@@ -1,4 +1,110 @@
 [{
+    "datetime": "27-feb-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "What does 'Udacity' mean?",
+            "a": "@Yahia According to our founder, the origin of the name Udacity comes from our desire to be 'audacious for you, the student'",
+            "track": "n/a"
+        },
+        {
+            "q": "Is it possible to visit Udacity and meet the team at Berlin?",
+            "a": "@Tho Vo Heck yeah it is! If you're going to be in Berlin, then shoot Marat a message and he can coordinate with you.",
+            "track": "n/a"
+        },
+        {
+            "q": " I knew that even if we finish the full course and projects earlier that we won't get the certificate till 15th. August but in the email I got earlier it was saying we'll get the certificate once finished. Can you please clarify it?",
+            "a": "@XIII, you can indeed get your certificate early if you finish and submit everything. We have already had one rockstar student finish his entire course, so anything is possible.<br>Once all your projects are submitted and approved, a button to graduate will appear in your classroom. Once you click on it, it will take around 1 week to check everything and receive the certificate. It will be sent to you via email in a PDF form.",
+            "track": "n/a"
+        },
+        {
+            "q": "https://www.udacity.com/bertelsmann-data-scholarships , can't we apply in our case ? thanks Enzo",
+            "a": "@Enzo (AND) I've answered this one before, but just for extra visibility I'll address it again.<br>As long as you're enrolled into this current scholarship, you're not eligible to apply for new Scholarships. That said, if you can finish and graduate from the course before the application window for new programs close, then you'll be eligible since you'll no longer be in a Scholarship.",
+            "track":"n/a"
+        },
+        {
+            "q": "Which is the role of a mentor?? is for career or only technical advice?? who can advise me with intermediate problems??",
+            "a": "@Dijack The mentors are there for technical advice and support.",
+            "track":"n/a"
+        },
+        {
+            "q": "is there a forum for the nano-degree",
+            "a": "@Ahmed Monem You can find and access the ND forum via the 'Forum' link under the resources tab in your classroom. *Note* there is no ND forum for the MWS track.<br><a href='uploads/forum-access.png'><img width='200' src='uploads/forum-access.png' alt='forum page' /></a>",
+            "track": "n/a"
+        },
+        {
+            "q": "where can we get the cool udacity t-shirts you all wear in the videos, I would love to buy one!! ",
+            "a": "@AbbieTurner95 Haha, we don't sell them. We are aware that there are students who would like some Udacity swag and so we're looking into the options available to us at the moment.",
+            "track" : "n/a"
+        },
+        {
+            "q": " How valuable is the nanodegree certification in the real world scenario? Do employers actually care? Hope I'm not sounding too pessimistic ",
+            "a": "Hi @Zuzana, thanks for the question.  The skills that you have at the end of the program do really help you get jobs. If you have a career ready ND then you can have access to resources, like CV reviews as well tips on networking, etc. We have a lot of companies that are partners, so Udacity tries to help students get into jobs in these companies. You can also become an active alumni and get connected to other resources that Udacity facilitates. And if you want to hear real stories of students that have gotten jobs after doing an ND, take a search around our blog or around our Medium and you can read some great, inspiring stuff:<br>https://blog.udacity.com/<br>https://medium.com/udacity",
+            "track": "n/a" 
+        },
+        {
+            "q": "Hey, are we allowed to up the Java language level to 1.8? If so, if a method say *Stream.of()* or *String.join()* needs a higher API level do we have to write code for both API 24+ and 24- or will it be accepted with only the one solution (that one being the one that requires API 24+)?",
+            "a": "@Schadenfreude Android supports up to Java 8 so you can use it. Java 9 is not fully supported, so you should not use it. The methods that you mentioned are part of Java 8 so that is OK.<br>Please note that those are pure Java methods so they are not related with the API level that you are using.<br>Methods in the Android SDK can depend on the API level. If that's the case sometimes you need to write a different code depending on the API level and sometimes there is some kind of solution from the compat libraries. It depends on each case. What it is sure is that your app must work fine in all versions from the minSDK that you use so you will need to handle those cases accordingly.",
+            "track": "n/a"
+        },
+        {
+            "q": "Hi, I don't want to be unkind or rude but have you realised that the amazing community that was built during Phase 1 between students is getting down now because be active in Slack or Forum is not valuable anymore?",
+            "a": "Hey @Ali [ABND], this sort of dip in activity is to be expected. When we initially made community participation a requirement to qualify, we knew some students would only be active so they can qualify. Kind of like how some people will put in 110% into a new job but once they've made it past their probation period they then put their foot on the brakes a bit. Could you imagine what this Slack channel would look like if it wasn't a requirement in the first place? Oooo wee!<br>That said, this phase of the Scholarship is where things get real and the work load really kicks in. Social interaction is great and it is encouraged, but with the time needed to fully graduate, we're happy that students are working on and submitting their projects.",
+            "track": "and"
+        },
+        {
+            "q": "I read that AND lose access to mentors after the first lesson or so? If thats right what sort of help will we get with ideas for the project that we have to think of ourselves?",
+            "a": "Hey there @AbbieTurner95, thanks for the question, You can find an answer about services here:<br>https://sites.google.com/knowlabs.com/gdnd2017/faqs/services<br>As for what to do next, you can utilize the forum, the live_help channel and also use your ND specific slack group that has all students (scholarship and regular students) to help. There's still support and we hope it works out!",
+            "track": "and"
+        },
+        {
+            "q": " I don't usually ask much since everything has been straightforward but its crossed my mind (since I'm searching for them) - do you have any internship opportunities at the Berlin office?",
+            "a": "Hey @Asher, I love your question! We don't have anything open at the moment, but yes, internships do exist. Keep your eye out on our jobs page and also follow us on LinkedIn! That is really the best way to get informed. If there are ever job postings that look interesting, don't be afraid to reach out if you have questions!",
+            "track": "n/a"
+        },
+        {
+            "q": "Can I apply for a job at Udacity after I finished my nanodegree",
+            "a": "@Paul: @Tho Vo If we have an opening that you fit, then of course.<br>@Joanna: It's never to early to start thinking about jobs, and getting excited, motivated and confident in yourself!",
+            "track": "n/a"
+        },
+        {
+            "q": "Here in the capstone project rubric https://docs.google.com/document/d/1TQdqDerPd09pJzmsi95MPKbV9OwZSkPyonaPRvu8GpA/pub?embedded=true  There is said: 'Include only safe-for-work content in your app'  . What do you mean by 'safe-for-work' – does it mean we have to use material (graphics, pictures etc.) which is 'free to use' in regards to any licenses or I do have acquired the licenses respectively",
+            "a": "@Berenice Safe for work refers to images and content that aren't obscene, offensive or intended for mature audiences. Not Safe for Work (NSFW) images include gore, nudity, sensitive images, etc.",
+            "track": "n/a"
+        },
+        {
+            "q": "@Paul.Udacity, let us seize the opportunity and congratulate @Diana Vilé, @Bycor, @Patrícia, @LaurenM, @ tom @Monica Moura and @nicolas who created something valuable to all of us although they are already in phase 2 and had no tangible incentive in doing it. <br>An excellent example to every student! https://sites.google.com/view/createdbyudacitystudents/home/fend",
+            "a": "@Antonis Well said! There are so many students who put in a ton of extra effort that no one even asked them to do. The name you mentioned, and more, deserve all of the kudos we can give.",
+            "track": "fend"
+        },
+        {
+            "q": "anyone know where the link is to apply to become a mentor etc",
+            "a": "https://www.udacity.com/start-mentoring",
+            "track": "n/a"
+        },
+        {
+            "q": "I am a little curious about the culture at Udacity, my question is for @jose, do you happy coding there ?",
+            "a": "@Tho Vo I haven't had a chance to visit other office, but the people in the Berlin office are some of the most motivated and hard-working individuals I've ever met. They wholeheartedly believe in the idea of 'students first'.",
+            "track": "n/a"
+        },
+        {
+            "q": "Is there an office in the UK? @jose",
+            "a": "The only Udacity office in Europe is in Berlin. There used to be one in London some time ago.<br>I am the only employee in UK",
+            "track": "n/a"
+        },
+        {
+            "q": "its my second mentor that is inactive HE do literally nothing no talking no answering questions .... for me now mentoring in this course is nonsense cant you fix it ?",
+            "a": "I'm sorry to hear you're not satisfied with the communication, or lack of, that you're receiving from your mentor. Mentors normally have many students under their umbrella that they help and responses could take 24-48 hours. If it has been longer than that, then please write to mentorship-support@udacity.com so they can look into your case.",
+            "track": "n/a"
+        },
+        {
+            "q": "I am in (ABND)Can i ask the mentor on topics beyond second project  .as long as i haven't submitted my second project..or is it only for the first 2 projects?",
+            "a": "@TarekB You can always ask your mentor, however, they are meant to help with just the first two projects. You have some other cool resources to use beyond the mentor's support, so please don't feel like you're left high and dry!",
+            "track": "and"
+        }
+    ]
+},
+    {
     "datetime": "23-feb-2018:04-05 PM CET",
     "type": "general",
     "questions": [
