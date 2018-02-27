@@ -254,6 +254,9 @@ input[type=checkbox]{
     margin-bottom: 5px;
     line-height: 2em;
 }
+.strikethrough{
+    text-decoration-line: line-through;
+}
 .more{
     text-align: center;
     width: 100%;

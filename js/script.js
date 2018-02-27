@@ -55,7 +55,7 @@ fetch('js/transcripts.json')
     let date = utc.slice(0,10);
     let hour = utc.slice(11,13);
     let minute = utc.slice(14,16);
-    hour = hour == "22" ? "00": hour == "23" ? "01" : String(parseInt(hour)+1);
+    hour = hour == "23" ? "00" : String(parseInt(hour)+1);
     hour = hour > 12 ? hour-12 : hour;
     let index;
     for(i=0;i<schedule.length;i++){
