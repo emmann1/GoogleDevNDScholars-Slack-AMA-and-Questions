@@ -29,8 +29,9 @@
         },
         {
             "q": "is there a forum for the nano-degree",
-            "a": "@Ahmed Monem You can find and access the ND forum via the 'Forum' link under the resources tab in your classroom. *Note* there is no ND forum for the MWS track.<br><a href='uploads/forum-access.png'><img width='200' src='uploads/forum-access.png' alt='forum page' /></a>",
-            "track": "n/a"
+            "a": "@Ahmed Monem You can find and access the ND forum via the 'Forum' link under the resources tab in your classroom. *Note* there is no ND forum for the MWS track.",
+            "track": "n/a",
+            "attach": "uploads/forum-access.png"
         },
         {
             "q": "where can we get the cool udacity t-shirts you all wear in the videos, I would love to buy one!! ",
@@ -45,7 +46,7 @@
         {
             "q": "Hey, are we allowed to up the Java language level to 1.8? If so, if a method say *Stream.of()* or *String.join()* needs a higher API level do we have to write code for both API 24+ and 24- or will it be accepted with only the one solution (that one being the one that requires API 24+)?",
             "a": "@Schadenfreude Android supports up to Java 8 so you can use it. Java 9 is not fully supported, so you should not use it. The methods that you mentioned are part of Java 8 so that is OK.<br>Please note that those are pure Java methods so they are not related with the API level that you are using.<br>Methods in the Android SDK can depend on the API level. If that's the case sometimes you need to write a different code depending on the API level and sometimes there is some kind of solution from the compat libraries. It depends on each case. What it is sure is that your app must work fine in all versions from the minSDK that you use so you will need to handle those cases accordingly.",
-            "track": "n/a"
+            "track": "and"
         },
         {
             "q": "Hi, I don't want to be unkind or rude but have you realised that the amazing community that was built during Phase 1 between students is getting down now because be active in Slack or Forum is not valuable anymore?",
@@ -407,9 +408,10 @@
             "track":"n/a"
         },
         {
-            "q": "What does this button mean? <br><img src='uploads/mentor-out-button.png' alt='mentor out button' />",
+            "q": "What does this button mean?",
             "a": "This button means that you don’t want to receive the Mentor’s support ever again. This is quite an extreme move and I wouldn’t recommend it. You don’t have to write to your Mentor if you don’t want to, or even interact with them at all, but maybe keep it as an option just in case. The Mentors are a very valuable resource, so we suggest you use them as much as possible for your own professional growth.",
-            "track":"n/a"
+            "track":"n/a",
+            "attach": "uploads/mentor-out-button.png"
         },
         {
             "q": "How will career portal help me?",

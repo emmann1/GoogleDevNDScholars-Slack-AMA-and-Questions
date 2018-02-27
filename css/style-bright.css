@@ -202,7 +202,17 @@ input[type=checkbox]{
     font-style: italic;
     line-height: 0.8em;
     margin-right: 5px;
+    margin-top: 20px;
     
+}
+.attachment{
+    text-align: center;
+}
+.attachment img{
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
 }
 .magenta{
     color: rgb(250, 53, 250);
