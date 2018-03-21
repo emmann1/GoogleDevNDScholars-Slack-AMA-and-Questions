@@ -147,6 +147,12 @@ input[type=checkbox]{
     background-color: darkmagenta;
     cursor: pointer;
 }
+.session-description{
+    text-align:center;
+}
+.session-description img {
+    width: 200px;
+}
 .item{
     display: inherit;
     margin-bottom: 5px;
@@ -219,6 +225,9 @@ input[type=checkbox]{
 }
 .cyan{
     color:cyan;
+}
+.green{
+    color: green;
 }
 .and{
     text-transform: uppercase;

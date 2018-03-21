@@ -1,4 +1,331 @@
 [{
+    "datetime": "21-mar-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "How long does it usually take to get a review for projects?",
+            "a": "@Daniel it varies between a few hours to a day or two. Depending on the reviewers’ timezone and workload. But usually the reviews are quite prompt.",
+            "track": "n/a"
+        },
+        {
+            "q": "Regarding the replacement of mentors, after you know what was the problem, will we get assigned to the previous mentors? or we will continue with the new mentors?",
+            "a": "@Yousef Gamal honestly – we don’t know yet. We’re looking into what happened and what will be next. We’ll keep updating you when we have more clarity.",
+            "track": "n/a"
+        },
+        {
+            "q": "For *trip to* `Google I/O`.. Do we already have to have a passport before applying or we can start process of having a passport after -if- chosen for the trip?",
+            "a": "@Akın Demir If you can get a passport/visa sorted before the the event happens then that would be ideal. Because Udacity is also arranging your flight, we would need your passport details to book your plane ticket.",
+            "track": "n/a"
+        },
+        {
+            "q": "About the Google I/O contest, which costs will be covered for the winners? I get the ticket will be fully covered. How about the flight for going/return?",
+            "a": "@Gregorio Palamà the costs covered: flights (return) + accommodation + I/O tickets. Any other expenses (food, touristy things, visa [if you need one]) are on you.",
+            "track": "n/a"
+        },
+        {
+            "q": "Will you send any other e-mail including additional information about April Hackathon at  Udacity's Berlin office for Web Track in the following schedule?",
+            "a": "@Engin Bozkurt We'll be making more announcements about these events soon. We appreciate your patience as we finalize the details on our end.",
+            "track": "n/a"
+        },
+        {
+            "q": "I'm sorry i don't know if this question asked before but is there any chance to get our Nanodegree certificate physically by shipping it and who want his certificate  physically he will  pay for shipping and so",
+            "a": "@Deniz our Certificate is always digital (pdf). You can just print it out.",
+            "track": "n/a"
+        },
+        {
+            "q": "Is there going to be anything else after the deadline in August or is the whole program over when we graduate?",
+            "a": "@Andrei Pintilie Once you've graduated from the program there is no longer any work to do or submit. That said, you become a member of our alumni network, are kept in the loop for any events we host, and the career services that will continue to be available to you depending on your track.",
+            "track": "n/a"
+        },
+        {
+            "q": "Hello, how can we access today's webinar? Is there going to be a reminder email with link?",
+            "a": "@Pavol Briatka we’re a sending an email now, and we’ll also post the link here on slack.",
+            "track": "n/a"
+        },
+        {
+            "q": "From the last AMA session, I understand that as long as we're enrolled into this current scholarship, we're not eligible to apply for new Scholarships. I asked my mentor and he said that enrolling in other Nanodegree programs at the same time is possible. So, is it or it isn't possible for me to apply for Data Science if I am enrolled into ABND? If not, could't reconsider this for the ones who complete..let's say 90% or have 1 or 2 projects left to submit from the actual scholarship?",
+            "a": "@Aida I apologise if you've received conflicting information on this issue. I've discussed this with our Program Manager as well as the VP of our Scholarship programs and the official stance is that students cannot be enrolled into the Data Sciene scholarship as long as they're still progressing through this Scholarship. If you finish all the projects you have now and graduate before, then you're eligible to apply for the next Scholarship.",
+            "track": "n/a"
+        },
+        {
+            "q": "Does Udacity has agreements or certifications that make it possible to accredit the ND as ECTS/credit points at universities?",
+            "a": "@valeria.kori no, we don’t have such an agreement. We’re not Harvard yet, but we’re getting there.",
+            "track": "n/a"
+        },
+        {
+            "q": "Hi there,Is there a letter I can receive that shows that I'm enrolled in the nanodegree?",
+            "a": "@Aviva Miriam Mandel I'm not entirely sure about this. The best course of action would be to contact the Nanodegree support e-mail for your track (and not the Scholarships support e-mail)",
+            "track": "n/a"
+        },
+        {
+            "q": "What is support email for AND nanodegree please?",
+            "a": "@Aviva Miriam Mandel the support email for all our students is scholarships-support@udacity.com. And also you can always write me a message here or ask your Student Leader.<br>@Paul.Udacity: https://www.udacity.com/contact",
+            "track": "and"
+        },
+        {
+            "q": "Is there going to be anything else after the deadline in August or is the whole program over when we graduate?",
+            "a": "@Andrei Pintilie yes, the scholarship programme is over. You’ll become a full-grown certified Developer – AND – become a member of the Udacity Alumni community. That means that you will have access to our Alumni career services, hiring events, potential support with our hiring partners and much much more. If you’re interested, you can also apply for becoming a Mentor or reviewer yourself! So after August 15, only the sky is the limit!",
+            "track": "n/a"
+        }
+    ]
+},
+{
+    "datetime": "15-mar-2018 Special ama with Allan Reyes",
+    "description": "This is a special AMA session with 3 times alumn of Udacity, Allan Reyes",
+    "attach": "allan-reyes.jpg",
+    "type": "special",
+    "questions": [
+        {
+            "q": "Are skills learnt by completing  Udacity FEND enough to get job as web developer ?",
+            "a": "I think the best skill that FEND gives you is the ability to be self-sufficient in front-end... you 'learn how to learn' so to speak. That's an incredibly valuable skill. Even if there are FE skills that you are missing, you'll know where to look, how to think about it, and how to learn it.",
+            "track": "fend"
+        },
+        {
+            "q": "Were there times where you thought you wouldn't manage to finish a nanodegree?",
+            "a": "Hmm... yes, definitely. I'm recalling my experience with MLND. I took 1 year to finish the capstone project... almost bailed, but decided it was worth it to finish.",
+            "track": "n/a"
+        },
+        {
+            "q": "Have job interviewers ever explicitly asked (more info) about your Nanodegrees?",
+            "a": "So, I can't answer this, since after finishing the Nanodegree programs, I only ever interviewed at Udacity... I can say this though: I would recommend you not even give the _option_ for an interviewer to ask about for more info about your Nanodegrees—show off your work!!! One of the fantastic things about FEND is that you finish with a portfolio. Granted, some of them (early ones) tend to be very similar, but the later ones are more personalized and you can really use them to show off your skills.",
+            "track": "n/a"
+        },
+        {
+            "q": "Do you think that the projects done in the nanodegree are enough for a portfolio when looking for a job? or would you advise us to do some side-projects?",
+            "a": "I think the earlier, introductory ones are probably too similar or too basic. It's been a while since I finished FEND (almost 2 years now), but I think a lot of the later projects are able to be personalized and modified. Side projects definitely help as well. As an engineering manager, I was always most impressed when candidates showed quality open source contributions. It shows that they a) can code b) care and c) know how to communicate effectively.",
+            "track": "fend"
+        },
+        {
+            "q": "How much you think one should know about JavaScript to be entry level programmer ?",
+            "a": "As an eng. mgr., I always looked for two things: a) the candidate's ability to solve a problem (e.g. LeetCode, HackerRank type problems) effectively with it and b) demonstration that they're self-sufficient... like I mentioned before, that they 'know how to learn.' There's a certain point where 'you just get it.' It's that 'AHA' moment, where you know how to fish and your growth trajectory/slope is high. Once you hit that point, I think you know enough about JS and programming to be entry-level.",
+            "track": "n/a"   
+        },
+        {
+            "q": "Did u  at any time experienced the imposter syndrome feeling?",
+            "a": "EVERY. DAY. The more you learn, the more you learn about things you _don't_ know. I say: take a positive spin on it. Look at it as an opportunity and reason to learn more. But, you should take a step back every now and then and realize,'Wow, I can build some really awesome stuff!'",
+            "track": "n/a"
+        },
+        {
+            "q": "what skills you learnt in udacity as a student and employee that helped you build your company?",
+            "a": "`*` (glob) - Most of the skills I have in tech are due to the Nanodegrees and my work at Udacity.",
+            "track": "n/a"
+        },
+        {
+            "q": "How difficult was it landing a job after graduation? (I think you mentioned working at Udacity for 2.5 years, was that straight after graduation?)",
+            "a": "Well, I wish I could give a general answer to this, but I think for me it was a bit of a special case. I was really active in the Udacity community as a student, and definitely had an advantage getting into Udacity. I actually tried to start a (different) company for a few months after graduation... it didn't pan out, but I found myself so excited about e-learning that I applied to Udacity—and got in!",
+            "track": "n/a"
+        },
+        {
+            "q": "Which upcoming technologies/frameworks you think are worth learning alongside?",
+            "a": "I think it's most important, especially when starting out, to not 'spread yourself too thin.' It's really, super important to just pick a tech stack and *go deep*. You'll learn a lot more and be able to _do_ a lot more. I think a good point to explore another tech stack is either: <br>a) when you feel like you've learned as much as you could about tech stack X or <br>b) you have a project or job that is better suited for tech stack Y",
+            "track": "fend"
+        },
+        {
+            "q": "Are you working in the United States for a US-based company or working (remotely) for an international company? How would you assess the possibilties to work remotely for a US-based company?",
+            "a": "I used to work at Udacity (and currently live in California). I think now is this _best_ time to work remotely. However, there is usually some overhead on the company's side when employing people across borders... so it may be harder to work at a smaller company that's missing some of the legal/HR infrastructure to manage it. Check out: https://remoteok.io/ (also, if you're entrepreneurial, check out the author's blog about how it was built and how incredibly successful it is... something like $50k+ per month in revenue)",
+            "track": "n/a"
+        },
+        {
+            "q": "Obviously a FE developer can make websites. What other possibilities are there with the same skill set? (E.g. developing presentations or emails)",
+            "a": "Ahh! Styling emails is one of those things that I really tried to avoid (it's _hard_). I think FE is a really good entrypoint or launchpad into other parts of the stack (going into back-end as well), but can also branch laterally into other disciplines like design. Some of the most effective FE engineers I know are hybrid, i.e. they can design beautiful interfaces and then actually code them up. In short: there are a _ton_ of possibilities!",
+            "track": "fend"
+        },
+        {
+             "q": "Did you have a day-off every week, or what was your schedule so you don't get bored?",
+             "a": "Well... I'd say I probably write code most days. It's really up to you to find balance, but for me, I just never really got bored about it.",
+             "track": "n/a"
+        },
+        {
+            "q": "So from one of your answers you say that solving puzzles like codewar and hacker rank is important in building your javascript knowledge,so what if it is difficult solving these stuff?",
+            "a": "I should caveat this. Being able to 'solve puzzles' is a proxy for understanding data structures and algorithms. It's an important interview skill, but also an important programming skill—DS and algos are the primitives of how we build software... things (data) and how to manipulate things (algos). That said, I don't claim that the interview process is perfect. Solving puzzles isn't a good proxy for showing the ability to build a website. Anyway, the best way to get better at it is practice and building stuff.",
+            "track": "n/a"
+        },
+        {
+            "q": "Would it be possible to mention, as an example, some open source projects that you consider as very important and it really maters when a student contributes to such projects?",
+            "a": "I don't have any off the top of my head, but I think contribution to libraries—no matter how small—are still really good. I remember seeing a candidate that had some contributions to `rails/rails`, which was super impressive. There are a lot of OSS projects out there that have beginner-friendly tickets to take on.",
+            "track": "n/a"
+        }
+    ]
+},
+{
+    "datetime": "14-mar-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "Any news about the MWS career support?",
+            "a": "We are still working on a bigger roll out. There will be a small update coming in the next few weeks, we will make an announcement when it happens!",
+            "track": "mws"
+        },
+        {
+            "q": "What do we need to graduate? If all done and we push the button graduate is there a chance that we will be rejected?",
+            "a": "You need to pass all the projects, which means everything needs to be approved before the deadline. If you get stuck on a quiz, you can utilize the support services, but having all your projects reviewed and passed by reviewers is your main priority! Once all of your projects are submitted and *approved*, a button to graduate will appear in your classroom.<br>It's important to note that you do this in a timely manner, and you should really be sure that you take into account the August 15th deadline! All the scholarship students will graduate if all their projects are approved before August 15",
+            "track": "n/a"
+        },
+        {
+            "q": "Do you have any statistics about employment rate after getting a nanodegree (in my case FEND) and what sort of company hires the alumni? I understand that you might not have such statistics for each country, but a general idea.",
+            "a": "We don’t have such official statistics available, however I’d recommend you asking this question during our Webinar with FEND graduates next Thursday. They will tell you how the life looks like after getting Nanodegree, how soon you might be able to find the job afterwards, what’s good to keep in mind, etc. If you haven’t registered for the Webinar yet, you can find the link and all the additional information in Updates on Google Site: https://sites.google.com/knowlabs.com/gdnd2017/updates?authuser=0",
+            "track": "fend"
+        },
+        {
+            "q": "Can you tell us more about the front end hackathon?", 
+            "a": "I will send everyone out information this week, so *stay tuned* but here's the gist:<br>We are having two different hacking weekends, one for Android and one for Web. Both weekends have the same goal and the same set-up. The Hackathon is meant to help students get through their course projects in your specific track.<br>By the end of the Hackathon weekend, you’ll be ready to submit the project you were working on for approval. It’s a great way to learn, receive support and get one step closer to graduation!<br>Each project will be live streamed and lead by a Session Leader, which is a Nanodegree graduate that will guide you through a specific project, from start to finish.",
+            "track": "fend"
+        },
+        {
+            "q": "I was just wondering if there was different graded levels when you pass the nano degree, or whether it is just a Pass or Fail?",
+            "a": "There are no different grade levels, it is pass or fail!",
+            "track": "n/a"
+        },
+        {
+            "q": "Will the Nanodegree graduates at the webinars be EMEA residents? (as some job related questions might only be relevant if they are)",
+            "a": "They are indeed from the EMEA region. We have some folks from Portugal, the UK and Spain.",
+            "track": "n/a"
+        },
+        {
+            "q": "I would like to ask about the projects deadlines that are on the Google site, but inside the lessons, it mentions that the second project for FEND track is due in 7 days 22nd of March and Memory Game project is due in one month...",
+            "a": "The deadlines in your classroom are the suggested deadlines for the “regular” Nanodegree students who don’t have an end date/deadline for finishing the course. You, as a Scholar, do have such deadline though (August 15th). But since we don’t want to make changes of the deadlines directly in the classroom (not to confuse the “regular” students), we published the suggested deadlines for you guys on the Google Site. So we recommend to always check there and just ignore the deadlines stated in the classroom. https://sites.google.com/knowlabs.com/gdnd2017/deadlines?authuser=0",
+            "track": "fend"
+        },
+        {
+            "q": "Why are there only american located jobs in the career center?",
+            "a": "It's a really valid one. This is something that Udacity is aware of, and trying to change it. The company is Headquartered in the US, but we are actively trying to update jobs according to our different geographic regions. In the Berlin office, we have dedicated staff who are trying to help solve this problem. What you can do in the meantime is check out the webinars that are happening next week on the 21st and 22nd.",
+            "track": "n/a"
+        },
+        {
+            "q": "Mentor and project reviewers are only freelancers right? You aren't an actual employee and are paid by the amount of work instead of regular salary.",
+            "a": "Yes, the reviewers are paid per each review. You can find more details here: https://www.udacity.com/start-mentoring ",
+            "track": "n/a"
+        },
+        {
+            "q": "If I submit my portfolio project on 20th of March, am I in trouble?",
+            "a": "The deadlines are there to help pace you to complete the Nanodegree on time, you will not get in trouble for not doing them on time :slightly_smiling_face: . However, it's important to try to keep up with them as much as possible so that you can stay on track and graduate by the 15th of August!",
+            "track": "n/a"
+        },
+        {
+            "q": "How long period of time we will have access to ND materials after graduation?",
+            "a": "That time period is not specified at the moment. The information that we have is that it will be available to you for some period of time–it's vague at this point, but we will update you when we have more information.",
+            "track": "n/a"
+        }
+    ]
+},
+{
+    "datetime": "07-mar-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "When would you says the best time to apply to become a mentor? Do you have to realistically complete a nanodegree before hand or could we apply now?",
+            "a": "The best time to apply to become a mentor would be after you've officially graduated from the course. That said there may be some opportunities in the future for student leaders to help coach others even before graduation.",
+            "track": "n/a"
+        },
+        {
+            "q": "How many percent of students from phase 2 finished last Google Scholarship?",
+            "a": "Last scholarship had quite a different format, so its outcomes are not applicable to this one.",
+            "track": "n/a"
+        },
+        {
+            "q": "A student who wasn't selected for the second phase, asked me if you plan to send some more acceptance emails.",
+            "a": "At this point in time there are no additional plans to accept more students into Phase 2 as pretty much all positions are actively full.",
+            "track": "n/a"
+        },
+        {
+            "q": "Is there any event for woman's day here and at Udacity?",
+            "a": "IWD is a big event for us here and we wholeheartedly support it. Your CMs have been sharing their pledges every day this week so far in the FB group (https://www.facebook.com/groups/169936680313679/) and we have more things to share tomorrow and Friday.",
+            "track": "n/a"
+        },
+        {
+            "q": "Still struggling with the Responsive design part, but happy to keep on coding. Question: is it really needed to submit the portfolio project by friday, for i need a bit more time for that.",
+            "a": "Hope you get all the help you can. To your question, the suggested deadlines are not mandatory, but highly recommended. So if you need a few more days, take your time, but try not to turn it into a habit - you have 8 projects to complete in this course!",
+            "track": "fend"
+        },
+        {
+            "q": "If someone have a a personal medical issue during the scholarship but he/she is determined and trying to keep up with deadlines and the learning process but not in a quick pace like others. Would that affect their chances negatively in obtaining the nanodegree or?",
+            "a": "As long as you're motivated and have the ability to spend the extra time to catch up, you can still successfully graduate. :smile: We've already seen a handful of students finish the ND already and it's been less than a month!",
+            "track": "n/a"
+        },
+        {
+            "q": "Is there a plan to manage technical sessions?",
+            "a": "in your FEND-specific Slack you will find “office hours” - which are essentially technical AMA sessions. As to us, we are planning some cool technical things for you guys, stay tuned!",
+            "track": "n/a"
+        },
+        {
+            "q": "so we are able to send all the projects by the end of the scholarship time",
+            "a": "I mean, technically, you can But it's a lot to count on that the reviewers will have the time to review and leave feedback on all of your projects, and you'll have the time to fix and take their notes into consideration before the final deadline. Sounds like a surefire way to ignite a panic attack",
+            "track": "n/a"
+        },
+        {
+            "q": "I am from the Android Basics track and I just found out, that the resume help etc. is only available to the advanced track. I would like to apply for it in the future. Will this scholarship be available next year too? And when will we be able to apply for the following nanodegree?",
+            "a": "It's possible this Scholarship does happen again in the future, but there are no current plans or news from Google that it will. Their focus right now is on the success of the program and this will influence if it happens again and whether we increase/decrease the number of participants. We did have a scholarship last year for AND and ABND, with some ABND students coming back for this scholarship as AND student.<br>So, short answer: it could happen and, if it does, you can apply.",
+            "track": "and"
+        },
+        {
+            "q": "I was wondering, are there any time frames for the mentor to answer questions? sometimes it's not convenient to wait for an answer for day-day and a half, when you stuck with a project.",
+            "a": "It can take the Mentor between a few hours to a few days to reply. All depending on their timezone and workload. Don’t forget that we have a limited number of mentors and thousands of new students they need to tend to, so please be a bit patient. They are doing their best to  help everyone.<br>If you are looking for immediate assistance, I would recommend reaching out to your classmates on the forum, here on Slack, and in the ND-specific work groups. Collaborating with your classmates can also help you to learn the material by working through it together.",
+            "track": "n/a"
+        },
+        {
+            "q": "Is someone or any company tracking the progress of the students in order to hire them?",
+            "a": "No. To the contrary - we are highly protective about our students’ data, so we don’t share your progress with any external bodies. We prepare you to the job market and want to launch your career in the best way possible, but only after you graduate. During the course you’re still just our dear student.",
+            "track": "n/a"
+        },
+        {
+            "q": "I would like to know what are the responsibilities of 'new generation' of local representatives (Student Leaders, if I'm not mistaken) and are they still 'bound' to the location of residence. The original posts are now taken by Slack and by the info provided there it was hard to tell, if I'm too busy for that or not - don't want my overestimation to lead to letting someone else down.",
+            "a": "Basically, the Student Leaders will be something very similar to the Student Representatives in Phase 1 - i.e. being responsible for their local channel, helping relay all the important information and announcements, translate things if needed, keep an eye if there are any Code of Conduct violations, and keep us updated about what happens in the channel.<br>In addition to that the Leads can be as active on the general channels as well, and help students to find information and to see if somebody has a problem. In the same time, if some students are being super helpful, creating something cool, or have an interesting story to tell - we want to know about it too! We will also rely on their feedback if some things need to be improved.<br>So you basically can do the same amazing job you already did before as a student rep, but not only in your local channel, but on the general channels as well.",
+            "track": "n/a"
+        },
+        {
+            "q": "What's your daily routine as a community manager?",
+            "a": "Hmm… I can't say that there is a set routine that we follow every day. But it involves meetings, conference calls with HQ in the US, discussing new ways to engage with you guys and help motivate you all to complete the projects. Marat does a lot of Slack activity, Joanna does a lot of behind-the-scenes panning, Magda is all about the Google Site and newsletters and analytics and I'm taking the lead on the FB group and future social media channels  and helping out with other internal stuff . We all also have shared tasks so our days are pretty full and it goes by so quickly. It still feels like Jan 1st was last week.",
+            "track": "n/a"
+        }
+    ]
+},
+    {
+    "datetime": "01-mar-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "Hi there, is it a known bug that some students lost access to the nanodegree? The course doesn't show up in the classroom",
+            "a": "@Luis Lopes Yes, this is a known issue and we are working on it. :muscle: However what might help is to set up in your Setting the your language preference to English",
+            "track": "n/a"
+        },
+        {
+            "q": "regarding the ' Student Leader role ' which question should we answer in slack ?",
+            "a": "@Enzo (AND) shortly - any questions you are able to answer :<br>In general, we’d like the Student Leaders be a proactive members of the community, engage the students in their channels, see if anyone needs help, relay information, and let us know if anyone needs our help. So it’s basically like the student reps from Phase 1, with some larger admin responsibilities throughout all the Slack community.",
+            "track": "n/a"
+        },
+        {
+            "q": "Can you tell us when will the next scholarship be available, if there is any?",
+            "a": "@KaRouLi You can find information about other scholarships here https://www.udacity.com/scholarships. There’s is also a Data Science Scholarship Program powered by Bertelsmann starting soon https://www.udacity.com/bertelsmann-data-scholarships.",
+            "track": "n/a"
+        },
+        {
+            "q": "The students who finish the nanodegree could have free or discount tickets for GDD 2018? And do you know where is going to be this year?",
+            "a": "@Maricel we are separate organisations, so we don’t have any such scheme yet or any info about it. But we might do something with them in the future, so we’ll keep you posted.",
+            "track": "n/a"
+        },
+        {
+            "q": "Hello, What is 'Weekly check in'. My mentor asked about it a week ago. I filled out the Technical Issues Survey but no response. What should I write to a mentor who seems to be very interested in it? His words: 'regarding the weekly check in , can you please check with Udacity support team, ideally you should be able to get a pop up in your classroom dashboard.' Thank you.",
+            "a": "@Slawek 'weekly check in' is a feature we previously had on our NDs, but we don’t anymore. This is now replaced by the chatbox with the mentor. Meaning, that you can always contact your mentor, not just once a week.",
+            "track": "n/a"
+        },
+        {
+            "q": "Is there a way to get the subtitles checked and corrected? I keep seeing mistakes (ex: think/things..). I am not an English native speaker and sometimes it is a bit confusing..",
+            "a": "@Matthieu the best way to address any issues or bugs within the Classroom is by going to the “Report an Issue” option in the Resources section on the left-had bar. The tech team will be able to spot the issue directly.",
+            "track": "n/a"
+        },
+        {
+            "q": "will i be able to access to the course for the course length if i finish the course earlier?",
+            "a": "@Jonathan hey there! As a Nanodegree program graduate, you will retain access to your programs materials for a substantial period of time after graduation and you may download certain materials for your own records if you wish!",
+            "track": "n/a"
+        },
+        {
+            "q": "Hello @Marat.Udacity. A prompt appeared in the mentorship chat box, if I want to change my mentor and so on. After I filled all the information, the mentorship button dissapeared and hasn't appeared since. Should I wait some more?",
+            "a": "@Victorholo it can be that your Mentorship service is suspended until a new Mentor is found who can take you on. As you can imagine we have a limited pool of Mentors, and 6000 new students, so it might take some days to find you a new mentor to pair you with. If this continues by Monday, please let me know!",
+            "track": "n/a"
+        }
+    ]
+},
+    {
     "datetime": "27-feb-2018:04-05 PM CET",
     "type": "general",
     "questions": [

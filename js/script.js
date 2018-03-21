@@ -1,14 +1,14 @@
 var transcripts, schedule;
-function linkify(text) {
+function linkify(txt) {
     var urlRegex =/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
-    return text.replace(urlRegex, function(url) {
+    return txt.replace(urlRegex, function(url) {
         return '<a href="' + url + ' " target="_blank">' + url + '</a>';
     });
 };
 function display(amaSession, questionId){
   let trackName = transcripts[amaSession].questions[questionId].track;
   let trackColor = trackName == "and" ? "and" : trackName == "fend" ? "fend" : trackName == "mws" ? "mws" : trackName == "n/a" ? "na": null;
-  let spanColor = transcripts[amaSession].type == "general" ? "magenta" : transcripts[amaSession].type == "tehnical" ? "cyan" : null;
+  let spanColor = transcripts[amaSession].type == "general" ? "magenta" : transcripts[amaSession].type == "tehnical" ? "cyan" : transcripts[amaSession].type == "special" ? "green" : null;
   $(".main").append("<div class='item'></div>");
   $(".main .item").last().append("<span class='q'>Q:</span><p class='question'>"+linkify(transcripts[amaSession].questions[questionId].q)+"</p>");  
   $(".main .item").last().append("<span class='a'>A:</span><p>"+linkify(transcripts[amaSession].questions[questionId].a)+"</p>");
@@ -22,6 +22,9 @@ function defaultDisplay(datetimeSelector){
     $(".main").children().remove();
     for(i=0;i<transcripts.length;i++){
         if(transcripts[i].datetime == datetimeSelector){
+            if(transcripts[i].description != undefined && transcripts[i].attach != undefined){
+                $(".main").append("<div class='session-description'><img src='uploads/"+transcripts[i].attach+"'><h3>"+transcripts[i].description+"</h3></div>");
+            }
             for(j=0;j<transcripts[i].questions.length;j++){
                 display(i,j);
             }
@@ -55,13 +58,11 @@ fetch('js/transcripts.json')
     let date = utc.slice(0,10);
     let hour = utc.slice(11,13);
     let minute = utc.slice(14,16);
-    hour = hour == "23" ? "00" : String(parseInt(hour)+1);
-    hour = hour > 12 ? hour-12 : hour;
     let index;
     for(i=0;i<schedule.length;i++){
-        if( (schedule[i].date.slice(3,5) + schedule[i].date.slice(0,2) > date.slice(5,7) + date.slice(8,10)) && hour > parseInt(schedule[i].time.slice(0,2)) ){
+        console.log(schedule[i].date.slice(3,5) + schedule[i].date.slice(0,2) + (parseInt(schedule[i].time.slice(0,2))+12), date.slice(5,7) + date.slice(8,10) + hour);
+        if( schedule[i].date.slice(3,5) + schedule[i].date.slice(0,2) + (parseInt(schedule[i].time.slice(0,2))+12) > date.slice(5,7) + date.slice(8,10) + hour ){
             index = i;
-            
             break;
         }
     }
