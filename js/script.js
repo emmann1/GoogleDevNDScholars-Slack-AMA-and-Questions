@@ -60,7 +60,6 @@ fetch('js/transcripts.json')
     let minute = utc.slice(14,16);
     let index;
     for(i=0;i<schedule.length;i++){
-        console.log(schedule[i].date.slice(3,5) + schedule[i].date.slice(0,2) + (parseInt(schedule[i].time.slice(0,2))+12), date.slice(5,7) + date.slice(8,10) + hour);
         if( schedule[i].date.slice(3,5) + schedule[i].date.slice(0,2) + (parseInt(schedule[i].time.slice(0,2))+12) > date.slice(5,7) + date.slice(8,10) + hour ){
             index = i;
             break;
