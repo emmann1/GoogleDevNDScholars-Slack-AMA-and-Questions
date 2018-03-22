@@ -1,0 +1,39 @@
+[{
+    "datetime": "21-mar-2018",
+    "questions": [
+        {
+            "q": "@Homero-Barbosa: random question, is there any plans to offer again the senior front end nanodegree? I'm already half way on this one",
+            "a": "@richard: Hello @Homero-Barbosa The Sr. Web Developer Nanodegree program won't be making a comeback, but a number of courses were transitioned from it into FEND.<br>And we're always planning content improvements and new potential programs. Feel free send a list of things you're interested in learning :thumbsup::skin-tone-3:<br>@Homero Barbosa: sad to hear that... do the courses it had still available?<br>@richard: Like I said, some of the courses are in FEND now:<br>• Front-End Frameworks<br>• High Conversion Web Forms<br>• Offline Web Applications<br>• JavaScript Promises<br>• Client-Server Communications<br>@richard: But all of the courses are available in our catalog: https://www.udacity.com/courses/all",
+            "track": "n/a"
+        },
+        {
+            "q": "@valeria.kori: Memory Game Project: I want to add the current ittaration of a counter to the innerHTML/Text of the span that holds the number of moves. I get the numbers to log correctly to the console, but I struggle to append that value to the span. Should I be using innerHTML or innerText or something else?",
+            "a": "@richard: Either `.innerHTML` or `.innerText` should do what you want.<br>Are you getting any errors in the console when you try to use them?<br>@valeria.kori: Alright, so just like you taught in the course on creating content :slightly_smiling_face:<br>I do not get an error, I log moves.innerHTML and it prints or the right number at the right time but I struggle with assigning that value to the according span<br>@richard: Are you accessing the right `span` element? Remember that you can log out the span element in the console to make sure you're accessing the correct element.<br>@valeria.kori: Thank you for coming back to my question. Fortunately I figured it out by now, I was indeed selecting an array of elements instead of that span alone",
+            "track": "html"
+        },
+        {
+            "q": "@Andrew: hey @Andrew-W and co. i’m finishing up the search function of the myBooks React app and i’m stuck on comparing the id’s of the search results vs the id’s of the books already on the shelves.",
+            "a": "@Andrew: in other words, how to check if an object property in one array of objects exists in another array of objects<br>@Andrew-W: Hey Andrew, it sounds like the approach you're taking is deep comparison?<br>@Andrew: i’m not perfectly familiar with that term, but i thinks that’s correct via a for loop",
+            "track": "javascript"
+        },
+        {
+            "q": "@alianza: Hi @Andrew-W! For the past several months now, I have had one mentor, but I just received a notification last night that I now have a new mentor! I really liked the mentor that I had before, and I was wondering if it's possible for me to find out what happened",
+            "a": "Andrew-W:Hey @alianza! Long story short: A few mentors were over capacity, so we recently did a reassignment of students and mentors to balance things out.<br>@Andrew-W: I encourage you to keep the conversation going with your current mentor, but if you have any questions, feel free to reach out on react-support@udacity.com<br>@alianza: Thank you so much for letting me know! @Andrew-W<br>@Andrew-W: Very glad to hear that you're connecting with your mentor in the first place btw :+1:. You're not in this course alone!<br>@alianza: Yes, that's definitely the good part about this mentor program! I just hope my new mentor is as good as my old mentor lol<br>@Andrew-W: @alianza I have no doubt that you'll have great chats with your new mentor! They're good peeps",
+            "track": "n/a"
+        }
+    ]
+},
+{
+    "datetime": "16-mar-2018",
+    "questions": [
+        {
+            "q": "I have question here #office-hours  | If i am using picture elment with source & srcset and with that tag give me error with validation html5 code how to pass it ?",
+            "a": "@david: What error are you getting?<br>@Husien-Adel:give me error for using picture element and repeating srcset for 1x & 2x ..etc ?<br>@david:Do you have your code on GitHub?<br>@Husien-Adel:yes i have one but i modified it as i am using only now img with src ?I am asking only is there a problem for using picture tag with source and multiple srcset in html5 validation ?<br>@Alain:no you can pass the validation with srcset, you must be doing someting wrong<br>@david:Yeah - there's nothing about that set up that would cause validation errors unless your HTML is actually invalid for some reason."
+        },
+        {
+            "q": "Hi! I have a question about the bootstrap, what is an actual difference between col-12 and d-flex...",
+            "a": "'col-12' is class used to define what portion of a row an element should take up (there are 12 'columns' in a row.)<br>`d-flex` represents a container using flexbox.<br>Flexbox elements have some specific capabilities that aren't available with other layout elements.<br>@Tonia: Thank you!<br>When would you recommend using Flexbox?<br>Also I am confused what flexbox is. Is it that bootstrap is using flexbox, which we can use also separately...?<br>@david: Yes, exactly!<br>Flexbox is a set of CSS attributes that can be used for flexible layout design.<br>I really like this overview here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/<br>@Tonia: Thank you!! I will read it!<br>So what do I gain from using a bootstrap? Is it just that it is easier?<br>@david: It provides a very specific structure for site layouts and it's really easy to get something put together quickly that doesn't look terrible."
+        }
+    ]
+}
+]

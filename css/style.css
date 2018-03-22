@@ -81,6 +81,13 @@ a:hover{
     color: darkgoldenrod;
     text-decoration: underline;
 }
+.date{
+    padding: 10px;
+}
+.username{
+    font-weight: bold;
+    background-color: #444;
+}
 .main {
     padding-left: 5px;
     padding-right: 0;
