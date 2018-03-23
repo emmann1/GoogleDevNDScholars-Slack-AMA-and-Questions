@@ -1,24 +1,39 @@
 [{
+    "datetime": "23-mar-2018",
+    "questions": [
+        {
+            "q": "@Malak-Joseph: I don't know whether it's the right place to ask about the mentor, but just gimme a quick tip of what to do since he isn't reply for 10 days now.",
+            "a": "@david: Hi @Malak - please send a message to mentorship-support@udacity.com. Your mentor should reply to you within about a day, so they'll want to look into that.",
+            "track": "n/a"
+        },
+        {
+            "q": "@Andrew: hi, can someone explain the concept of a ‘wrapper’ class in javascript that is used to wrap another class and act as an intermediary between the wrapped class and a third party library?  thanks",
+            "a": "@Andrew-W: Hi @Andrew, thanks for writing in. Where have you seen this in the curriculum?<br> @Andrew: hey @Andrew W it came up in a project i’m working on outside the curriculum and i thought this would be a good place to ask. no worries if it’s outside of the scope of the program<br> @david: Hey @Andrew - It sounds like what you're talking about is the idea of inheritance - where you have a new class that is a superset of a base class. <br>That's a pretty common practice in most OOP languages. It works a _little_ differently under the hood in JS, because of the Object-first nature of the language, but overall it's generally the same idea.<br> @Andrew: thanks @David i’ll take a look at inheritance again",
+            "track": "javascript"
+        }
+    ]
+},
+{
     "datetime": "21-mar-2018",
     "questions": [
         {
             "q": "@Homero-Barbosa: random question, is there any plans to offer again the senior front end nanodegree? I'm already half way on this one",
-            "a": "@richard: Hello @Homero-Barbosa The Sr. Web Developer Nanodegree program won't be making a comeback, but a number of courses were transitioned from it into FEND.<br>And we're always planning content improvements and new potential programs. Feel free send a list of things you're interested in learning :thumbsup::skin-tone-3:<br>@Homero Barbosa: sad to hear that... do the courses it had still available?<br>@richard: Like I said, some of the courses are in FEND now:<br>• Front-End Frameworks<br>• High Conversion Web Forms<br>• Offline Web Applications<br>• JavaScript Promises<br>• Client-Server Communications<br>@richard: But all of the courses are available in our catalog: https://www.udacity.com/courses/all",
+            "a": "@richard: Hello @Homero-Barbosa The Sr. Web Developer Nanodegree program won't be making a comeback, but a number of courses were transitioned from it into FEND.<br>And we're always planning content improvements and new potential programs. Feel free send a list of things you're interested in learning<br> @Homero-Barbosa: sad to hear that... do the courses it had still available?<br> @richard: Like I said, some of the courses are in FEND now:<br>• Front-End Frameworks<br>• High Conversion Web Forms<br>• Offline Web Applications<br>• JavaScript Promises<br>• Client-Server Communications<br>@richard: But all of the courses are available in our catalog: https://www.udacity.com/courses/all",
             "track": "n/a"
         },
         {
             "q": "@valeria.kori: Memory Game Project: I want to add the current ittaration of a counter to the innerHTML/Text of the span that holds the number of moves. I get the numbers to log correctly to the console, but I struggle to append that value to the span. Should I be using innerHTML or innerText or something else?",
-            "a": "@richard: Either `.innerHTML` or `.innerText` should do what you want.<br>Are you getting any errors in the console when you try to use them?<br>@valeria.kori: Alright, so just like you taught in the course on creating content :slightly_smiling_face:<br>I do not get an error, I log moves.innerHTML and it prints or the right number at the right time but I struggle with assigning that value to the according span<br>@richard: Are you accessing the right `span` element? Remember that you can log out the span element in the console to make sure you're accessing the correct element.<br>@valeria.kori: Thank you for coming back to my question. Fortunately I figured it out by now, I was indeed selecting an array of elements instead of that span alone",
+            "a": "@richard: Either `.innerHTML` or `.innerText` should do what you want.<br>Are you getting any errors in the console when you try to use them?<br> @valeria.kori: Alright, so just like you taught in the course on creating content<br>I do not get an error, I log moves.innerHTML and it prints or the right number at the right time but I struggle with assigning that value to the according span<br> @richard: Are you accessing the right `span` element? Remember that you can log out the span element in the console to make sure you're accessing the correct element.<br> @valeria.kori: Thank you for coming back to my question. Fortunately I figured it out by now, I was indeed selecting an array of elements instead of that span alone",
             "track": "html"
         },
         {
             "q": "@Andrew: hey @Andrew-W and co. i’m finishing up the search function of the myBooks React app and i’m stuck on comparing the id’s of the search results vs the id’s of the books already on the shelves.",
-            "a": "@Andrew: in other words, how to check if an object property in one array of objects exists in another array of objects<br>@Andrew-W: Hey Andrew, it sounds like the approach you're taking is deep comparison?<br>@Andrew: i’m not perfectly familiar with that term, but i thinks that’s correct via a for loop",
+            "a": "@Andrew: in other words, how to check if an object property in one array of objects exists in another array of objects<br> @Andrew-W: Hey Andrew, it sounds like the approach you're taking is deep comparison?<br> @Andrew: i’m not perfectly familiar with that term, but i thinks that’s correct via a for loop",
             "track": "javascript"
         },
         {
             "q": "@alianza: Hi @Andrew-W! For the past several months now, I have had one mentor, but I just received a notification last night that I now have a new mentor! I really liked the mentor that I had before, and I was wondering if it's possible for me to find out what happened",
-            "a": "Andrew-W:Hey @alianza! Long story short: A few mentors were over capacity, so we recently did a reassignment of students and mentors to balance things out.<br>@Andrew-W: I encourage you to keep the conversation going with your current mentor, but if you have any questions, feel free to reach out on react-support@udacity.com<br>@alianza: Thank you so much for letting me know! @Andrew-W<br>@Andrew-W: Very glad to hear that you're connecting with your mentor in the first place btw :+1:. You're not in this course alone!<br>@alianza: Yes, that's definitely the good part about this mentor program! I just hope my new mentor is as good as my old mentor lol<br>@Andrew-W: @alianza I have no doubt that you'll have great chats with your new mentor! They're good peeps",
+            "a": "Andrew-W:Hey @alianza! Long story short: A few mentors were over capacity, so we recently did a reassignment of students and mentors to balance things out.<br> @Andrew-W: I encourage you to keep the conversation going with your current mentor, but if you have any questions, feel free to reach out on react-support@udacity.com<br>@alianza: Thank you so much for letting me know! @Andrew-W<br> @Andrew-W: Very glad to hear that you're connecting with your mentor in the first place btw :+1:. You're not in this course alone!<br> @alianza: Yes, that's definitely the good part about this mentor program! I just hope my new mentor is as good as my old mentor lol<br> @Andrew-W: @alianza I have no doubt that you'll have great chats with your new mentor! They're good peeps",
             "track": "n/a"
         }
     ]
@@ -28,11 +43,68 @@
     "questions": [
         {
             "q": "I have question here #office-hours  | If i am using picture elment with source & srcset and with that tag give me error with validation html5 code how to pass it ?",
-            "a": "@david: What error are you getting?<br>@Husien-Adel:give me error for using picture element and repeating srcset for 1x & 2x ..etc ?<br>@david:Do you have your code on GitHub?<br>@Husien-Adel:yes i have one but i modified it as i am using only now img with src ?I am asking only is there a problem for using picture tag with source and multiple srcset in html5 validation ?<br>@Alain:no you can pass the validation with srcset, you must be doing someting wrong<br>@david:Yeah - there's nothing about that set up that would cause validation errors unless your HTML is actually invalid for some reason."
+            "a": "@david: What error are you getting?<br> @Husien-Adel:give me error for using picture element and repeating srcset for 1x & 2x ..etc ?<br> @david:Do you have your code on GitHub?<br> @Husien-Adel:yes i have one but i modified it as i am using only now img with src ?I am asking only is there a problem for using picture tag with source and multiple srcset in html5 validation ?<br> @Alain:no you can pass the validation with srcset, you must be doing someting wrong<br> @david:Yeah - there's nothing about that set up that would cause validation errors unless your HTML is actually invalid for some reason.",
+            "track": "html"    
         },
         {
             "q": "Hi! I have a question about the bootstrap, what is an actual difference between col-12 and d-flex...",
-            "a": "'col-12' is class used to define what portion of a row an element should take up (there are 12 'columns' in a row.)<br>`d-flex` represents a container using flexbox.<br>Flexbox elements have some specific capabilities that aren't available with other layout elements.<br>@Tonia: Thank you!<br>When would you recommend using Flexbox?<br>Also I am confused what flexbox is. Is it that bootstrap is using flexbox, which we can use also separately...?<br>@david: Yes, exactly!<br>Flexbox is a set of CSS attributes that can be used for flexible layout design.<br>I really like this overview here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/<br>@Tonia: Thank you!! I will read it!<br>So what do I gain from using a bootstrap? Is it just that it is easier?<br>@david: It provides a very specific structure for site layouts and it's really easy to get something put together quickly that doesn't look terrible."
+            "a": "'col-12' is class used to define what portion of a row an element should take up (there are 12 'columns' in a row.)<br>`d-flex` represents a container using flexbox.<br>Flexbox elements have some specific capabilities that aren't available with other layout elements.<br>@Tonia: Thank you!<br>When would you recommend using Flexbox?<br>Also I am confused what flexbox is. Is it that bootstrap is using flexbox, which we can use also separately...?<br> @david: Yes, exactly!<br>Flexbox is a set of CSS attributes that can be used for flexible layout design.<br>I really like this overview here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/<br> @Tonia: Thank you!! I will read it!<br>So what do I gain from using a bootstrap? Is it just that it is easier?<br> @david: It provides a very specific structure for site layouts and it's really easy to get something put together quickly that doesn't look terrible.",
+            "track": "css"            
+        }
+    ]
+},
+{
+    "datetime": "14-mar-2018",
+    "questions": [
+        {
+            "q": "@abdo.esam2011: cool, i wonder how to generate pics for media queries , should i learn gulp for that?  or there is another way?",
+            "a": "@david: Gulp is great for that - there are some webpack plugins that can help with image management as well. <br>You could also just do the compression and resizing yourself - that's a time consuming task though, and I think the benefit of spending that time practice with a build tool like Gulp or Webpack would be better.<br> @abdo.esam2011: @david yes so i can skip gulp and learn webpack it will make the job done?!<br> @david: You'll need to do some research online to find the best tools to use with webpack, but yes, that's a good strategy.",
+            "track": "n/a"
+        },
+        {
+            "q": "@RodrigoC: Hey @david I'm having a mental block trying to get rid of an issue on the memory game. I've a click `eventListener` and when I click on a tile an ID I have assigned to the `li` element is pushed to the array. However if I click a card that is opened or double click this will be assigned as the second value and compared and obviously it is the same card so it will return true and the card will stay open. I've tried comparing the element but I'm struggling with ideas to identify this particular element since it will be identical to the one that it matches and every form I think of would prevent the match. I think I'm a bit burned out with this memory game now. Are there any ideas or places you could suggest that I could look into? Thank you.",
+            "a": "@david: Hey Rodrigo! One strategy that some students have found useful is to add a unique class or id to each element using JS. You can use also just use a CSS class like 'flipped' to make sure that the click event only triggers if the card is not flipped. <br> @RodrigoC: Yes I'm using an ID to compare it I was just about to try with setAttribute and add an attribute to the li but I'm thinking all this code isn't very efficient.<br> @RodrigoC: thank you for your reply. I will keep at it.<br> @david: UI code is _often_ inefficient - but, since you're generally working with small amount of data, you don't really lose much from the inefficiencies.",
+            "track": "javascript"
+        },
+        {
+            "q": "@MohammedRiaad: <br>if i want to save my log of users who use the game in a text file using javascript  what shall i do<br>like if i have an input of text where the user write his name to start the game  and at the end i want to show the user the wall of fame or users who played the game and number of moves and time",
+            "a": "@david: If you want to show that kind of data, it will require a back-end server to store it. <br>That's a bit outside the scope of this program, but it's something that you could learn from our Full Stack Web Developer Nanodegree program.<br> @MohammedRiaad: but if i want it to be stored in the local storage in a text file<br> @david: You would only be able to store the people who have played the game from _that_ computer.<br> @david: But, if that's what you're wanting to do, the documentation for local storage is here: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage",
+            "track": "javascript"
+        },
+        {
+            "q": "@MohammedRiaad: why when i encrypt my js file dont work",
+            "a": "@david: I'm not sure I understand, but if you're encrypting your JS file, your browser can't read it.<br> @MohammedRiaad: yes<br> @MohammedRiaad: when i do so file crash and dont work<br> @david: You can't serve encrypted files. The computer will see it as garbage and won't be able to interpret what to do with it.<br> @MohammedRiaad: but if i want to share it with some one and dont want him to know that am writing inside<br> @david: There's not really a way to do that. There are no secrets on the internet. If you send someone a JS file, they will have access to the entire file.<br> @MohammedRiaad: can i ask u some thing far from the cousre<br> @david: Sure<br>@MohammedRiaad: i work with hypred applications like ionic , and i have my own Api<br> @MohammedRiaad: how i can handle the request from the api to the interface<br> @david: JavaScript has some built-in tools for handling API requests asynchronously. That's covered in a later part of the course as well. It's covered in the 'Front End Applications' part of the program.<br> @MohammedRiaad: i saw that part using react<br> @david: The React part is later, but before that there are some sections covering async javascript using the built-in XML HTTP Requests object and the newer `fetch` interface.<br> @MohammedRiaad: really didnt know that",
+            "track": "javascript"
+        }
+    ]
+},
+{
+    "datetime": "09-mar-2018",
+    "questions": [
+        {
+            "q": "@Stephanie-Oliveira: Hi @david! I have a lot of difficulty to understand how to work and use `img srcset`. Most of the content that I was reading it was a bit confusing. Do you know any video on YouTube that could help?<br>Also about Grunt. I didn't even try to install it, but they that it helps a lot. Any tips for that as well?",
+            "a": "@david:<br>Good questions - I would actually recommend using Gulp or Webpack over Grunt, just because those two are more frequently updated. <br>I don't know of any videos specifically that I would recommend for those, but if you're wanting more information, the best place to start is literally just a Google search for 'how do I use...' <br>There are a ton of resources out there for each of those things.",
+            "track": "html"
+        },
+        {
+            "q": "@Pascal: Hi @david, I just submitted my arcade clone. I used gulp and babel for this but in the output folder the js files use strict was used. Now i got this email back saying the following.<br>Your reviewer was unable to review your submission. Please read your reviewer's comments and then resubmit.<br>and the comment contained<br>Unable to review<br>Your project could not be reviewed. Please resubmit after you address the issue noted by the reviewer.<br>Found 2 JSHint Errors in file: Calexxxxx-frontend-nanodegree-arcade-game-1b40d8f/docs/js/resources.js<br>Error:W097 on line: 1 - Use the function form of 'use strict'.<br>Is there a way to make babel not use strict in the output?",
+            "a": "@david: This StackOverflow question is probably a good place to start for that: https://stackoverflow.com/questions/33821312/how-to-remove-global-use-strict-added-by-babel<br> @Pascal: ok but files with use strict are not allowed to submit? because that's nowhere written or i completely missed that part",
+            "track": "javascript"
+        }
+    ]
+},
+{
+    "datetime": "07-mar-2018",
+    "questions": [
+        {
+            "q": "@Antonis: Hello! I would like to ask something about GitHub. Can we make changes to the project repository after the project has been successfully reviewed by a mentor?",
+            "a": "@Andrew-W: Hey @Antonis, thanks for checking in. Just to be clear, you mean after successfully passing a project?<br> @Antonis: Yes, exactly. Can we make changes after passing the project or should we leave it just as it was when we submitted it for the review?<br> @Andrew-W: @veronika can correct me if I'm wrong, but as I see it, it's _your_ repo. I've seen students create additional features (e.g., adding auth, etc.) to their projects after a successful submission. Once you pass, feel free to make additional commits<br> @Andrew-W: Your previous commits will still be there, anyways<br>@Antonis: Thank you for your reply!<br> @veronika: Hi @Antonis, yes, we encourage you to keep working on your projects and implement additional features. After you've passed a project, you won't be able to resubmit it for review, but its status won't change based on any changes in the repo.",
+            "track": "github"
+        },
+        {
+            "q": "@chrisrb83: Hi @Andrew W, do you mind taking a look at my question above about getting the sidebar to toggle in my React app?",
+            "a": "@david: I'm taking a look at this right now.<br> @david: You need to close the header component before trying to add the sidebar component.<br> @david: You have:<br>```<Header\ncallback={props.setSidebar}\n>\n{props.sidebarVisible && <Sidebar\nmarkers={props.filteredMarkers}\ncallback={clickList}\nfilter={props.filterList}\nmarkerOpen={props.markerOpen}\nsetMarkerOpen={props.onMarkerOpen}\n/>}\n</Header>```<br>and it should be:<br>```<Header\ncallback={props.setSidebar}\n/>\n{props.sidebarVisible && <Sidebar\nmarkers={props.filteredMarkers}\ncallback={clickList}\nfilter={props.filterList}\nmarkerOpen={props.markerOpen}\nsetMarkerOpen={props.onMarkerOpen}\n/>}```<br> @chrisrb83: ahh yes of course. thank you for pointing that out!",
+            "track": "react"
         }
     ]
 }

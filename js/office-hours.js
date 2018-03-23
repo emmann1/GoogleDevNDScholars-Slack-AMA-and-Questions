@@ -6,9 +6,15 @@ function linkify(txt) {
     });
 };
 function username(txt) {
-    var urlRegex =/@\w([^\s]+)/ig;
+    var urlRegex =/(?:(\s|^))@\w([^\s|:]+)/ig;
     return txt.replace(urlRegex, function(url) {
         return '<span class="username">' + url + '</span>';
+    });
+};
+function code(txt) {
+    var urlRegex =/```[\s\S]*?```/ig;
+    return txt.replace(urlRegex, function(url) {
+        return '<xmp class="code">' + url.slice(3,-3) + '</xmp>';
     });
 };
 function display(amaSession, questionId){
@@ -16,8 +22,8 @@ function display(amaSession, questionId){
   let trackColor = trackName == "html" ? "and" : trackName == "css" ? "fend" : trackName == "javascript" ? "mws" : trackName == "n/a" ? "na": null;
   let spanColor = officeHours[amaSession].type == "html" ? "magenta" : officeHours[amaSession].type == "css" ? "cyan" : officeHours[amaSession].type == "javascript" ? "green" : null;
   $(".main").append("<div class='item'></div>");
-  $(".main .item").last().append("<span class='q'>Q:</span><p class='question'>"+username(linkify(officeHours[amaSession].questions[questionId].q))+"</p>");  
-  $(".main .item").last().append("<span class='a'>A:</span><p>"+username(linkify(officeHours[amaSession].questions[questionId].a))+"</p>");
+  $(".main .item").last().append("<span class='q'>Q:</span><p class='question'>"+code(username(linkify(officeHours[amaSession].questions[questionId].q)))+"</p>");  
+  $(".main .item").last().append("<span class='a'>A:</span><p>"+code(username(linkify(officeHours[amaSession].questions[questionId].a)))+"</p>");
   if(officeHours[amaSession].questions[questionId].attach != undefined){
       $(".main .item").last().append("<div class='attachment'><a href='"+officeHours[amaSession].questions[questionId].attach+"'><img src='"+officeHours[amaSession].questions[questionId].attach+"'/></div>");
   }
