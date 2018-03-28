@@ -1,4 +1,24 @@
 [{
+    "datetime": "28-mar-2018",
+    "questions": [
+        {
+            "q": "@Patrícia: Hi! what kind of questions can we ask here? can it be questions regarding doubts in our code for a project?",
+            "a": "@david: Sure! Just keep in mind there are a lot of students and I'm doing office hours in four different channels right now. We'll be able to help with some things, but more complex issues should be worked out with your mentor, in the classroom chat, here in Slack or on your own.<br>@Patrícia: ok thank you! i'll post it here but I'm trying to figure it out also with my mentor and colleagues.",
+            "track": "n/a"
+        },
+        {
+            "q": "@Josh_B: @david is there anything being planned to revitalize this Slack community as an open source of feedback/communication? If not, is there somewhere else I should be looking?<br>I feel like there should be much more activity for channels with 10's of thousands of people (across many different timezones no less), and yet I very often see people posting questions and getting 2-3 responses.",
+            "a": "@david: Hey Josh, the members of this Slack also include a lot of students who aren't active any more. _But_ we're definitely working on some plans to increase engagement in all of our communities.<br>@david: Keep in mind, too, that not everyone will be active at the same time of day as you. We have a lot of students in different places around the world.<br>@Josh_B: Totally understood, just seems a little devoid of traffic, even coming back to revist a question 24-48 hours later. I hope to see more engagement in the future for sure. Thank you for taking the time to reply!<br>@veronika: @Josh_B Have you been using the chat feature in the classroom? Some students may be using chat more and that's why we're seeing less action in Slack.<br>@Josh_B: Are you talking about chat with the mentor? Or chat somewhere else?<br>@veronika: The latest version of FEND has a chat feature where students can talk to each other inside the classroom instead of talking on Slack.<br>@Josh_B: That that would be nice. I don’t think I have that. I am on track to finish the 2nd project within it’s due date of Apr 6th. Unsure which “version” of FEND that is?<br>@Josh_B:@david is there anyway to be bumped up to the newest version if I’m not in it so I can take advantage of this feature? that would be awesome.",
+            "track": "n/a"
+        },
+        {
+            "q": "@Patrícia: Hi! I'm doing the pixel art maker with plain JS (I already did it with jQuery) but now I can't apply the selected color and I can't understand why this is not working :disappointed: can someone take a look to my code please? I'd be very greatful :slightly_smiling_face: https://codepen.io/Snowii/pen/dmJXZb",
+            "a": "@adkuca: ```e.target.style.backgroundColor = color;```<br>@david: You might want to try using `console.log(e.target)` to see what your element actually looks like. <br>You might be surprised to see that you aren't actually using the value of `color` anywhere.<br>@adkuca: but if you really want to use the attribute way and add it into html which is not... prefered<br>@adkuca: ```e.target.setAttribute('style', 'background-color: ' + color);```<br>@adkuca: or<br>```e.target.setAttribute('style', `background-color: ${color}`);``` <br>@Patrícia: thank you @David i'll keep in mind to use more often the console log to check for this kind of things<br>@Patrícia: and thank you @adkuca for tour help on the different ways to do this",
+            "track": "javascript"
+        }
+    ]
+},
+{
     "datetime": "23-mar-2018",
     "questions": [
         {

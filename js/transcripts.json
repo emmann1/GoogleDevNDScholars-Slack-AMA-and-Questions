@@ -1,4 +1,45 @@
 [{
+    "datetime": "28-mar-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "This has probably been asked before so I am sorry if its a repeat but when we graduate do we still have access to the course material until the scholarship is over?",
+            "a": "You will still have access to the course material, but we cannot really say now for how long.",
+            "track": "n/a"
+        },
+        {
+            "q": "After the mentor switch, the new one hasn't responded for over a week. Should I still wait for some time or ask for new mentor? (Previous one responded within a couple of days)",
+            "a": "When a student has been assigned to their mentor for more than seven days, they are asked to provide a rating for their mentor each week. Ratings are incredibly valuable for us and help us ensure that all students are receiving the highest quality of support in their Udacity Classroom. A student’s rating window is open from Thursday through Monday. After a student provides a rating, they’ll be able to continue corresponding with their mentor.<br>If a student would like to be reassigned to a new mentor,  they’re able to do so when they provide a weekly rating for their mentor. If a student rates their mentor 3 stars or less, they will be prompted to select an area of improvement, and then prompted again to elect to be reassigned to a new mentor",
+            "track": "n/a"
+        },
+        {
+            "q": "How many students are eligible for Google I/O contest for now?",
+            "a": "We will review that once the registration closes. The only thing I can say now is that we have currently over 1.5k submissions for the contest. And the number is still growing!",
+            "track": "n/a"
+        },
+        {
+            "q": "Two Suggestions: 1- Current Students who are experienced in the Course and help the student , and you can provide us with place to meet up . <br>2- you provide us with local mentors from udacity and a place to meet up",
+            "a": "1. All Scholarship students can also participate in the regular ND Slack channels. The benefit of being part of the scholarship is that you have this community, but the regular ND's don't have the same offering, so this is something special for you all. In terms of meet-ups, we don't have any structure set in place, but we definitely want to encourage you all to self-organize.<br>2. Udacity is online and global so our focus is on having digital mentorship, so having in person mentors doesn't fit within our scope. However, with that said, you can always self organize and try to meet up with people you meet on Slack in real life.",
+            "track": "n/a"
+        },
+        {
+            "q": "About the hackathon, how is gonna happen? I mean I would be virtually present.",
+            "a": "It's only for Android and you can do it either virtually or in person (if you are in the Berlin area). If you would like to sign up, use this form: https://goo.gl/forms/nPfgxdHh6lbrOnv52<br>Chose 1-2 projects that you would like to work on. We will then decide which projects are most popular and assign them to session coaches. During the weekend, they will walk through the project via a Live-stream and Slack and will answer your questions on the given project. At the end of the weekend, you should be able to submit that project for approval",
+            "track": "n/a"
+        },
+        {
+            "q": "A question regarding the extracurricular projects. Does the resume get reviewed by someone from my country or just a random reviewer?",
+            "a": "Currently it’s a randomly assigned reviewer, however the knowledge and expertise they have to offer is rather universal, so don’t worry if s/he is not from our country!",
+            "track": "n/a"
+        },
+        {
+            "q": "If I have doubt about a plagiarism issue with some of my previous submitted projects, can I submit a new project again?",
+            "a": "Once passed, the project cannot be submitted again. But I’d still recommend you to ask coaches, maybe they will have some tips for you based on their experience with the course.",
+            "track": "n/a"
+        }
+    ]
+},
+{
     "datetime": "21-mar-2018:04-05 PM CET",
     "type": "general",
     "questions": [

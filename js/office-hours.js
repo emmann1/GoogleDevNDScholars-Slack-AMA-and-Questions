@@ -6,7 +6,7 @@ function linkify(txt) {
     });
 };
 function username(txt) {
-    var urlRegex =/(?:(\s|^))@\w([^\s|:]+)/ig;
+    var urlRegex =/(?:())@\w([^\s|:]+)/ig;
     return txt.replace(urlRegex, function(url) {
         return '<span class="username">' + url + '</span>';
     });
