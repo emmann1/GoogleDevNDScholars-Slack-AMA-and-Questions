@@ -1,4 +1,25 @@
 [{
+    "datetime": "30-mar-2018",
+    "questions": [
+        {
+            "q": "@bouhlalnadia: hi there please help me with my last issue in memory game project it took me too many days<br>the problem is that the cards shuffle correctly in refreshing but only if I hit restart i cant play the game<br>like i cant flip the cards<br>what may be the cause?  the same function init is used in the global scope<br>and in restart",
+            "a": "@david: Where is  your restart function being called?<br>@bouhlalnadia: it is in an eventlistener when i click repeat button<br>@bouhlalnadia: ```repeat.addEventListener('click', restart);\nrepeat.addEventListener('click', init);```<br>@david: If both of those are included as listeners, you might actually have a race condition where one finishes before the other (and not in the right order).<br>Really, you don't need separate methods for restarting and init. They should be the same process. So a single function should be triggered when the event is fired.<br>@bouhlalnadia: i called init at the end of restart and it is the same<br>@bouhlalnadia: problem<br>@bouhlalnadia: and also with restart within init<br>@david: You should just have a single function  that clears everything that's already there and sets the board the way that it should be. Having two functions is going to be problematic. <br>@bouhlalnadia: ah ok it may be true thank u for the help and bearing with me<br>@bouhlalnadia: i know i became heavy but this problem really stresses me<br>@david:Sure. I completely understand. Programming can be like that sometimes.<br>@bouhlalnadia: i imagine the problem as after the click event on restart the parser does not go on until the end where there is the eventlistener on clicking the cards<br>@bouhlalnadia: is this possible to occur?",
+            "attach": "uploads/restart.png,uploads/restart1.png",
+            "track": "javascript"
+        },
+        {
+            "q": "@Mason-Wu: I am having trouble understanding how to reference relative commits when trying to use `$ git reset` in Lesson 15.",
+            "a": "@Mason-Wu: 1) What is the difference between `^` and `~`? In other words, what is the difference between the *'parent commit'* and the *'_first_ parent commit'*?<br>2)With a merge commit, the `^` reference is used to indicate the first parent of the commit while `^2` indicates the second parent.<br>Doesn't this contradict the definition of `~` as the first parent?<br>3)```* 9ec05ca (HEAD -> master) Revert 'Set page heading to 'Quests & Crusades'\n* db7e87a Set page heading to 'Quests & Crusades'\n* 796ddb0 Merge branch 'heading-update'\n|\n| * 4c9749e (heading-update) Set page heading to 'Crusade'\n* | 0c5975a Set page heading to 'Quest'\n|/\n* 1a56a81 Merge branch 'sidebar'\n|\\ \n| * f69811c (sidebar) Update sidebar with favorite movie\n| * e6c65a6 Add new sidebar content\n* | e014d91 (footer) Add links to social media\n* | 209752a Improve site heading for SEO\n* | 3772ab1 Set background color for page\n|/\n* 5bfe5e7 Add starting HTML structure\n* 6fa5f34 Add .gitignore file\n* a879849 Add header to blog\n* 94de470 Initial commit\nWhich commit is referenced by HEAD~6?\n209752a```<br>It appears that only the `*` commits in the log are counted in the reference.<br>Is that because they are all in the master branch that git is pointing to?<br>What do all those symbols on the left mean?<br>4) Why can't we just reference commits with their SHA's and avoid this excessive syntax?<br>@david: 1&2) The explanation on this page is pretty clear: https://stackoverflow.com/questions/2221658/whats-the-difference-between-head-and-head-in-git<br>It comes down to the fact that commits can have more than one parent. It has a great illustration for how these two things can work. <br>3) Yes, and the symbols are indicating the branching history of the previous commits. The lines point to different branches, and the stars indicate which of those branches the commit was on.<br>4) You can. Many people do.<br>@Mason-Wu: Thank you for the response as well as the helpful links! I'll be sure to take a look over them soon.",
+            "track": "github"
+        },
+        {
+            "q": "@Antonis:<br>Hello! I would like to ask about a warning that I see on Google Chrome and if it affects in any way the things that we learn here on fend. Thank you.<br>And here is the warning:<br>[Deprecation] Styling master document from stylesheets defined in HTML Imports is deprecated, and is planned to be removed in M65, around March 2018. Please refer to 'https://goo.gl/EGXzpw' for possible migration paths.",
+            "a": "@david: Nope we don't cover HTML imports at all - it's not a common practice.<br>@Antonis: Thank you for your reply!",
+            "track": "html"
+        }
+    ]
+},
+{
     "datetime": "28-mar-2018",
     "questions": [
         {

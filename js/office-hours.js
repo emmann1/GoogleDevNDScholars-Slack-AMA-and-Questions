@@ -14,7 +14,7 @@ function username(txt) {
 function code(txt) {
     var urlRegex =/```[\s\S]*?```/ig;
     return txt.replace(urlRegex, function(url) {
-        return '<xmp class="code">' + url.slice(3,-3) + '</xmp>';
+        return '<xmp class="code">' + String(url.slice(3,-3)) + '</xmp>';
     });
 };
 function display(amaSession, questionId){
@@ -25,7 +25,13 @@ function display(amaSession, questionId){
   $(".main .item").last().append("<span class='q'>Q:</span><p class='question'>"+code(username(linkify(officeHours[amaSession].questions[questionId].q)))+"</p>");  
   $(".main .item").last().append("<span class='a'>A:</span><p>"+code(username(linkify(officeHours[amaSession].questions[questionId].a)))+"</p>");
   if(officeHours[amaSession].questions[questionId].attach != undefined){
-      $(".main .item").last().append("<div class='attachment'><a href='"+officeHours[amaSession].questions[questionId].attach+"'><img src='"+officeHours[amaSession].questions[questionId].attach+"'/></div>");
+    let attachments = officeHours[amaSession].questions[questionId].attach.split(",");
+    console.log(attachments);
+    $(".main .item").last().append("<div class='attachment'></div>");
+    for(let att of attachments){
+        console.log(att);
+        $(".attachment").append("<a href='"+att+"'><img src='"+att+"'/>");
+    }
   }
   $(".main .item").last().append("<p class='meta'>"+officeHours[amaSession].datetime+" <span class='"+trackColor+"'>"+officeHours[amaSession].questions[questionId].track+"</span></p>");
   

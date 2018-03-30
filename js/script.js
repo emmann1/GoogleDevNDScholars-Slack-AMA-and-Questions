@@ -13,7 +13,13 @@ function display(amaSession, questionId){
   $(".main .item").last().append("<span class='q'>Q:</span><p class='question'>"+linkify(transcripts[amaSession].questions[questionId].q)+"</p>");  
   $(".main .item").last().append("<span class='a'>A:</span><p>"+linkify(transcripts[amaSession].questions[questionId].a)+"</p>");
   if(transcripts[amaSession].questions[questionId].attach != undefined){
-      $(".main .item").last().append("<div class='attachment'><a href='"+transcripts[amaSession].questions[questionId].attach+"'><img src='"+transcripts[amaSession].questions[questionId].attach+"'/></div>");
+    let attachments = transcripts[amaSession].questions[questionId].attach.split(",");
+    console.log(attachments);
+    $(".main .item").last().append("<div class='attachment'></div>");
+    for(let att in attachments){
+        console.log(att);
+        $(".attachment").append("<a href='"+attachments[att]+"'><img src='"+attachments[att]+"'/>");
+    }
   }
   $(".main .item").last().append("<p class='meta'>"+transcripts[amaSession].datetime+" <span class='"+spanColor+"'>"+transcripts[amaSession].type+"</span> <span class='"+trackColor+"'>"+transcripts[amaSession].questions[questionId].track+"</span></p>");
   

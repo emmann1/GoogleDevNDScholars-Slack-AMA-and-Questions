@@ -91,8 +91,11 @@ a:hover{
 .code{
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    text-overflow: clip;
+    overflow: auto;
     margin: auto;
-    width: 50%;
+    width: 80%;
     padding: 5px;
 }
 .main {
@@ -228,10 +231,11 @@ input[type=checkbox]{
     text-align:center;
 }
 .attachment img{
-    width: 50%;
+    width: calc(50% - 10px);
     height: 200px;
     object-fit: cover;
     object-position: top;
+    margin: 0 5px;
 }
 .magenta{
     color: rgb(250, 53, 250);
@@ -379,5 +383,9 @@ input[type=checkbox]{
         transition: 0.4s;
         font-size: 0.8em;
         text-align: center;   
+    }
+    .main-menu a{
+        word-break: keep-all;
+        line-height: 50px;
     }
 }
