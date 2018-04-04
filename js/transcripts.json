@@ -1,4 +1,65 @@
 [{
+    "datetime": "04-apr-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "Any news on the Google I/O tickets?",
+            "a": "Friday.",
+            "track": "n/a"
+        },
+        {
+            "q": "Do you know if the career resources we have available through the Nanodegree are exclusively to help us get hired by some company, or we can get help also if we want to be self employed? In the sense of building our own app for profits, build up on our own idea and develop a company?<br>If not, do you know any good resources for what I'm talking about?<br>Thanks",
+            "a": "@Pedro Monteiro Good question. I do know the career services are there primarily to help students find jobs with employers, but am unsure about how much they help with starting something up on your own. Certainly something I'm not curious about myself to find out.",
+            "track": "n/a"
+        },
+        {
+            "q": "Hi, I have a question regarding the Google I/O tickets. Did Udacity select the winners yesterday, or will you select them on Friday? It's a bit confusing for me because it's not clear that the selection process has already happened, or will happen on Friday. Thanks in advance for your answer",
+            "a": "@Anna The winners have been selected but will be announced on Friday once all the behind-the-scenes technicalities are worked out. We need to contact them first and work out the details.",
+            "track": "n/a"
+        },
+        {
+            "q": "... since the issue my new mentor didn't answer my questions since 23th march. Is still more troubles about mentors system?  Or is the system fine?<br>Can I get my old mentor back",
+            "a": "Hi @Maricel and @haja good questions, I will answer them both together:<br>Here are some details on how to rate your mentor and try to get a reassignment: When a student has been assigned to their mentor for more than seven days, they are asked to provide a rating for their mentor each week. Ratings are incredibly valuable for us and help us ensure that all students are receiving the highest quality of support in their Udacity Classroom. A student’s rating window is open from Thursday through Monday. After a student provides a rating, they’ll be able to continue corresponding with their mentor.<br>If a student would like to be reassigned to a new mentor,  they’re able to do so when they provide a weekly rating for their mentor. If a student rates their mentor 3 stars or less, they will be prompted to select an area of improvement, and then prompted again to elect to be reassigned to a new mentor.<br>As a note, a new mentor cannot see any information that a student provided to their previous mentor. Please be sure to update a new mentor any questions or concerns so they can help you get on the right track as quickly as possible.",
+            "track": "n/a"
+        },
+        {
+            "q": "my mentor has been changed at 25 mar , i filled the form. Is the new one will continue or this can be solved ?",
+            "a": "@abdoutelb The issue took place and effected several students around the 23rd of March- approximately the 27th of March. The issue is now fixed and all mentors have been reassigned.",
+            "track": "n/a"
+        },
+        {
+            "q": "Will there be a FEND Hackaton?",
+            "a": "@Lora thanks for the question. We are not able to do a Hackathon for FEND, but we are going to have a Webinar with a content developer and we are also planning some other ways that we can give FEND some project and technical support.<br>If you have any suggestions, please send them to the CM's!",
+            "track": "fend"
+        },
+        {
+            "q": "Hi, I published my first project in MWS but it reviewed and still there is work around on it to be accepted , is it consider delivered before due date or when be accepted only consider before due date ?",
+            "a": "@Ibrahim Projects are only counted once they've been approved and accepted.",
+            "track": "mws"
+        },
+        {
+            "q": "Any news on the Udacity swag raffle from the webinars? :wink: _also, how was your easter holidays",
+            "a": "@Asher We're on it. And it was good. Nice to have a few days to reset and enjoy some good food",
+            "track": "n/a"
+        },
+        {
+            "q": "Are we going to do a reversed AMA session where you ask us all the questions again? I'd love that",
+            "a": "@nicolas Oh we loved those too. We'll definitely have them again hopefully sooner rather than later",
+            "track": "n/a"
+        },
+        {
+            "q": "Did Udacity select the winners yesterday, or will you select them on Friday? It's a bit confusing for me because it's not clear that the selection process has already happened, or will happen on Friday.",
+            "a": "The winners have been selected but will be announced on Friday once all the behind-the-scenes technicalities are worked out. We need to contact them first and work out the details.",
+            "track": "n/a"
+        },
+        {
+            "q": "Do the I/O winners already know (going from answers above?)",
+            "a": "They should. We contact the winners first to work out the details and if for some reason one can't attend the event, we move to a runner-up. It takes a couple days to finalize everything.",
+            "track": "n/a"
+        }
+    ]
+},
+{
     "datetime": "29-mar-2018: Special ama with Leo Generali",
     "description": "This is a special AMA session with Front End Nanodegree alumn, Leo Generali",
     "attach": "leogenerali.jpg",
