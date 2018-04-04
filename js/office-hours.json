@@ -1,4 +1,19 @@
 [{
+    "datetime": "03-apr-2018",
+    "questions": [
+        {
+            "q": "@Antonis: Hello, I would like to ask if there are certain instances where experienced developers prefer to use 'var' instead of 'let'.",
+            "a": "@david: Nope. You pretty much shouldn't use `var` anymore. `let` and `const` will cover everything you might need. (edited)<br>@Antonis: Thank you!<br>@david: At the very least, you shouldn't mix them. If the project you're working on already has `var` you should continue to use it, or change everything to be `let` and `const`.",
+            "track": "javascript"
+        },
+        {
+            "q": "@Muhammed: Hi @david I have a question about this repo: https://github.com/mka281/mws-restaurant-stage-1 If you can checkout to restaurant-page branch, at the very bottom of the style.css file there is a media query.",
+            "a": "@david: Sure - what's your question.<br>@Muhammed: I tried to use flexbox but #map-container doesn’t act like a flex-item<br>@Muhammed: Google Maps add automatically “position: relative” to #map div. When I make it “position:static” the map becomes too large<br>@Muhammed: And I am talking about small screens<br>@david: What does it look like if you remove the display attribute from the map container element?<br>@Muhammed:actually it doesnt have any effect on it<br>@Muhammed: I added it to just try.<br>@Muhammed: The problem is #map. With position:static it is too large with position:realtive it disappears<br>@david: Still looking. Give me a minute.<br>@david: It would probably take more time than I have available right now to sort out where the specific issue is. <br>I would post this is in the project-help channel or use the Chat feature in the classroom to go over this with other students.",
+            "track": "css"
+        }
+    ]
+},
+{
     "datetime": "30-mar-2018",
     "questions": [
         {
