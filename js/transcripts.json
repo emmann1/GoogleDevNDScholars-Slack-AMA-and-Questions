@@ -1,4 +1,70 @@
 [{
+    "datetime": "02-may-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "Just a curiosity. How are we progressing? Are the statistics looking good?",
+            "a": "the stats look good but could always look better",
+            "track": "n/a"
+        },
+        {
+            "q": "I wanna ask about if anyone will not finish any project before the project deadline not final nanodegree deadline , what happens ?",
+            "a": "the final deadline is final and absolute – August 15. All the other deadlines before that, are “soft deadlines”. That means that they are not obligatory, but only suggested. If you’re lated for the project deadlines, it’s not too bad, just submit it when you’re done. However, it’s very much recommended to try to keep up with the deadlines, as they are there to help you to schedule your time right.",
+            "track": "n/a"
+        },
+        {
+            "q": "At August 15th will GoogleDevNDScholars slack  be closed?",
+            "a": "Slack will be closed a bit later than August 15h, so don’t worry, we will give you enough time to move somewhere else :wink: for example to facebook group that will always stay open https://www.facebook.com/groups/googledev2017. nice avatar btw",
+            "track": "n/a"
+        },
+        {
+            "q": "What happens if we don't manage to submit all projects before tha final deadline?",
+            "a": "If you don’t submit all your projects before August 15, unfortunately you can’t graduate with the scholarship. You can continue as a “normal” paying Nanodegree student, until you finish everything. But if you don’t want to pay, I recommend you to try to get everything done before August 15!",
+            "track": "n/a"
+        },
+        {
+            "q": "I've passed the deadline for a project, should I skip it for now in tention to keep up with the next project deadline and then go back to it? Or should I first finish it and then keep with the process?",
+            "a": "The deadlines are suggested by us and are there to help you pace your learning. If you did not manage to meet one, that’s totally fine. Just focus on getting the project done, on your own pace, and then go on with the next project.",
+            "track": "n/a"
+        },
+        {
+            "q": "This week I didn't pair with the group of study-buddies and one of my fellow students had the same problem...so I was wondering why that happened and if I did something wrong ?",
+            "a": "Thanks so much for flagging! We will look into it ASAP.",
+            "track": "n/a"
+        },
+        {
+            "q": "The last project of ABND track has a deadline of 8th of July. Does anything happen after that - like some extra project? Or what else should we do between 08.07 and 15.08?",
+            "a": "Good catch! Actually, these deadlines are calculated by the amount of time that is usually needed to do specific project and for some tracks (ABND and MWS) these deadlines are even earlier than August 15th. We won’t be adding any new projects to the classroom, but for these of you who finish in July, it will be a great opportunity to help others who might still struggle!",
+            "track": "and"
+        },
+        {
+            "q": "I found bugs in the quizzes, where I can report it?",
+            "a": "You can report bugs, or give your feedback to content development teams, directly in your classroom. You need to click on “Report an Issue” link located under Resources tab in any of the lessons. Here’s the screenshot",
+            "track": "n/a"
+        },
+        {
+            "q": "If we graduate early, I guess we'll lose access to mentor support, right?",
+            "a": "You might not lose it immediately, but eventually you will….you can always exchange the linkedin contacts with your mentor though!",
+            "track": "n/a"
+        },
+        {
+            "q": "Did a lot of people found a job after this nanodegree ?",
+            "a": "We cannot share the official stats on that I’m afraid, but I can tell you that quite many. The important thing to remember is that we don’t find you jobs – we help you prepare for job search and support you on the way. So as long as you are motivated, and do your homework when it comes to job search, you should not be worry about finding a job after graduating. Especially given that we already have few students who got jobs even before graduation!",
+            "track": "n/a"
+        },
+        {
+            "q": "Any idea how long the mentorship application takes to get approved?",
+            "a": "There is no precise answer to that, it really depends on supply and demand. If we’re quite good with the amount of mentors we have, the hiring of new ones is quite slow. All the applications get into a pool of candidates, from which they reach out to the ones that are most needed right now. Unfortunately, it’s hard to estimate when it will happen, so I’d suggest not to hold your breath too much.",
+            "track": "n/a"
+        },
+        {
+            "q": "When will be fixed the career portal? I still can't find my country Romania there",
+            "a": "Udacity is an US company, and there are some legal limitations to our operation in certain countries, with which the US has some diplomatic issues. Unfortunately currently Romania is on that list, which limits our services there. We hope it fixes soon, but as for now, the legal restrictions are still in place. Sorry. ",
+            "track": "n/a"
+        }
+    ]
+},
+{
     "datetime": "04-apr-2018:04-05 PM CET",
     "type": "general",
     "questions": [
