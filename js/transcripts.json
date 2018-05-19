@@ -1,4 +1,45 @@
 [{
+    "datetime": "16-may-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "If I book another Nanodegree and pay for it , Is there a slack channel for it like which we're talking now?",
+            "a": "Yes! All ND's have slack groups that you can join, however, not all ND's have community managers in the capacity that you have here in the scholarship program.",
+            "track": "n/a"
+        },
+        {
+            "q": "We will be able to have access to v.8 like all other students or we are stuck on v.7? Thanks! FEND, that is!",
+            "a": "The version that you started in is the the version that you'll finish with. There are small difference between the two and you'll graduate with very similar content.",
+            "track": "fend"
+        },
+        {
+            "q": "A few students, as soon as they graduated, posted their certificates on Slack and I noticed that there was nothing on the certificate mentioning that this was a Google scholarship. Thus, I was wondering if there is a way to prove in the future that we are part of this scholarship.",
+            "a": "Since you're graduating from the Nanodegree you receive a certificate for the ND and not the scholarship. Just as how a university degree wouldn't specify that you were in a scholarship or not. That said, you can always update your LinkedIn to say that you were a scholarship recipient.",
+            "track": "n/a"
+        },
+        {
+            "q": "I would like to watch the FEND webinar, next week. Is there already a link to the session?",
+            "a": "There's not a link yet, but you can register here and I'll send you the link via email!<br>*Register here:* https://goo.gl/forms/pn0hAJEJYEykbEYt2",
+            "track": "fend"
+        },
+        {
+            "q": "Is there a Logo or png badge that we can add to our CV to show that we passed the nano degree or is it just the certificate that you supply?",
+            "a": "We supply just the certificate. You probably don't want to add images or badges to a CV since, personally speaking, some employers prefer a cleaner look to your resume.",
+            "track": "n/a"
+        },
+        {
+            "q": "If we graduate before Aug 15, will it still be possible to submit the extracurricular projects after graduation but before Aug 15, or once we graduate we are not allowed to submit the extracurricular projects any longer?",
+            "a": "Good question. I'm actually not 100% certain on my end but have already forwarded this question and will get back to you once I have a definite answer.<br><b>Student</b>: Yes you can. I graduated a couple weeks ago from the core syllabus and got the certificate, and after that started the extracurricular, submitted their projects, and got the feedback",
+            "track": "n/a"
+        },
+        {
+            "q": "Is there any news about how long the content of the course will be available after august 15th specially the career portal and the extra-curricular",
+            "a": "As far as we know August 15th is the last day of the course and course access for everyone. That said, there has been discussion about this so it's not set it stone about what happens after the 15th.",
+            "track": "n/a"
+        }
+    ]
+},
+{
     "datetime": "02-may-2018:04-05 PM CET",
     "type": "general",
     "questions": [
