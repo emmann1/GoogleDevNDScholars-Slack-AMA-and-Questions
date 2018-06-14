@@ -106,6 +106,12 @@ a:hover{
 .main h2{
     text-align: center;
 }
+
+.inline-code {
+    background-color: rgb(196, 196, 196);
+    color: rgba(30, 95, 236, 0.918);
+}
+
 .next-ama{
     font-size: 1.2em;
     margin: 5px;

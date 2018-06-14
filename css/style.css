@@ -106,6 +106,12 @@ a:hover{
 .main h2{
     text-align: center;
 }
+
+.inline-code {
+    background-color: rgba(3, 3, 3, 0.397);
+    color: rgba(247, 94, 94, 0.918);
+}
+
 .next-ama{
     font-size: 1.2em;
     margin: 5px;
@@ -215,7 +221,7 @@ input[type=checkbox]{
     min-height: 100%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
-    background-color: rgb(32, 32, 37);
+    background-color: rgb(47, 47, 54);
     padding: 5px;
     color: #fff;
 }

@@ -1,4 +1,187 @@
 [{
+    "datetime": "14-jun-2018:04-05 PM CET",
+    "type": "tehnical",
+    "questions": [
+        {
+            "q": "RuthyW.L.:<br>Hi Edoh<br>-Def great to see you<br>-I wonder if overlapping divs in flex design<br>-when resizing the screen<br>-is an issue others bumped into?<br>-I can't seem to solve it using more media queris since it looks like I'll need one for every 20-30px of change<br>-I think this is something I coded wrong<br>-my code has the container set to flex, wrap, <br>-justify conent to center and align items to center<br>-children are set to flex<br>-What did I miss?<br>-Actually,the issue is between CONTAINERS<br>-from what I just realized- the conteiners are overlapping.<br>-not the divs inside them<br>-How could I prevent this from happening?",
+            "a": "edoh: Hi Ruthy!<br>Well, flex design is meant to make designing easy especially when it comes to responsive. <br>Overlapping of divs is something every designer experience. But sometimes it can be prevented by a careful planning ahead of the coding itself.<br>But the general layout for a flexbox design is to set the container with the following:```display: flex; \n flex-wrap: wrap;```<br>and then the width of the children are adjusted for each media query breakpoint<br>```{ \n width: /* whatever you want*/ \n }```<hr>Saleh:<br>-here is an example of working flex design on different viewports with no overlapping.https://codepen.io/omerillo/pen/JGjOKN",
+            "track": "fend"
+        },
+        {
+            "q": "Diana Vilé: <br>For restaurant review project, is it needed to install Python? I tried many ways today without succeeding. Via gitbash Windows and in visual Studio code. Also not sure how to setup local server 8000 port If this is not working.",
+            "a": "edoh: <br>If you are using Windows, you might need to install python. I use linux on which python is installed by default. But there is also an npm module which does the same thing as the python command: `python3 -m http.server 8000`<br>You can install it globally `npm install http-server -g` and then after you can serve a repository with the command `http-server -c1 [name of repository]` most of the time I use `c1` to prevent caches issues. You can have a look at the npm module here: https://www.npmjs.com/package/http-server <hr>Doki:You don't need python for Restaurant Review, simply install the http server edoh suggested and than use git bash on the project folder and run `http-server -p 8000`<hr>Silvia:<br>What if the port 8000 is blocked/used of some other app? I have such a problem and I am going to use a different port, but I  am wondering if there is a way to free 8000...<hr>Doki:<br>You don't have to use port 8000, and if you want to free port 8000 'which really you don't need to do' you have to end the process that uses the port, ea you have a server that is running on port 8000",
+            "track": "fend"
+        },
+        {
+            "q": "Jon:<br>Not sure if im asking the question in a way that makes sense but here it goes: How can I use the triggering of an event as a condition in 'if statement? Right now I use  `setTimeOut` to keep two cards opened for a second and then close them.  Right now the function that flips the cards  is called by an event listener that fires if there are less than two cards opened, which means users cant click on a third card, however,  I want to be able to 'listen' for the event listener being triggered so that if two cards are opened and the user clicks a third one, those opened cards close immediately an the third done opens so that the user doesn't have to wait for 1 sec for the cards to be closed automatically. <br>Here is my repository https://github.com/SrSalvaje/memorygame .",
+            "a": "edoh:<br>Unless you use the if condition directly in the event function itself, there is no way is Js ( to my knowledge) that you can set a triggering event as a condition of an if statement. <br>`setTimeout` return a  positive integer that you might use to close the cards earlier than the timer if there is a new event that is fired to flip a third card. For that you will have to call `clearTimeout`<hr>Jon:<br>Ah! Excellent<hr>Doki:<br>If you want to go in depth about triggering events like that there is a neat little tutorial you can follow that shows you the complete code snippet by snippet and explains how it performs it will explain what you want 'listening for the clicks of two cards' https://courses.edx.org/courses/course-v1:Microsoft+DEV234x+1T2018a/courseware/d2230f74f2ec482cace613dcf2f68532/360f7885334f4755b85541e32206a259/2?activate_block_id=block-v1%3AMicrosoft%2BDEV234x%2B1T2018a%2Btype%40vertical%2Bblock%40f4baaa47e5614adc9271e017ec35c4dd<br><hr>Doki<br>You will have to have an edx account and than enroll into the asynchronous javascript course 'it's free' than click at my link and you'll see it",
+            "track": "fend"
+        },
+        {
+            "q": "AlexP: <br>Hi … How can I make the timer to stop? I set clearInterval(liveTimer); but still runs https://github.com/alicu90/Memory_Game.git",
+            "a": "edoh:<br>`clearInterval` is the only way to make the time to stop if it has been created with setInterval. Maybe that you have other issues with some logics in your code<hr>cveiga:<br>you use two times the same function stopTimer line 138 and line169 too...one you used clearIntreval(incrementer) and in the other you used clearInterval(liveTimer) <hr>edoh:<br>I wish you put here relevant part of your code so that it might be easier to spot the mistake. Can you please make the public display of your code by going in settings => github pages?",
+            "track": "fend"
+        },
+        {
+            "q": "Beatrice: <br>I know it's a bit of topic question, but I would like to ask about MVP pattern. Which approach the student has to take to learn it? What is the challenge learning it? Are there any good resources for learning it? What advice would you give for someone who is trying to learn it?",
+            "a": "Sudha:<br>Hi Beatrice, I am also a student like you. According to my experinece, by placing the java file seperate , resources seperately wekind of follow the Model view Presenter model in android studio. I would advice you to concentarte on learning the android fundamentals to start with.<hr>Oya:<br>Jose have recently added a chapter on Android Architecture Components to the Developing Android Apps free course. You can start with that one. @Beatrice<hr>Ahmad:<br>The MVP architecture is used to make the changes to project easier <br>By making a package to deal with data (files, database, internet connection,api,...)  which is the model  No validation to the data made here<br>Another package to validate the data coming from the model and when it's done it tells the activity/fragment that there is data or there is an error ....<br>Finally the view which is the interface that the presenter will call to notify the activity<br>It's used to easily change the code so when you want to use a retrofit library to get the data from the Internet you will need to change only the class in model package which is responsible for grabbing the data and it's also better for unit test(I don't know what it's)<br>I only used it once <br>And that all I knew about it",
+            "track": "and"
+        },
+        {
+            "q": "Bogdan:<br>What's the best way to store a drawable at different densities?",
+            "a": "Sudha:<br>I would suggest you to use a vector drawable because they are scalable and the occupy less space compared to png and other formats<hr>Liron YA.:<br>Hey @Bogdan, did you try the android drawable importer? It's a plugin<hr>tam:<br>Great answer @Sudha! In the cases where you can't use a vector drawable (or it's less practical) there's great software like figma.com which makes it super easy to export drawables at the size you need and then you can just add them to the different drawables folders in your project, or use what @Liron YA. has just mentioned <hr>Bogdan:<br>thank you.<hr>Oya:<br>But vector drawables are good only for small images like icons. For large images it is not a good idea. Yes, they are small files on the disk, but they are drawn on run time, so they can consume a lot from run time memory.<hr>Bogdan:<br>@Oya so for images displayed in list elements I should not use them?<hr>tam:<br>.png 's are ok to use too when vectors aren't the best option, there's ways to keep png file sizes small like https://tinypng.com/<hr>Oya:<br>If it is a small icon, that might not be a problem. But if we are talking about photos or more complex images, I would avoid vector drawables.<hr>Ahmad:<br>I use this https://github.com/asystat/Final-Android-Resizer. It's executable jar that resizes the images for you. Just specify the input image density and it will generate the image for other densities",
+            "track": "and"
+        },
+        {
+            "q": "wiktorl4z: <br>What's is the best way to pass interface into fragment, by constructor or in onAttach() method?",
+            "a": "nuhkoca: <br>Hi @wiktorl4z thanks for the question. You could pass interfaces over constructor. However there are some points you need to care about. For example, in onAttach method you should assign your activity to interface as a reference like;`*mIErrorCallbackListener = (IErrorCallbackListener) getActivity();*`<br>and in onDetach you have to dispose it like; `*mIErrorCallbackListener = null;*` <br>to avoid memory leaks<hr>Janekxyz:<br>I think it's depends on situation. I more often pass interface with constructor, or if I can I implement it in fragment and then send response to Activity or wherever you want. (edited)<hr>wiktorl4z:<br>so this is how its looks like in our sample fragment project<hr>wiktorl4z: https://imgur.com/a/9sZGQB1<hr>nuhkoca:<br>yes, and in onDetach you should;<br>```@Override\n public void onDetach() {\n mIErrorCallbackListener = null;\n super.onDetach();\n }```<hr>wiktorl4z: <br>but in this project I dont see anything about onDetach<hr>wiktorl4z: <br>okey thanks good to know :+1: @nuhkoca<hr>nuhkoca: <br>@wiktorl4z are you sure? onAttach and onDetach there for Fragments can you please try again?<hr>wiktorl4z: <br>@nuhkoca https://imgur.com/a/W0RLuSL<hr>nuhkoca: https://imgur.com/a/QXtOqxy<hr>nuhkoca: <br>I can override it<hr>wiktorl4z: <br>yeah, I know. But why don't we have this in our sample code?<hr>nuhkoca: <br>usually they leave it to us :slightly_smiling_face:<hr>wiktorl4z: <br>Imho they forgot about it, because I haven't seen in solution code the onDetach <br>anyway good to know!",
+            "track": "and"
+        },
+        {
+            "q": "Rhm:<br>what is the best way to make clean and good presentable code ?",
+            "a": "Hi @Rhm, I think you should comment your code because for you it can be understandalbe but for other it could not be as good to read as for you. <br>I think that this question was answered many times on internet and you can take a look at this article:            <br>https://medium.com/mindorks/how-to-write-clean-code-lessons-learnt-from-the-clean-code-robert-c-martin-9ffc7aef870c<br>Hope it helps and after read it you will be more aware of clean code<hr>nuhkoca:<br>There are some point that I can offer<br>1. Try using a specific and precise naming conventions<br>2. Try saying what you mean --> write understandable function and variable names<br>3. Try having whitespaces between code blocks and add comments<br>4. Try having OOP approach<br>5. Try using the latest techs because these are all developed for a better coding experience<br>6. Try automating processes --> Have a Util class for most common processes so that you can avoid boilerplates (edited)<hr>Tom:<br>Uncle Bob's Clean code book also has some really great advice :slightly_smiling_face:<hr>nuhkoca:<br>@Tom absolutely!<br>Also this is good<br>https://www.amazon.ca/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882",
+            "track": "and"
+        },
+        {
+            "q": "Berenice: <br>Hi all, Is anyone familiar to -.htaccess files and code in order to allow access to specific file types on a server? It is not a really Android related question …",
+            "a": "Janekxyz:<br>Hi @Berenice, yeah it's not related with Android. When I was studying I had to write some commands in .htaccess but I'm afraid that I can not remember it as good as I wanted to remember<hr>nuhkoca:<br>I just used .htaccess for hacking some software in my highschool ages <hr>Berenice:<br>I have tried```<FilesMatch '\\.(unityweb)$'> \n Order allow, deny \n Allow from all \n </FilesMatch>```<br>I really don’t know what the code should look like.<br>However, the above code does 'not' work, as absolutely no content will be shown. Even the landing page will not work. <hr>nuhkoca:<br>@Janekxyz do you have an idea?<hr>Janekxyz:<br>@Berenice Do you want to disable only some types of files all files inside directories?<hr>Berenice:<br>The 'code' looks weird. I will look for a tutorial.<hr>Berenice:<br>@Janekxyz I want to *allow* access to all files of the type  -.unityweb<hr>Janekxyz:<br>@Berenice I think that your regex isn't working as you want it to work<hr>Janekxyz:<br>I would say that you should make something like this: <hr>Janekxyz:```<FilesMatch '\\.unityweb$'> \n Allow from all \n </FilesMatch>```<hr>Janekxyz:<br>But I'm not 100% sure if this changes anything<hr>Berenice:<br>@Janekxyz I will try it. Thank you!<hr>Berenice:<br>@Janekxyz It is working !!! thanks!",
+            "track": "and"
+        },
+        {
+            "q": "fif.iva:<br>Hey all, thanks for this tech AMA and for your time! <br>I was wondering what is the best way of handling internet connectivity in an app? In my last projects I was only handling this within my `onFailure()` method using Retrofit. The projects met specifications, but I still think it's not the best way of handling this. Is that right?",
+            "a": "Berenice:<br>Good question. I think it depends on how often you want to notify the user. If his connection is really unstable , I would not want to show a notification each time the connection gets lost.<hr>fif.iva:<br>Thanks @Berenice, hmm you're right here! I just noticed, while handling this only with the onFailure() method, if I open my app without connectivity with cached information, it didn't show correctly that the user doesn't have internet connection and I think this could be confusing to the user. <hr>Janekxyz:<br>Hi @fif.iva, It always depends First of all you should check internet connection with:```private boolean isNetworkAvailable() {\n ConnectivityManager connectivityManager \n = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);\n NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();\n return activeNetworkInfo != null && activeNetworkInfo.isConnected();\n }```<br>I think you should be aware of http response codes: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes <br>and try to deal with most popular response codes. <br>I think that Retrofit onFailure is a nice place to get response code and then depends on it you can choose few things like Snackbar, Toasts etc to inform user that something went wrong.```public class InternetReceiver extends BroadcastReceiver {\n \n @Override\n public void onReceive(Context context, Intent intent) {\n \n if (isConnected())\n  Log.d('NetReceiver', 'Internet is connected');\n else\n Log.d('NetReceiver', 'Internet is not connected');\n }\n \n public boolean isConnected() {\n \n Runtime runtime = Runtime.getRuntime();\n try {\n Process ipProcess = runtime.exec('/system/bin/ping -c 1 8.8.8.8');\n int exitValue = ipProcess.waitFor();\n return (exitValue == 0);\n \n } catch (IOException e)\n { Log.e('ERROR', 'IOException',e); }\n catch (InterruptedException e) { Log.e('ERROR', 'InterruptedException',e); }\n \n return false;\n }\n };``` <br>I have found this code somewhere in internet when I was looking for solution. Working perfect<hr>Berenice:<br>Then, I would just show a Toast or Snackbar message once in the onFailure() method. But, I think we would have to check first whether it is really related to a network connection problem of the device.<hr>Berenice:<br>I used so far a very basic script. For my capstone I have to differentiate a bit more.```public class ConnectivityUtil {\n \n public static boolean isConnected(Context context) {\n ConnectivityManager connectivityManager = (ConnectivityManager) context\n .getSystemService(Context.CONNECTIVITY_SERVICE);\n \n NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();\n \n return networkInfo != null && networkInfo.isConnected();\n }\n }```<hr>fif.iva:<br>Thanks a lot for this information @Janekxyz! Will check it out! :100:<br>@wiktorl4z - thanks for the code snippet! It looks useful, I think I remember seeing similar approach somewhere too, but didn't know when to use it! :ok_hand:<hr>Berenice:<br>I see my code is almoast the same as Janek’s one.<hr>nuhkoca:<br>@fif.iva good question! You should use BroadcastReceiver for dynamic internet connection check ```public class InternetSnifferService extends BroadcastReceiver {\n \n public static ConnectivityReceiverListener connectivityReceiverListener;\n \n @SuppressLint('UnsafeProtectedBroadcastReceiver')\n @Override\n public void onReceive(Context context, Intent intent) {\n boolean isConnected = intent.getBooleanExtra(ConnectivityManager.EXTRA_NO_CONNECTIVITY, false);\n \n if (isConnected) {\n Toast.makeText(context, context.getString(R.string.urgent_internet_warning), Toast.LENGTH_SHORT).show();\n }\n \n if (connectivityReceiverListener != null) {\n connectivityReceiverListener.onNetworkConnectionChanged(isConnected);\n }\n }\n \n public interface ConnectivityReceiverListener {\n void onNetworkConnectionChanged(boolean isConnected);\n }\n }```<hr>fif.iva:<br>Thanks @Berenice - I think I've been using this code in the projects that didn't work with Retrofit and for some reason I stopped using it after I start using retrofit. I suppose it's a better practice to have it anyway! <hr>fif.iva:<br>Great, thanks a lot @nuhkoca for the example, I'll make sure to save it and implement it in my code! :100: :blush:<hr>fif.iva:<br>Thank you everyone! Very helpful to know all of this! :raised_hands:<hr>nuhkoca:<br>However you should add that action in Manifest and also set the callback in your activity where you check connectivity<hr>fif.iva:<br>Gotcha, because it's a Broadcast Receiver!",
+            "track": "and"
+        },
+        {
+            "q": "Berenice: <br>Concerning the P5 (material app), did you show the long text (of a single book/ article) as is in a single textView or did you divide it in a kind of chapters and put it in an accordion like View?",
+            "a": "Janekxyz:<br>@Berenice I put it inside only 1 textView <hr>nuhkoca:<br>You can cut off the long text with substring this is what I did",
+            "track": "and"
+        },
+        {
+            "q": "Berenice:<br>Hi, I am from the AND track, but have a question related to WebGL. Could someone help, please, this would be great. :slightly_smiling_face:<br>In Unity3D, I built a WebGL build, i.e. Unity exported an -.html file as well as -.asm and all other related files. I uploaded all files to a server, but the content is not shown, when I load the page from the server.<br>I think I have to make the -.unityweb file accessible. Would I have to do this in an -.htaccess file? And how would I have to this?",
+            "a": "Michael Stadler:<br>Bad timing :smile: erm honestly I have no expertise on WebGL but somebody else may have?<hr>Berenice:<br>But, Could you help me on the -.htaccess matter? I think I have to allow access to that exotic file type, so that -.unityweb file types are accessible from the server<hr>Michael Stadler:<br>What have you tried so far in regards to the .htcaccess file? Did you research this matter on stackoverflow?<hr>Michael Stadler:<br>Maybe this would help you https://docs.unity3d.com/Manual/webgl-building.html<hr>Berenice:<br>I tried: ```<FilesMatch '\\.(unityweb)$'>\n Order allow, deny\n Allow from all\n </FilesMatch>``` <br>But I really don’t know what the code should look like.<br>However, the above code does not work, as absolutely no content will be shown. even the landing page will not work. … (edited)<hr>Berenice:<br>Thanks, I have already followed this link, but the server setup is not explained. The Unity built stuff is working while testing on a local host, but not live on a server.<hr>rodude123:<br>You don't do that. You have to edit the html file to get the other files<hr>Berenice:<br>@rodude123 Hm, the -.html file is quite simple:```<!DOCTYPE html>\n<html lang='en-us'>\n <head>\n <meta charset='utf-8'>\n <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>\n <title>Unity WebGL Player | New Unity Project</title>\n <script src='Build/UnityLoader.js'></script>\n <script>\n var gameInstance = UnityLoader.instantiate('gameContainer', 'Build/myslide-v1.json');\n </script>\n </head>\n <body>\n <div id='gameContainer' style='width: 960px; height: 600px; margin: auto'></div>\n </body>\n </html>``` <hr>rodude123:<br>it should work just fine<hr>Berenice:<br>I think the links should be setup correctly, because on a local host it is working as expected, but not on a live server.<hr>rodude123:<br>try to add / before links<hr>Berenice:<br>Hm, but the “Build” directory is on the same directory level as the -.html file.<hr>rodude123:<br>so `/Build/myslide-v1.json`<hr>Berenice:<br>Many thanks @rodude123 It is working now. I had to write ```<FilesMatch '\\.unityweb$'>\n Allow from all\n </FilesMatch>```<br>And I had to manipulate the file structure on the server, because I have to work on a new and weird server portal which destroys the file structure (the sub-folders) while uploading several files at the same time.",
+            "track": "mws"
+        },
+        {
+            "q": "General Tips:",
+            "a": "Michael Stadler:<br>- Before you push your code to github, remove your Google API Key and paste it into the instructor notes, so your key will not be exposed.<br>- Always update your readme, whatever you include in your project describe it so anybody who wants to use your application knows what the has to install or do in order to get your code running. This is a good template https://gist.github.com/PurpleBooth/109311bb0361f32d87a2<br>- Don't be afraid to reset something. I've reset the css a couple times as I've run into problems.<br>- Take regular breaks, it doesn't matter if you leave your code for 1 or 2 days and just enjoy the communication on slack for a bit.<br>- If you have problems with gulp I'd suggest this tutorial, which I used back in the day: https://css-tricks.com/gulp-for-beginners/",
+            "track": "mws"
+        },
+        {
+            "q": "Thinh:<br>Hey Michael, I am currently stuck on stage 3 and wanted to ask you something regarding the audit performance. I am currently suffering a whole second on the point 'Serve images in next-gen formats' but all the images listed there are fetched from google maps api. How do i approach this issue?",
+            "a": "Michael Stadler:<br>Hey, what is your current performance score?<hr>Thinh:<br>around 70<hr>Michael Stadler:<br>Okay, so did you already look into google maps static?<hr>Michael Stadler:<br>This would be the documentation for it: https://developers.google.com/maps/documentation/maps-static/intro<hr>Thinh: <br>The API usage is pretty straightforward, is there a solution for my specific issue?<hr>Michael Stadler: <br>What I've seen is that some people also replaced google maps with an image, and on click on the image they initiate the map.<hr>Thinh: <br>That is a really great idea, let me take a deeper look into it<hr>Thinh: <br>Thanks!<hr>Michael Stadler: <br>It also depends on your internet connection, back then I've let my mentor try my application and due to his better connection I was able to hit the requested scores! The reviewers are instructed to run the test multiple times and if you are within a specific range of value you will pass :wink:<hr>Thinh:<br>Thats great! I will try my luck",
+            "track": "mws"
+        }
+    ]
+},
+{
+    "datetime": "13-jun-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "Is there a chance to start AND, after the ABND graduation? Can we find some free slots?",
+            "a": "Congrats on finishing your ND! I saw your post on Facebook! We'll offer a discount code at the end of the program, but if you want to start beforehand you are welcome to!",
+            "track": "and"
+        },
+        {
+            "q": "What happens if I stuck and can't done one or 2 project before 14/8 what is the alternative ways for this?",
+            "a": "The deadline date is 15/8, but if you are having issues, my suggestion is that you really should do everything you can to find answers. Reach out to your community ! We are holding Study Jams and other chances to get help. The 15th of August is the deadline, so if you want to have access to the material afterwards to finish it, you would have to sign on as a paying customer.",
+            "track": "n/a"
+        },
+        {
+            "q": "For how long is the nanodegree available after graduation?",
+            "a": "We actually don't have that info right now, but will share it as soon as we do!",
+            "track": "n/a"
+        },
+        {
+            "q": "I'm wondering if there will be another scholarship challenge from Google this year for AND",
+            "a": "That would be great! We hope so, but we don't have details yet. It will depend on the development of the partnership with Google.",
+            "track": "and"
+        },
+        {
+            "q": "How can we visit Udacity office in Berlin and meet our great community managers?",
+            "a": "Great question! You can visit us whenever you like! Just ping @ magda.udacity or myself and let us know when you want to come by.",
+            "track": "n/a"
+        },
+        {
+            "q": "Do you have the next study jam planned already?",
+            "a": "I am looking at the numbers of what projects students need the most help on, and then I will announce it this Friday! Hope you can participate. If you want to participate as a student or a student leader, you are welcome! Here's the sign up for student leaders: https://goo.gl/forms/tu0GZ6ylfc9HXl8e2 ",
+            "track": "n/a"
+        },
+        {
+            "q": "I'm on ABND. I was wondering, what next? What nanodegree I should take? Sorry my writing is quite bad right now because I have injured one of my finger in left hand. Let's say that I want to be android developer cause I think android basic isn't enough to get a work really hard to make my point and question.",
+            "a": "Sorry to hear your finger is injured! ABND is enough to get work, we have students who have reported in the job report summart L https://goo.gl/forms/AnkaNz2aUepZbdfQ2<br>That they have gotten roles!",
+            "track": "and"
+        },
+        {
+            "q": "Is planned and if so, when, the next set of students like us? What is the chance to get an advanced course in android if I successfully complete the basic course?",
+            "a": "We don't have concrete details for the next scholarship, but keep your eyes out! If we do have it, you could certainly apply to get into the advanced android degree",
+            "track": "n/a"
+        },
+        {
+            "q": "I saw a digital marketing nanodegree, will that help me if i want to start as a freelancer web dev?",
+            "a": "That is a really great question. I want to say YES! Because Udacity's ND's are awesome, but I would say do some research on the site to really get a feel. I do know some employees that have done it, and they really enjoy it",
+            "track": "fend"
+        },
+        {
+            "q": "Another question, does anyone would give me the names of slack coaches for FEND, I need help in technical questions. Thanks a lot!",
+            "a": "Sure! Check out the google site page and that has all the details you need: https://sites.google.com/knowlabs.com/gdnd2017/project-support/how-to-use-coaches?authuser=0",
+            "track": "fend"
+        }
+    ]
+},
+{
+    "datetime": "30-may-2018:04-05 PM CET",
+    "type": "general",
+    "questions": [
+        {
+            "q": "About the meetup in Berlin is the date set or could it still be changed? I wanted to know if I could start looking for plane tickets.",
+            "a": "Details to come, thanks for asking.",
+            "track": "n/a"	
+        },
+        {
+            "q": "Is there a problem if I ignored submitting a specific project like the fifth project until the end ? I mean after finish submitting all project I'll submit this project later",
+            "a": "You can submit whatever you want in any order, the main thing is to submit the all 8 projects.",
+            "track": "n/a"
+        },
+        {
+            "q": "After graduation, for how long can we still have the access to the forum, course, video, and etc?",
+            "a": "There is no specific time after which you will lose the access to the classroom, so you should not worry about it. and when the time comes, we will make sure to notify you about the change.",
+            "track": "n/a"
+        },
+        {
+            "q": "Can we expect a second Android Hackathon before the course finish?",
+            "a": "We won't have another Hackathon like we did earlier in the program, but we will do study jams starting on June 9th until the end of the program. They will be bi-weekly, and I'll send out information today, actually!",
+            "track": "and"
+        },
+        {
+            "q": "I was wondering how much can we rely on the Forum mentors for project related support?",
+            "a": "Both Android tracks do have mentors in the forums, do you feel they are not present enough?",
+            "track": "and"
+        },
+        {
+            "q": "Will you arrange any meeting in cairo soon?",
+            "a": "Nothing specific planned, but you are always encourage to plan meetups around things like the study jams! That would be really great if students in Cairo could meet and work together in person",
+            "track": "n/a"
+        },
+        {
+            "q": "Maybe I missed info about classroom upgrade with Android Architecture Components are we going to have that upgrade or?",
+            "a": "Let me check on this for you all. If Jose told you differently, I can investigate.",
+            "track": "and"
+        },
+        {
+            "q": "I was wondering if there is a way to get/pay for a real certificate by post once we graduated?",
+            "a": "Udacity only provides the certificate in digital format.",
+            "track": "n/a"
+        },
+        {
+            "q": "Will we be able to become mentors / project reviewers after finishing the ND?",
+            "a": "Yes, definitely! Some of our students already did that. You can apply here: https://www.udacity.com/start-mentoring",
+            "track": "n/a"
+        }
+    ]
+},
+{
     "datetime": "16-may-2018:04-05 PM CET",
     "type": "general",
     "questions": [

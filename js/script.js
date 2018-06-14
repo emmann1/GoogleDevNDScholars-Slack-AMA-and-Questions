@@ -5,13 +5,25 @@ function linkify(txt) {
         return '<a href="' + url + ' " target="_blank">' + url + '</a>';
     });
 };
+
+function code(txt) {
+    var codeReg =/```[\s\S]*?```/ig;
+    var inlineCodeReg =/`[\s\S]*?`/ig;
+    return txt.replace(codeReg, function(url) {
+        return '<xmp class="code">' + String(url.slice(3,-3)) + '</xmp>';
+    })
+    .replace(inlineCodeReg, function(url1) {
+        return '<span class="inline-code">' + String(url1.slice(1,-1)) + '</span>';
+    });
+};
+
 function display(amaSession, questionId){
   let trackName = transcripts[amaSession].questions[questionId].track;
   let trackColor = trackName == "and" ? "and" : trackName == "fend" ? "fend" : trackName == "mws" ? "mws" : trackName == "n/a" ? "na": null;
   let spanColor = transcripts[amaSession].type == "general" ? "magenta" : transcripts[amaSession].type == "tehnical" ? "cyan" : transcripts[amaSession].type == "special" ? "green" : null;
   $(".main").append("<div class='item'></div>");
-  $(".main .item").last().append("<span class='q'>Q:</span><p class='question'>"+linkify(transcripts[amaSession].questions[questionId].q)+"</p>");  
-  $(".main .item").last().append("<span class='a'>A:</span><p>"+linkify(transcripts[amaSession].questions[questionId].a)+"</p>");
+  $(".main .item").last().append("<span class='q'>Q:</span><p class='question'>"+code(linkify(transcripts[amaSession].questions[questionId].q))+"</p>");  
+  $(".main .item").last().append("<span class='a'>A:</span><p>"+code(linkify(transcripts[amaSession].questions[questionId].a))+"</p>");
   if(transcripts[amaSession].questions[questionId].attach != undefined){
     let attachments = transcripts[amaSession].questions[questionId].attach.split(",");
     console.log(attachments);
